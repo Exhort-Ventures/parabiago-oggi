@@ -1,0 +1,49 @@
+{
+  "area": {
+    "id": "ossola",
+    "displayName": "Cravegna / Valle d’Ossola",
+    "centreName": "Cravegna (Crodo)",
+    "latitude": 46.2296,
+    "longitude": 8.3233,
+    "radiusKm": 30,
+    "horizonDays": 90,
+    "defaultLanguage": "it"
+  },
+  "updatedAt": "2026-08-02T19:08:56.289084+02:00",
+  "eventCount": 0,
+  "events": [],
+  "sourceHealth": [
+    {
+      "id": "visitossola",
+      "name": "VisitOssola",
+      "fetchStatus": "ok",
+      "rawRecordsFound": 0,
+      "recordsParsed": 0,
+      "recordsRejectedByDate": 0,
+      "recordsRejectedByLocation": 0,
+      "recordsRejectedByRadius": 0,
+      "recordsRejectedAsDuplicates": 0,
+      "acceptedRecords": 0,
+      "failureMessage": null
+    },
+    {
+      "id": "ossolanews",
+      "name": "OssolaNews",
+      "fetchStatus": "ok",
+      "rawRecordsFound": 0,
+      "recordsParsed": 0,
+      "recordsRejectedByDate": 0,
+      "recordsRejectedByLocation": 0,
+      "recordsRejectedByRadius": 0,
+      "recordsRejectedAsDuplicates": 0,
+      "acceptedRecords": 0,
+      "failureMessage": null
+    }
+  ],
+  "rejections": {
+    "date": 0,
+    "location": 0,
+    "radius": 0,
+    "duplicate": 0
+  }
+}

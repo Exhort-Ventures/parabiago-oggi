@@ -1,267 +1,136 @@
 #!/usr/bin/env python3
-"""Discover and normalise events around Parabiago.
+"""Refresh the two public Parabiago Oggi area feeds.
 
-Discovery is intentionally broad. Source confidence is exposed to users, while
-geographic and date validation remain strict. A degraded refresh never replaces
-the last known-good dataset.
+Adapters deliberately consume portable, inspectable formats first (JSON-LD, RSS
+and WordPress JSON); semantic HTML is a fallback.  A bad source cannot prevent
+the other area from being published.
 """
 from __future__ import annotations
-
-import hashlib
-import json
-import math
-import re
-import time
-import unicodedata
-from datetime import datetime, timedelta, timezone
+import argparse, hashlib, json, math, re, unicodedata
+from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 from pathlib import Path
-from urllib.parse import urljoin
-
+from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
-from dateutil import parser as date_parser
 
-ROOT = Path(__file__).resolve().parents[1]
-CONFIG = ROOT / "config" / "sources.json"
-OUTPUT = ROOT / "data" / "events.json"
-CACHE = ROOT / "data" / "geocode-cache.json"
-SESSION = requests.Session()
-SESSION.headers.update({
-    "User-Agent": "ParabiagoOggi/2.0 (+https://github.com/Exhort-Ventures/parabiago-oggi)",
-    "Accept-Language": "it-IT,it;q=0.9,en;q=0.6",
-})
+ROOT=Path(__file__).resolve().parents[1]; TZ=ZoneInfo("Europe/Rome")
+CONFIG=ROOT/'config/areas.json'; OUT=ROOT/'data/areas'; HEALTH=ROOT/'data/source-health.json'
+S=requests.Session(); S.headers.update({'User-Agent':'ParabiagoOggi/3.0 (+https://github.com/Exhort-Ventures/parabiago-oggi)','Accept-Language':'it-IT,it;q=0.9'})
+MONTHS={'gennaio':1,'febbraio':2,'marzo':3,'aprile':4,'maggio':5,'giugno':6,'luglio':7,'agosto':8,'settembre':9,'ottobre':10,'novembre':11,'dicembre':12,'gen':1,'feb':2,'mar':3,'apr':4,'mag':5,'giu':6,'lug':7,'ago':8,'set':9,'ott':10,'nov':11,'dic':12}
+CATS={'nightlife':['dj','discoteca','club','aperitivo','serata','dance'],'music':['concerto','musica','jazz','live','guitar'],'festivals':['festival','rassegna'],'food':['sagra','festa','mercato','degustazione','patata','uva','fungo','food'],'cinema':['cinema','film','proiezione'],'sport':['gara','corsa','trail','bike','cicl','sci','rally','canoa','torneo'],'outdoor':['escursione','camminata','trekking','montagna'],'workshops':['laboratorio','workshop','corso'],'community':['fiera','comunit','patronale'],'culture':['mostra','teatro','libro','museo','visita','cultura']}
+LABELS={'nightlife':'Vita notturna','music':'Musica','festivals':'Festival','food':'Food e sagre','cinema':'Cinema','sport':'Sport e gare','outdoor':'Montagna e outdoor','workshops':'Workshop','community':'Comunità','culture':'Cultura','other':'Altro'}
 
-MONTHS = {"gennaio":1,"febbraio":2,"marzo":3,"aprile":4,"maggio":5,"giugno":6,"luglio":7,"agosto":8,"settembre":9,"ottobre":10,"novembre":11,"dicembre":12,"gen":1,"feb":2,"mar":3,"apr":4,"mag":5,"giu":6,"lug":7,"ago":8,"set":9,"ott":10,"nov":11,"dic":12}
-CATEGORY_RULES = {
-    "nightlife": ["dj", "discoteca", "club", "night", "aperitivo", "serata danzante", "reggaeton"],
-    "music": ["concerto", "live", "jazz", "musica", "tribute", "festival"],
-    "cinema": ["cinema", "film", "proiezione"],
-    "culture": ["mostra", "museo", "teatro", "spettacolo", "visita", "libro"],
-    "sport": ["sport", "corsa", "torneo", "fitness", "bicicletta"],
-    "food": ["sagra", "street food", "degustazione", "mercato", "birra", "cibo"],
-    "community": ["festa", "fiera", "notte bianca", "quartiere"],
-}
-CATEGORY_LABELS = {"nightlife":"Vita notturna","music":"Musica","cinema":"Cinema","culture":"Cultura","sport":"Sport","food":"Food & mercati","community":"Comunità","other":"Altro"}
-
-
-def fetch(url: str) -> str:
-    response = SESSION.get(url, timeout=30)
-    response.raise_for_status()
-    return response.text
-
-
-def clean(text: str) -> str:
-    return re.sub(r"\s+", " ", text or "").strip()
-
-
-def normalise(text: str) -> str:
-    text = unicodedata.normalize("NFKD", text.lower()).encode("ascii", "ignore").decode()
-    return re.sub(r"[^a-z0-9]+", " ", text).strip()
-
-
-def parse_datetime(value: str) -> datetime | None:
-    try:
-        dt = date_parser.parse(value, dayfirst=True)
-        return dt if dt.tzinfo else dt.replace(tzinfo=timezone(timedelta(hours=2)))
-    except (ValueError, TypeError, OverflowError):
-        return None
-
-
-def italian_date(text: str) -> datetime | None:
-    text = clean(text).lower()
-    match = re.search(r"(\d{1,2})\s+([a-zà]+)(?:\s+(\d{4}))?", text)
-    if not match or match.group(2).strip(".") not in MONTHS:
-        return None
-    month = MONTHS[match.group(2).strip(".")]
-    year = int(match.group(3) or datetime.now().year)
-    clock = re.search(r"(?:ore|dalle|alle)?\s*(\d{1,2})[.:](\d{2})", text)
-    hour, minute = (int(clock.group(1)), int(clock.group(2))) if clock else (18, 0)
-    try:
-        return datetime(year, month, int(match.group(1)), hour, minute, tzinfo=timezone(timedelta(hours=2)))
-    except ValueError:
-        return None
-
-
-def category_for(text: str) -> str:
-    lower = text.lower()
-    scores = {key: sum(term in lower for term in terms) for key, terms in CATEGORY_RULES.items()}
-    best = max(scores, key=scores.get)
-    return best if scores[best] else "other"
-
-
-def candidate(title: str, start: datetime, venue: str, city: str, description: str, source: dict, source_url: str, free: bool = False) -> dict:
-    category = category_for(f"{title} {description}")
-    return {
-        "title": clean(title), "start": start.isoformat(), "venue": clean(venue), "city": clean(city),
-        "description": clean(description)[:700], "free": free,
-        "price": "Gratis" if free else "Verificare sulla fonte",
-        "booking": "Verificare sulla fonte", "rules": "Verificare eventuali variazioni prima di partire.",
-        "transport": f"{clean(venue)}, {clean(city)}.", "sourceName": source["name"],
-        "sourceUrl": source_url, "sourceType": source["type"], "confidence": source["confidence"],
-        "category": category, "categoryLabel": CATEGORY_LABELS[category],
-    }
-
-
-def parse_cheventi(source: dict) -> list[dict]:
-    soup = BeautifulSoup(fetch(source["url"]), "html.parser")
-    events = []
-    for anchor in soup.select('a[href*="/eventi/"]'):
-        block = anchor.find_parent(["article", "li", "div"]) or anchor.parent
-        text = clean(block.get_text(" ", strip=True))
-        title = clean(anchor.get_text(" ", strip=True))
-        if len(title) < 5 or len(text) < 20:
-            continue
-        start = italian_date(text)
-        place = re.search(r"\ba\s+([A-ZÀ-ÖØ-Ý][A-Za-zÀ-ÿ' -]{2,40})(?:\s+(?:da|sabato|domenica|lunedì|martedì|mercoledì|giovedì|venerdì)|\s+\d)", text)
-        if not start or not place:
-            continue
-        city = clean(place.group(1)).replace("(MI)", "").strip()
-        href = urljoin(source["url"], anchor.get("href", ""))
-        events.append(candidate(title, start, f"Centro di {city}", city, text, source, href, "gratuit" in text.lower()))
-    return events
-
-
-def parse_legnanonews(source: dict) -> list[dict]:
-    listing = BeautifulSoup(fetch(source["url"]), "html.parser")
-    links = []
-    for anchor in listing.select("a[href]"):
-        label = clean(anchor.get_text(" ", strip=True)).lower()
-        href = urljoin(source["url"], anchor.get("href", ""))
-        if "weekend" in label and "legnanonews.com" in href and href not in links:
-            links.append(href)
-    events = []
-    city_pattern = r"\b([A-ZÀ-ÖØ-Ý][A-ZÀ-ÖØ-Ý' -]{2,30})\s+[–-]\s+"
-    for href in links[:6]:
-        soup = BeautifulSoup(fetch(href), "html.parser")
-        article = soup.select_one("article") or soup
-        for paragraph in article.find_all(["p", "li"]):
-            text = clean(paragraph.get_text(" ", strip=True))
-            match = re.match(city_pattern, text)
-            start = italian_date(text)
-            if not match or not start or len(text) < 40:
-                continue
-            city = clean(match.group(1)).title()
-            title = clean(re.split(r"[.–-]", text[len(match.group(0)):], maxsplit=1)[0])
-            if len(title) < 5:
-                title = text[len(match.group(0)):120]
-            venue_match = re.search(r"(?:al|alla|all'|presso|in)\s+((?:parco|piazza|via|villa|castello|sala|cinema|biblioteca|auditorium|centro|spazio|isola)[^,.;]{2,70})", text, re.I)
-            venue = clean(venue_match.group(1)) if venue_match else f"Centro di {city}"
-            events.append(candidate(title, start, venue, city, text, source, href, bool(re.search(r"gratuit|ingresso libero", text, re.I))))
-    return events
-
-
-def parse_municipal(source: dict) -> list[dict]:
-    soup = BeautifulSoup(fetch(source["url"]), "html.parser")
-    events = []
-    for heading in soup.find_all(["h2", "h3", "h4"]):
-        block = heading.find_parent(["article", "li", "div", "section"]) or heading.parent
-        text = clean(block.get_text(" ", strip=True))
-        start = italian_date(text)
-        title = clean(heading.get_text(" ", strip=True))
-        if not start or len(title) < 5:
-            continue
-        anchor = heading.find("a", href=True) or block.find("a", href=True)
-        href = urljoin(source["url"], anchor["href"]) if anchor else source["url"]
-        venue_match = re.search(r"(?:presso|in|a)\s+((?:piazza|via|viale|parco|biblioteca|auditorium|teatro|centro|chiostro)[^.;]{2,80})", text, re.I)
-        venue = clean(venue_match.group(1)) if venue_match else f"Centro di {source['city']}"
-        events.append(candidate(title, start, venue, source["city"], text, source, href, bool(re.search(r"gratuit|ingresso libero", text, re.I))))
-    return events
-
-
-def load_cache() -> dict:
-    return json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
-
-
-def geocode(query: str, cache: dict) -> tuple[float, float] | None:
-    key = normalise(query)
-    if key in cache:
-        value = cache[key]
-        return (value["lat"], value["lng"]) if value else None
-    response = SESSION.get("https://nominatim.openstreetmap.org/search", params={"q": query,"format":"jsonv2","limit":1,"countrycodes":"it"}, timeout=30)
-    response.raise_for_status()
-    payload = response.json()
-    coords = (float(payload[0]["lat"]), float(payload[0]["lon"])) if payload else None
-    cache[key] = {"lat": coords[0], "lng": coords[1]} if coords else None
-    time.sleep(1.05)
-    return coords
-
-
-def distance_km(a_lat: float, a_lng: float, b_lat: float, b_lng: float) -> float:
-    radius = 6371.0
-    p1, p2 = math.radians(a_lat), math.radians(b_lat)
-    dp, dl = math.radians(b_lat-a_lat), math.radians(b_lng-a_lng)
-    h = math.sin(dp/2)**2 + math.cos(p1)*math.cos(p2)*math.sin(dl/2)**2
-    return radius * 2 * math.atan2(math.sqrt(h), math.sqrt(1-h))
-
-
-def duplicate(a: dict, b: dict) -> bool:
-    if abs((parse_datetime(a["start"]) - parse_datetime(b["start"])).total_seconds()) > 10800:
-        return False
-    title_score = SequenceMatcher(None, normalise(a["title"]), normalise(b["title"])).ratio()
-    near = distance_km(a["lat"], a["lng"], b["lat"], b["lng"]) < 1.2
-    return title_score >= 0.72 and near
-
-
-def event_id(event: dict) -> str:
-    raw = f"{normalise(event['title'])}|{event['start'][:16]}|{round(event['lat'],3)}|{round(event['lng'],3)}"
-    return hashlib.sha1(raw.encode()).hexdigest()[:14]
-
-
-def main() -> None:
-    config = json.loads(CONFIG.read_text(encoding="utf-8"))
-    previous = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {"events": []}
-    now = datetime.now(timezone.utc)
-    horizon = now + timedelta(days=config["horizonDays"])
-    source_counts, failures, raw = {}, [], []
-    parsers = {"cheventi": parse_cheventi, "legnanonews": parse_legnanonews, "municipal_listing": parse_municipal}
-    for source in config["sources"]:
-        try:
-            found = parsers[source["parser"]](source)
-            source_counts[source["name"]] = len(found)
-            raw.extend(found)
-        except Exception as exc:
-            source_counts[source["name"]] = 0
-            failures.append({"source": source["name"], "error": str(exc)[:250]})
-
-    cache = load_cache()
-    accepted = []
-    rejected = {"date":0,"geocode":0,"radius":0,"duplicate":0}
-    for event in raw:
-        start = parse_datetime(event.get("start", ""))
-        if not start or start.astimezone(timezone.utc) < now-timedelta(hours=6) or start.astimezone(timezone.utc) > horizon:
-            rejected["date"] += 1; continue
-        coords = geocode(f"{event['venue']}, {event['city']}, Lombardia, Italia", cache)
-        if not coords:
-            coords = geocode(f"{event['city']}, Lombardia, Italia", cache)
-        if not coords:
-            rejected["geocode"] += 1; continue
-        distance = distance_km(config["centre"]["lat"], config["centre"]["lng"], *coords)
-        if distance > config["radiusKm"]:
-            rejected["radius"] += 1; continue
-        event.update({"lat":coords[0],"lng":coords[1],"distanceKm":round(distance,1),"verifiedAt":now.date().isoformat()})
-        match = next((existing for existing in accepted if duplicate(event, existing)), None)
-        if match:
-            rejected["duplicate"] += 1
-            if event["confidence"] == "Confermato" or len(event["description"]) > len(match["description"]):
-                match.update(event)
-            continue
-        event["id"] = event_id(event)
-        accepted.append(event)
-
-    accepted.sort(key=lambda item: item["start"])
-    prior_count = len(previous.get("events", []))
-    minimum = config["minimumExpectedEvents"]
-    degraded = len(accepted) < minimum or (prior_count >= minimum and len(accepted) < prior_count * config["degradationRatio"])
-    if degraded:
-        print(f"DEGRADED REFRESH: keeping {prior_count} previous events; new={len(accepted)}, sources={source_counts}, failures={failures}")
-        return
-
-    payload = {"updatedAt":now.isoformat(),"mode":"live","radiusKm":config["radiusKm"],"horizonDays":config["horizonDays"],"eventCount":len(accepted),"events":accepted,"sourceHealth":{"sourceCounts":source_counts,"rejected":rejected,"failures":failures}}
-    OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
-    CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
-    print(f"Published {len(accepted)} events from {sum(source_counts.values())} candidates. {source_counts}; rejected={rejected}")
-
-
-if __name__ == "__main__":
-    main()
+def clean(v): return re.sub(r'\s+',' ',str(v or '')).strip()
+def norm(v): return re.sub(r'[^a-z0-9]+',' ',unicodedata.normalize('NFKD',clean(v).lower()).encode('ascii','ignore').decode()).strip()
+def dist(a,b,c,d):
+ p1,p2=math.radians(a),math.radians(c); dp,dl=math.radians(c-a),math.radians(d-b)
+ return 6371*2*math.atan2(math.sqrt(math.sin(dp/2)**2+math.cos(p1)*math.cos(p2)*math.sin(dl/2)**2),math.sqrt(1-(math.sin(dp/2)**2+math.cos(p1)*math.cos(p2)*math.sin(dl/2)**2)))
+def date_it(text, now):
+ text=clean(text).lower().replace('1°','1'); m=re.search(r'(\d{1,2})\s*(?:(?:[-–]|al)\s*(\d{1,2})\s*)?([a-zà]+)\.?\s*(\d{4})?',text)
+ if not m or m.group(3) not in MONTHS:return None,None
+ y=int(m.group(4) or now.year); mo=MONTHS[m.group(3)]; d=int(m.group(1)); end=int(m.group(2) or d)
+ try:
+  start=datetime(y,mo,d,tzinfo=TZ); finish=datetime(y,mo,end,23,59,tzinfo=TZ)
+  if not m.group(4) and finish < now-timedelta(days=30): start=start.replace(year=y+1);finish=finish.replace(year=y+1)
+  clock=re.search(r'(?:ore|alle|dalle)?\s*(\d{1,2})[.:](\d{2})',text)
+  if clock:start=start.replace(hour=int(clock.group(1)),minute=int(clock.group(2)))
+  return start,finish if end!=d else None
+ except ValueError:return None,None
+def iso_dt(v,now):
+ if not v:return None
+ try:return datetime.fromisoformat(v.replace('Z','+00:00')).astimezone(TZ)
+ except ValueError:return date_it(v,now)[0]
+def category(text):
+ scores={k:sum(x in norm(text) for x in v) for k,v in CATS.items()}; k=max(scores,key=scores.get);return k if scores[k] else 'other'
+def coords(place,area):
+ key=norm(place)
+ for name,p in area.get('aliases',{}).items():
+  if norm(name) in key:return p['lat'],p['lng'],name
+ return area['latitude'],area['longitude'],area['centreName']
+def confidence(source): return source.get('confidence','Da verificare')
+def event(raw,source,area,now):
+ title=clean(raw.get('name') or raw.get('title')); start=iso_dt(raw.get('startDate') or raw.get('start'),now)
+ if not title or not start:return None
+ place=raw.get('location') or raw.get('city') or source.get('city') or area['centreName']
+ if isinstance(place,dict): address=place.get('address',{}); address=address if isinstance(address,dict) else {}; city=address.get('addressLocality') or place.get('name') or raw.get('city') or source.get('city') or area['centreName']; venue=place.get('name') or city; addr=address.get('streetAddress','')
+ else: city=venue=clean(place);addr=''
+ lat,lng,located=coords(f'{venue} {city} {addr}',area); d=dist(area['latitude'],area['longitude'],lat,lng); cat=category(f'{title} {raw.get("description","")}')
+ return {'title':title,'start':start.isoformat(),'end':(iso_dt(raw.get('endDate') or raw.get('end'),now) or raw.get('_end')).isoformat() if (raw.get('endDate') or raw.get('end') or raw.get('_end')) else None,'venue':clean(venue),'address':clean(addr),'city':clean(city),'latitude':lat,'longitude':lng,'distanceKm':round(d,1),'category':cat,'categoryLabel':LABELS[cat],'description':clean(raw.get('description'))[:900],'free':raw.get('isAccessibleForFree') if isinstance(raw.get('isAccessibleForFree'),bool) else None,'priceText':clean(raw.get('offers',{}).get('price') if isinstance(raw.get('offers'),dict) else raw.get('priceText')),'bookingUrl':raw.get('url') or raw.get('bookingUrl'),'sourceName':source['name'],'sourceUrl':raw.get('url') or source['url'],'sourceType':source['type'],'confidence':confidence(source),'organiser':clean((raw.get('organizer') or {}).get('name') if isinstance(raw.get('organizer'),dict) else raw.get('organiser')),'imageUrl':raw.get('image') if isinstance(raw.get('image'),str) else None,'lastCheckedAt':now.isoformat(),'areaId':area['id'],'locationPrecision':'town'}
+def jsonld(source,now):
+ soup=BeautifulSoup(S.get(source['url'],timeout=30).text,'html.parser'); found=[]
+ for s in soup.select('script[type="application/ld+json"]'):
+  try: payload=json.loads(s.string or '{}')
+  except json.JSONDecodeError: continue
+  stack=payload if isinstance(payload,list) else payload.get('@graph',[payload])
+  for x in stack:
+   if isinstance(x,dict) and ('Event' in str(x.get('@type',''))):found.append(x)
+ return found
+def html_cards(source,now):
+ soup=BeautifulSoup(S.get(source['url'],timeout=30).text,'html.parser'); out=[]
+ for node in soup.select('article, .event, .evento, .views-row'):
+  text=clean(node.get_text(' ',strip=True)); start,end=date_it(text,now); a=node.select_one('a[href]'); h=node.select_one('h1,h2,h3,h4')
+  if start and a and h:out.append({'name':clean(h.text),'start':start.isoformat(),'end':end.isoformat() if end else None,'location':source.get('city',source['name']),'description':text,'url':requests.compat.urljoin(source['url'],a['href'])})
+ return out
+def cheventi(source,now):
+ soup=BeautifulSoup(S.get(source['url'],timeout=30).text,'html.parser'); out=[]
+ for node in soup.find_all('li'):
+  text=clean(node.get_text(' ',strip=True)); start,end=date_it(text,now)
+  if not start or len(text)<30: continue
+  a=node.select_one('a[href]'); city=re.search(r"\ba\s+([A-ZÀ-ÖØ-Ý][A-Za-zÀ-ÿ’' -]{2,40})\s+(?:da|sabato|domenica|lunedì|martedì|mercoledì|giovedì|venerdì)",text)
+  title=re.sub(r'^.*?[–-]\s*','',text).split(' da ')[0].split(' sabato ')[0].split(' domenica ')[0]
+  out.append({'name':title,'start':start.isoformat(),'end':end.isoformat() if end else None,'location':city.group(1) if city else source.get('city','Milano'),'description':text,'url':requests.compat.urljoin(source['url'],a['href']) if a else source['url']})
+ return out
+def visitossola(source,now):
+ page=S.get(source['url'],timeout=30).text; nonce=re.search(r'ajax_nonce"\s*:\s*"([^"]+)',page).group(1)
+ p={'action':'get_news_and_events_request','ajax_nonce':nonce,'post_id':'140','post_type':'event','from_date_filter':now.strftime('%Y/%m/%d'),'to_date_filter':(now+timedelta(days=95)).strftime('%Y/%m/%d'),'geo_filter_id':'','interest_filter_id':'','page':1,'how_many':100}
+ items=S.get('https://www.visitossola.it/wp-admin/admin-ajax.php',params=p,timeout=30).json().get('items',[]);out=[]
+ for item in items:
+  detail=jsonld({'url':item['link']},now)
+  if detail: out.extend(detail);continue
+  start,end=date_it(clean(item['title']),now)
+  if start:out.append({'name':clean(item['title']),'start':start.isoformat(),'end':end.isoformat() if end else None,'location':item.get('geo',[{}])[0].get('title','Domodossola'),'description':item.get('abstract',''),'url':item['link'],'image':item.get('background')})
+ return out
+def collect_source(source,now):
+ if source['adapter']=='jsonld':return jsonld(source,now)
+ if source['adapter']=='cheventi':return cheventi(source,now)
+ if source['adapter']=='visitossola':return visitossola(source,now)
+ return html_cards(source,now)
+def duplicate(a,b): return abs((iso_dt(a['start'],datetime.now(TZ))-iso_dt(b['start'],datetime.now(TZ))).total_seconds())<4*3600 and SequenceMatcher(None,norm(a['title']),norm(b['title'])).ratio()>.78 and dist(a['latitude'],a['longitude'],b['latitude'],b['longitude'])<2
+def rank(e,now):
+ score={'Confermato':30,'Probabile':18,'Da verificare':8}[e['confidence']]+max(0,20-e['distanceKm'])
+ if e['category'] in ('food','festivals','music','sport','nightlife','outdoor'):score+=12
+ if iso_dt(e['start'],now).weekday()>=4:score+=8
+ if iso_dt(e['start'],now).hour>=18:score+=5
+ return score
+def refresh(area,now):
+ raw=[]; health=[]; rejected={'date':0,'location':0,'radius':0,'duplicate':0}
+ for source in area['sources']:
+  report={'id':source['id'],'name':source['name'],'fetchStatus':'ok','rawRecordsFound':0,'recordsParsed':0,'recordsRejectedByDate':0,'recordsRejectedByLocation':0,'recordsRejectedByRadius':0,'recordsRejectedAsDuplicates':0,'acceptedRecords':0,'failureMessage':None}
+  try: records=collect_source(source,now); report['rawRecordsFound']=report['recordsParsed']=len(records)
+  except Exception as ex: records=[];report['fetchStatus']='failed';report['failureMessage']=str(ex)[:220]
+  for r in records:
+   e=event(r,source,area,now)
+   if not e:rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
+   end=iso_dt(e['end'],now) if e['end'] else iso_dt(e['start'],now)
+   if end < now or iso_dt(e['start'],now)>now+timedelta(days=area['horizonDays']):rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
+   if e['distanceKm']>area['radiusKm']:rejected['radius']+=1;report['recordsRejectedByRadius']+=1;continue
+   match=next((x for x in raw if duplicate(e,x)),None)
+   if match:
+    rejected['duplicate']+=1;report['recordsRejectedAsDuplicates']+=1
+    if e['confidence']=='Confermato':match.update(e)
+    elif match['confidence']!= 'Confermato':match['confidence']='Confermato' # independent agreement
+    continue
+   raw.append(e);report['acceptedRecords']+=1
+  health.append(report)
+ for e in raw:e['rankingScore']=rank(e,now);e['id']=hashlib.sha1(f"{e['areaId']}|{norm(e['title'])}|{e['start']}|{e['city']}".encode()).hexdigest()[:16]
+ raw.sort(key=lambda x:(-x['rankingScore'],x['start']))
+ return {'area':{k:area[k] for k in ('id','displayName','centreName','latitude','longitude','radiusKm','horizonDays','defaultLanguage')},'updatedAt':now.isoformat(),'eventCount':len(raw),'events':raw,'sourceHealth':health,'rejections':rejected}
+def main():
+ ap=argparse.ArgumentParser();ap.add_argument('--area');ap.add_argument('--offline',action='store_true');args=ap.parse_args(); now=datetime.now(TZ)
+ areas=json.loads(CONFIG.read_text())['areas'];OUT.mkdir(parents=True,exist_ok=True); index=[];all_health={}
+ for area in areas:
+  if args.area and area['id']!=args.area:continue
+  data=refresh(area,now); (OUT/f"{area['id']}.json").write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');index.append(data['area']|{'eventCount':data['eventCount'],'updatedAt':data['updatedAt']});all_health[area['id']]={'sources':data['sourceHealth'],'rejections':data['rejections']};print(f"{area['id']}: {data['eventCount']} accepted")
+ (ROOT/'data/areas.json').write_text(json.dumps({'updatedAt':now.isoformat(),'areas':index},ensure_ascii=False,indent=2)+'\n');HEALTH.write_text(json.dumps({'updatedAt':now.isoformat(),'areas':all_health},ensure_ascii=False,indent=2)+'\n')
+if __name__=='__main__':main()

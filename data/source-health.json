@@ -1,0 +1,103 @@
+{
+  "updatedAt": "2026-08-02T19:08:56.289084+02:00",
+  "areas": {
+    "parabiago": {
+      "sources": [
+        {
+          "id": "cheventi-milano",
+          "name": "Cheventi Milano",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
+          "recordsRejectedByDate": 1,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 0,
+          "failureMessage": null
+        },
+        {
+          "id": "cheventi-rho",
+          "name": "Cheventi Rho",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 0,
+          "failureMessage": null
+        },
+        {
+          "id": "legnanonews",
+          "name": "LegnanoNews",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 4,
+          "recordsParsed": 4,
+          "recordsRejectedByDate": 1,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 3,
+          "failureMessage": null
+        },
+        {
+          "id": "rho",
+          "name": "Comune di Rho",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 26,
+          "recordsParsed": 26,
+          "recordsRejectedByDate": 25,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 1,
+          "failureMessage": null
+        }
+      ],
+      "rejections": {
+        "date": 27,
+        "location": 0,
+        "radius": 0,
+        "duplicate": 0
+      }
+    },
+    "ossola": {
+      "sources": [
+        {
+          "id": "visitossola",
+          "name": "VisitOssola",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 0,
+          "failureMessage": null
+        },
+        {
+          "id": "ossolanews",
+          "name": "OssolaNews",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 0,
+          "failureMessage": null
+        }
+      ],
+      "rejections": {
+        "date": 0,
+        "location": 0,
+        "radius": 0,
+        "duplicate": 0
+      }
+    }
+  }
+}

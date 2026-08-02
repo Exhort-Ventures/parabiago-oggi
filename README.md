@@ -1,22 +1,22 @@
 # Parabiago Oggi
 
-Responsive local-events dashboard covering a 20 km radius around Parabiago, Italy, with a rolling 30-day calendar.
+Responsive local-events dashboard covering two selectable areas: Parabiago / Alto Milanese (45 km, 30 days) and Cravegna / Valle d’Ossola (30 km, 90 days).
 
 ## Product scope
 
-- Interactive OpenStreetMap map with Google Maps direction links
+- Interactive OpenStreetMap map that redraws the selected area radius
 - Events grouped by day and hour
-- Filters for date, evening events, category, price and search
+- Filters and recommended views for date, evening events, category, price, distance, confidence and search
 - Event context including price, booking, age rules, transport, source and verification date
 - Italian-first interface with an English toggle
 - Responsive desktop and mobile layouts
 - Free static hosting through GitHub Pages
 
-## Current status
+## Data architecture
 
-This first pull request is a functional UI prototype. The records in `data/events.json` are explicitly marked as demonstration data and must not be treated as real events.
+`config/areas.json` is the single source of area configuration and source enablement. Each refresh writes `data/areas/<area>.json`, an `data/areas.json` index and `data/source-health.json`. The collector applies per-area date and radius limits, aliases frazioni to town coordinates where needed, deduplicates records and publishes confidence labels. A source failure is retained in health data but does not block the other area.
 
-The next implementation phase is the source-ingestion layer: identify reliable municipal and venue sources, parse them, deduplicate records, geocode venues, enforce the 20 km boundary and replace the demonstration dataset.
+Run locally with `python scripts/refresh_events.py`; run the deterministic parser tests with `pytest -q`. GitHub Actions refreshes twice daily and commits changed data.
 
 ## Deployment
 
