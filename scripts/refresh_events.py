@@ -148,9 +148,6 @@ def refresh(area,now):
    if not e:rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
    end=iso_dt(e['end'],now) if e['end'] else iso_dt(e['start'],now)
    if end < now or iso_dt(e['start'],now)>now+timedelta(days=area['horizonDays']):rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
-   # An ongoing multi-day programme belongs at the current point in the agenda,
-   # not beneath a historical start-date heading.
-   if iso_dt(e['start'],now) < now: e['start']=now.isoformat()
    if e['distanceKm']>area['radiusKm']:rejected['radius']+=1;report['recordsRejectedByRadius']+=1;continue
    match=next((x for x in raw if duplicate(e,x)),None)
    if match:

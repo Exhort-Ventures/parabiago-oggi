@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T19:39:33.533752+02:00",
+  "generatedAt": "2026-08-02T19:44:23.790684+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 26,
@@ -34,7 +34,7 @@
         "Comune di Busto Arsizio – BA Estate"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-08-02T19:39:33.533752+02:00",
+      "oldestEventDate": "2026-07-31T00:00:00+02:00",
       "newestEventDate": "2026-08-30T20:30:00+02:00",
       "largestProgrammeShare": 0.423,
       "eventsExpiringNext7Days": 1,
@@ -90,7 +90,7 @@
         "OssolaNews"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-08-02T19:39:33.533752+02:00",
+      "oldestEventDate": "2026-07-30T18:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
       "largestProgrammeShare": 0.077,
       "eventsExpiringNext7Days": 2,
