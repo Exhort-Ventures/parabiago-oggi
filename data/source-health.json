@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T21:06:25.216483+02:00",
+  "updatedAt": "2026-08-02T21:31:49.809445+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -48,11 +48,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 26,
           "recordsParsed": 26,
-          "recordsRejectedByDate": 25,
+          "recordsRejectedByDate": 21,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 5,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 25,
           "recordsParsed": 25,
-          "recordsRejectedByDate": 10,
+          "recordsRejectedByDate": 9,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 4,
-          "acceptedRecords": 11,
+          "acceptedRecords": 12,
           "failureMessage": null
         },
         {
@@ -106,10 +106,23 @@
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
           "failureMessage": null
+        },
+        {
+          "id": "ba-estate-pdf",
+          "name": "Comune di Busto Arsizio – BA Estate PDF",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 31,
+          "recordsParsed": 31,
+          "recordsRejectedByDate": 4,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 27,
+          "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 45,
+        "date": 44,
         "location": 0,
         "radius": 0,
         "duplicate": 4

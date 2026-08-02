@@ -13,10 +13,12 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
+from pypdf import PdfReader
 
 ROOT=Path(__file__).resolve().parents[1]; TZ=ZoneInfo("Europe/Rome")
 CONFIG=ROOT/'config/areas.json'; OUT=ROOT/'data/areas'; HEALTH=ROOT/'data/source-health.json'
 REPORT_JSON=ROOT/'data/coverage-report.json'; REPORT_MD=ROOT/'data/coverage-report.md'; FRESHNESS=ROOT/'data/source-freshness.json'
+CENSUS_JSON=ROOT/'data/source-census.json'; CENSUS_MD=ROOT/'data/source-census.md'
 S=requests.Session(); S.headers.update({'User-Agent':'ParabiagoOggi/3.0 (+https://github.com/Exhort-Ventures/parabiago-oggi)','Accept-Language':'it-IT,it;q=0.9'})
 MONTHS={'gennaio':1,'febbraio':2,'marzo':3,'aprile':4,'maggio':5,'giugno':6,'luglio':7,'agosto':8,'settembre':9,'ottobre':10,'novembre':11,'dicembre':12,'gen':1,'feb':2,'mar':3,'apr':4,'mag':5,'giu':6,'lug':7,'ago':8,'set':9,'ott':10,'nov':11,'dic':12}
 CATS={'nightlife':['dj','discoteca','club','aperitivo','serata','dance'],'music':['concerto','musica','jazz','live','guitar'],'festivals':['festival','rassegna'],'food':['sagra','festa','mercato','degustazione','patata','uva','fungo','food'],'cinema':['cinema','film','proiezione'],'sport':['gara','corsa','trail','bike','cicl','sci','rally','canoa','torneo'],'outdoor':['escursione','camminata','trekking','montagna'],'workshops':['laboratorio','workshop','corso'],'community':['fiera','comunit','patronale'],'culture':['mostra','teatro','libro','museo','visita','cultura']}
@@ -45,6 +47,7 @@ def iso_dt(v,now):
 def category(text):
  scores={k:sum(x in norm(text) for x in v) for k,v in CATS.items()}; k=max(scores,key=scores.get);return k if scores[k] else 'other'
 def coords(place,area):
+ if 'busto arsizio' in norm(place): return 45.6101,8.8496,'Busto Arsizio'
  key=norm(place)
  for name,p in area.get('aliases',{}).items():
   if norm(name) in key:return p['lat'],p['lng'],name
@@ -102,6 +105,26 @@ def article_dates(source,now):
   start,end=date_it(match.group(0),now)
   if start: out.append({'name':title,'start':start.isoformat(),'end':end.isoformat() if end else None,'location':source.get('city',source['name']),'description':text[:850],'url':source['url']})
  return out
+def ba_estate_pdf(source,now):
+ """Parse Busto's official monthly programme; date headings precede activity names."""
+ import io
+ text='\n'.join(p.extract_text() or '' for p in PdfReader(io.BytesIO(S.get(source['url'],timeout=60).content)).pages); lines=[clean(x) for x in text.splitlines() if clean(x)]; out=[]
+ for i,line in enumerate(lines):
+  m=re.match(r'(Sabato|Domenica|Venerdì|Mercoledì|Giovedì|Martedì|Lunedì)\s+(\d{1,2})(?:\s*[-–]\s*(\d{1,2}:\d{2}))?',line,re.I)
+  if not m: continue
+  month=9 if i>len(lines)//2 else 8; hour=m.group(3) or '18:00'; title=next((x for x in lines[i+1:i+6] if len(x)>5 and not re.match(r'(BA |Parco|Piazza|Via |ASSOCIAZIONE|Regia)',x,re.I)),None)
+  if title: out.append({'name':title.title(),'start':f'2026-{month:02d}-{int(m.group(2)):02d}T{hour}:00+02:00','location':'Busto Arsizio','description':'Programma ufficiale BA Estate 2026','url':source['landingUrl']})
+ return out
+def ical(source,now):
+ """Minimal dependency-free iCalendar adapter for public municipal calendars."""
+ text=S.get(source['url'],timeout=30).text.replace('\r\n ','').replace('\r\n\t',''); out=[]
+ for block in text.split('BEGIN:VEVENT')[1:]:
+  fields=dict(re.findall(r'^(SUMMARY|DTSTART[^:]*|DTEND[^:]*|LOCATION|URL|DESCRIPTION):(.+)$',block,re.M))
+  start=fields.get(next((k for k in fields if k.startswith('DTSTART')),''),'')
+  if re.fullmatch(r'\d{8}',start): start=f'{start[:4]}-{start[4:6]}-{start[6:]}T12:00:00+02:00'
+  elif re.fullmatch(r'\d{8}T\d{6}Z?',start): start=f'{start[:4]}-{start[4:6]}-{start[6:8]}T{start[9:11]}:{start[11:13]}:{start[13:15]}+02:00'
+  if fields.get('SUMMARY') and start: out.append({'name':clean(fields['SUMMARY']),'start':start,'location':clean(fields.get('LOCATION',source.get('city',''))),'description':clean(fields.get('DESCRIPTION','')),'url':fields.get('URL',source['url'])})
+ return out
 def legacy(source,now):
  try:
   old=json.loads((ROOT/'data/events.json').read_text()).get('events',[])
@@ -114,6 +137,8 @@ def collect_source(source,now):
  if source['adapter']=='curated':return curated(source,now)
  if source['adapter']=='legacy':return legacy(source,now)
  if source['adapter']=='article_dates':return article_dates(source,now)
+ if source['adapter']=='ical':return ical(source,now)
+ if source['adapter']=='ba_estate_pdf':return ba_estate_pdf(source,now)
  return html_cards(source,now)
 def duplicate(a,b): return abs((iso_dt(a['start'],datetime.now(TZ))-iso_dt(b['start'],datetime.now(TZ))).total_seconds())<4*3600 and SequenceMatcher(None,norm(a['title']),norm(b['title'])).ratio()>.78 and dist(a['latitude'],a['longitude'],b['latitude'],b['longitude'])<2
 def rank(e,now):
@@ -138,36 +163,54 @@ def coverage(data, previous, now):
  if not any(iso_dt(e['start'],now)<=now+timedelta(days=7) for e in events):warnings.append('WARNING: no events in next 7 days')
  return {'totalFutureDateRecords':len(events),'distinctEventSeries':len(series),'representedTowns':sorted({e['city'] for e in events}),'representedCategories':sorted({e['category'] for e in events}),'representedSourceFamilies':sorted({e['sourceType'] for e in events}),'acceptedRecordsBySource':by_source,'zeroResultSources':[s['name'] for s in data['sourceHealth'] if not s['acceptedRecords'] and s['fetchStatus']=='ok'],'failedSources':[s['name'] for s in data['sourceHealth'] if s['fetchStatus']=='failed'],'oldestEventDate':min((e['start'] for e in events),default=None),'newestEventDate':max((e['start'] for e in events),default=None),'largestProgrammeShare':round(largest/len(events),3) if events else 0,'eventsExpiringNext7Days':sum(bool(e.get('end')) and iso_dt(e['end'],now)<=now+timedelta(days=7) for e in events),'comparisonWithPreviousSuccessfulRefresh':{'previousCount':prior,'change':len(events)-prior},'warnings':warnings}
 def refresh(area,now):
- raw=[]; health=[]; rejected={'date':0,'location':0,'radius':0,'duplicate':0}
+ raw=[]; health=[]; rejected={'date':0,'location':0,'radius':0,'duplicate':0}; trace=[]
  for source in area['sources']:
   report={'id':source['id'],'name':source['name'],'fetchStatus':'ok','rawRecordsFound':0,'recordsParsed':0,'recordsRejectedByDate':0,'recordsRejectedByLocation':0,'recordsRejectedByRadius':0,'recordsRejectedAsDuplicates':0,'acceptedRecords':0,'failureMessage':None}
   try: records=collect_source(source,now); report['rawRecordsFound']=report['recordsParsed']=len(records)
   except Exception as ex: records=[];report['fetchStatus']='failed';report['failureMessage']=str(ex)[:220]
   for r in records:
    e=event(r,source,area,now)
-   if not e:rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
+   row={'source':source['name'],'title':clean(r.get('name') or r.get('title')),'parsedDate':r.get('start') or r.get('startDate'),'parsedTown':r.get('location') or r.get('city'),'area':area['id'],'terminalState':None,'finalEventId':None,'outputFile':str(OUT/f"{area['id']}.json")}
+   if not e:rejected['date']+=1;report['recordsRejectedByDate']+=1;row['terminalState']='INVALID_DATE';trace.append(row);continue
+   row.update({'coordinates':[e['latitude'],e['longitude']],'distanceKm':e['distanceKm']})
    end=iso_dt(e['end'],now) if e['end'] else iso_dt(e['start'],now)
-   if end < now or iso_dt(e['start'],now)>now+timedelta(days=area['horizonDays']):rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
-   if e['distanceKm']>area['radiusKm']:rejected['radius']+=1;report['recordsRejectedByRadius']+=1;continue
+   if end < now or iso_dt(e['start'],now)>now+timedelta(days=area['horizonDays']):rejected['date']+=1;report['recordsRejectedByDate']+=1;row['terminalState']='OUTSIDE_DATE_WINDOW';trace.append(row);continue
+   if e['distanceKm']>area['radiusKm']:rejected['radius']+=1;report['recordsRejectedByRadius']+=1;row['terminalState']='OUTSIDE_RADIUS';trace.append(row);continue
    match=next((x for x in raw if duplicate(e,x)),None)
    if match:
     rejected['duplicate']+=1;report['recordsRejectedAsDuplicates']+=1
+    row['terminalState']='DUPLICATE_OF_EXISTING'; row['canonicalTitle']=match['title']; row['canonicalStart']=match['start'];trace.append(row)
     if e['confidence']=='Confermato':match.update(e)
     elif match['confidence']!= 'Confermato':match['confidence']='Confermato' # independent agreement
     continue
    raw.append(e);report['acceptedRecords']+=1
+   row['terminalState']='INCLUDED_IN_FINAL_DATASET';trace.append(row)
   health.append(report)
  for e in raw:
   e['rankingScore']=rank(e,now); e['recurringSeriesId']=series_id(e)
   e['id']=hashlib.sha1(f"{e['areaId']}|{norm(e['title'])}|{e['start']}|{e['city']}".encode()).hexdigest()[:16]
+ for row in trace:
+  if row['terminalState']=='INCLUDED_IN_FINAL_DATASET':
+   found=next((e for e in raw if e['sourceName']==row['source'] and e['title']==row['title']),None)
+   if found: row['finalEventId']=found['id']
+  if row['terminalState']=='DUPLICATE_OF_EXISTING':
+   found=next((e for e in raw if e['title']==row.get('canonicalTitle') and e['start']==row.get('canonicalStart')),None)
+   if found: row['canonicalDuplicateId']=found['id']
+ for report in health: report['acceptedRecords']=sum(e['sourceName']==report['name'] for e in raw)
  raw.sort(key=lambda x:(-x['rankingScore'],x['start']))
- return {'area':{k:area[k] for k in ('id','displayName','centreName','latitude','longitude','radiusKm','horizonDays','defaultLanguage')},'updatedAt':now.isoformat(),'eventCount':len(raw),'events':raw,'sourceHealth':health,'rejections':rejected}
+ return {'area':{k:area[k] for k in ('id','displayName','centreName','latitude','longitude','radiusKm','horizonDays','defaultLanguage')},'updatedAt':now.isoformat(),'eventCount':len(raw),'events':raw,'sourceHealth':health,'rejections':rejected,'pipelineTrace':trace}
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--area');ap.add_argument('--offline',action='store_true');args=ap.parse_args(); now=datetime.now(TZ)
- areas=json.loads(CONFIG.read_text())['areas'];OUT.mkdir(parents=True,exist_ok=True); index=[];all_health={}; old=json.loads(REPORT_JSON.read_text()) if REPORT_JSON.exists() else {}; report={'generatedAt':now.isoformat(),'areas':{}}
+ areas=json.loads(CONFIG.read_text())['areas']; next(a for a in areas if a['id']=='parabiago')['horizonDays']=90; OUT.mkdir(parents=True,exist_ok=True); index=[];all_health={}; old=json.loads(REPORT_JSON.read_text()) if REPORT_JSON.exists() else {}; report={'generatedAt':now.isoformat(),'areas':{}}
  for area in areas:
   if args.area and area['id']!=args.area:continue
   data=refresh(area,now); (OUT/f"{area['id']}.json").write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');index.append(data['area']|{'eventCount':data['eventCount'],'updatedAt':data['updatedAt']});all_health[area['id']]={'sources':data['sourceHealth'],'rejections':data['rejections']};report['areas'][area['id']]=coverage(data,old.get('areas',{}).get(area['id']),now);print(f"{area['id']}: {data['eventCount']} accepted")
  (ROOT/'data/areas.json').write_text(json.dumps({'updatedAt':now.isoformat(),'areas':index},ensure_ascii=False,indent=2)+'\n');HEALTH.write_text(json.dumps({'updatedAt':now.isoformat(),'areas':all_health},ensure_ascii=False,indent=2)+'\n')
  REPORT_JSON.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n'); REPORT_MD.write_text('# Coverage report\n\n'+''.join(f"## {a}\n\n- Records: {v['totalFutureDateRecords']}\n- Series: {v['distinctEventSeries']}\n- Towns: {', '.join(v['representedTowns']) or 'none'}\n- Warnings: {', '.join(v['warnings']) or 'none'}\n\n" for a,v in report['areas'].items()))
+ census={'generatedAt':now.isoformat(),'sources':[]}
+ for area in areas:
+  for source in area['sources']:
+   health=next((s for s in all_health.get(area['id'],{}).get('sources',[]) if s['id']==source['id']),{})
+   census['sources'].append({'area':area['id'],'name':source['name'],'url':source['url'],'extractionMethod':source['adapter'],'paginationChecked':False,'rawRecordsFound':health.get('rawRecordsFound',0),'futureDatedRecordsFound':health.get('recordsParsed',0),'acceptedRecords':health.get('acceptedRecords',0),'duplicatesRemoved':health.get('recordsRejectedAsDuplicates',0),'zeroResultReason':health.get('failureMessage') or ('no usable future dated records' if not health.get('acceptedRecords') else None),'lastCheckedAt':now.isoformat()})
+ CENSUS_JSON.write_text(json.dumps(census,ensure_ascii=False,indent=2)+'\n'); CENSUS_MD.write_text('# Source census\n\n'+''.join(f"- **{x['area']} · {x['name']}** — {x['extractionMethod']}; raw {x['rawRecordsFound']}; accepted {x['acceptedRecords']}; {x['zeroResultReason'] or 'active'}\n" for x in census['sources']))
 if __name__=='__main__':main()

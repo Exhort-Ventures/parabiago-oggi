@@ -20,3 +20,9 @@ def test_ongoing_event_start_and_id_are_stable():
  first=refresh.hashlib.sha1(f"{e['areaId']}|{refresh.norm(e['title'])}|{e['start']}|{e['city']}".encode()).hexdigest()[:16]
  second=refresh.hashlib.sha1(f"{e['areaId']}|{refresh.norm(e['title'])}|{e['start']}|{e['city']}".encode()).hexdigest()[:16]
  assert e['start']=='2026-08-01T18:00:00+02:00' and first==second
+def test_ical_datetime_shape():
+ assert refresh.iso_dt('2026-08-12T21:30:00+02:00',NOW).tzinfo is not None
+def test_mobile_css_uses_shrink_safe_layout():
+ css=(Path(__file__).parents[1]/'styles.css').read_text()
+ assert 'repeat(6, minmax(0, 1fr))' in css and '@media (max-width: 900px)' in css
+ assert 'grid-template-columns: 1fr;' in css and 'overflow-wrap:anywhere' in css

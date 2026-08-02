@@ -6,11 +6,11 @@
     "latitude": 45.554,
     "longitude": 8.946,
     "radiusKm": 45,
-    "horizonDays": 30,
+    "horizonDays": 90,
     "defaultLanguage": "it"
   },
-  "updatedAt": "2026-08-02T21:06:25.216483+02:00",
-  "eventCount": 25,
+  "updatedAt": "2026-08-02T21:31:49.809445+02:00",
+  "eventCount": 57,
   "events": [
     {
       "title": "Agosto in piazza — 8 agosto",
@@ -34,7 +34,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -63,7 +63,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -92,7 +92,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -121,7 +121,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -150,7 +150,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -179,7 +179,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -208,7 +208,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -237,7 +237,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -266,7 +266,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -295,7 +295,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
@@ -324,12 +324,128 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 67.0,
       "recurringSeriesId": "parabiago:agosto-in-piazza-2026",
       "id": "b5e2b3c5ac1590d2"
+    },
+    {
+      "title": "Rassegna Cinematografica",
+      "start": "2026-08-08T21:30:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "festivals",
+      "categoryLabel": "Festival",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 65.2,
+      "recurringSeriesId": null,
+      "id": "8b107df28e44ad27"
+    },
+    {
+      "title": "Rassegna Cinematografica",
+      "start": "2026-08-15T21:30:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "festivals",
+      "categoryLabel": "Festival",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 65.2,
+      "recurringSeriesId": null,
+      "id": "0ec29f33a8297009"
+    },
+    {
+      "title": "Rassegna Cinematografica",
+      "start": "2026-08-22T21:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "festivals",
+      "categoryLabel": "Festival",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 65.2,
+      "recurringSeriesId": null,
+      "id": "678835d3fc1cdaae"
+    },
+    {
+      "title": "Rassegna Cinematografica",
+      "start": "2026-08-29T21:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "festivals",
+      "categoryLabel": "Festival",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 65.2,
+      "recurringSeriesId": null,
+      "id": "56907453d1b15a7e"
     },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -353,7 +469,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
@@ -382,7 +498,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
@@ -411,12 +527,186 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
       "recurringSeriesId": "parabiago:agosto-in-piazza-2026",
       "id": "f52968b995df6733"
+    },
+    {
+      "title": "125 anni di musica con il Corpo Musicale Cittadino Parrocchiale di Rho",
+      "start": "2026-09-05T00:00:00+02:00",
+      "end": "2026-09-05T00:00:00+02:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "nightlife",
+      "categoryLabel": "Vita notturna",
+      "description": "<div>Sabato 5 settembre 2026, Rho festeggia i <b>125 anni del Corpo Musicale Cittadino Parrocchiale</b> con una grande serata di musica, spettacolo e tradizione aperta a tutta la cittadinanza. <br>L'evento, organizzato in collaborazione con l'Oratorio San Carlo nell'ambito della Tradizionale Festa dell'Oratorio 2026, vedrà la partecipazione della Academy Parade Band, della Maxentia Brass Band, degli Sbandieratori di Ferno e del Gruppo Folcloristico Frustatori di Ferno.<br><br>Il programma prevede la sfilata dei gruppi musicali per le vie della città <b>dalle ore 19.00, </b>il saluto delle autorità <b>in Piazza San Vittore</b>, la grande parata verso l<b>'Oratorio San Carlo e, dalle 20.00, \"Musica a Tavola\", con esibizioni e spettacoli per il pubblico. Gran finale alle 22.30 con premiazioni e ringraziamenti.</b><br><br>Sarà attivo un <b>punto ristoro </b>presso l'Oratorio San Carlo per tu",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/125-anni-di-musica-con-il-corpo-musicale-cittadino-parrocchiale-di-rho-129596-1-cd25231ddd9672fdcb4174bf7a0158bc",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/125-anni-di-musica-con-il-corpo-musicale-cittadino-parrocchiale-di-rho-129596-1-cd25231ddd9672fdcb4174bf7a0158bc",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 62.0,
+      "recurringSeriesId": null,
+      "id": "fcbfe55681c2f970"
+    },
+    {
+      "title": "18ª edizione Donne In·Canto Helena Hellwig e Giovanni Ghioldi Voci di donne: storie, musica e cambiamento...",
+      "start": "2026-09-06T00:00:00+02:00",
+      "end": "2026-09-06T00:00:00+02:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "<div><b></b></div>Una merenda con voce e chitarra al parco<b><br>Helena Hellwig</b> - voce<b><br>Giovanni Ghioldi </b>- chitarra<div><br></div><div>ore 17.30<br>Parco di Villa Burba&nbsp; Ingresso da Porta EstCorso Europa, 291 - Rho<b><br>prenotabile dal 25 luglio</b><br>sul sito<a href=\"https://www.donneincanto.org/\" target=\"_self\"> www.donneincanto.org</a><a href=\"www.donneincanto.org\" target=\"_self\"></a></div><div><br></div><div><br></div><div>Un progetto musicale che propone una rilettura originale&nbsp;di brani iconici della musica italiana, con alcune<br>chicche internazionali, andando oltre la semplice esecuzione&nbsp;per costruire un racconto più ampio e articolato.<br>Lo spettacolo intende esplorare il ruolo e l’evoluzione&nbsp;della presenza femminile nel panorama musicale,&nbsp; mettendo in luce interpreti, autrici e compositrici che&nbsp;hanno contribuito in modo determinante",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/18ª-edizione-donne-in-canto-helena-hellwig-e-giovanni-ghioldi-voci-di-donne-storie-musica-e-127882-1-7db7d382a8ba0be283d583f624d9555f",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/18ª-edizione-donne-in-canto-helena-hellwig-e-giovanni-ghioldi-voci-di-donne-storie-musica-e-127882-1-7db7d382a8ba0be283d583f624d9555f",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 62.0,
+      "recurringSeriesId": null,
+      "id": "6dc5aa8fd5de3dca"
+    },
+    {
+      "title": "18ª edizione Donne In·Canto Patrizia Conte Jazz Quintet Il cuore batte pop. ma l'anima è jazz!",
+      "start": "2026-09-27T00:00:00+02:00",
+      "end": "2026-09-27T00:00:00+02:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "<div>ore 17.30<br>Teatro Civico Roberto de Silva<br>Piazza Enzo Jannacci, 1 - Rho<b><br>prenotabile dal 19 settembre</b><br>sul sito <a href=\"https://www.donneincanto.org/\" target=\"_self\">www.donneincanto.org</a><a href=\"MARIA PIA TIMO Attrice e comica italiana, originaria di Forlì, attiva in teatro, in televisione e nella comicità di cabaret. Dopo gli esordi nel mondo del teatro comico si afferma come interprete brillante, capace di unire ironia e osservazione del quotidiano. Diventa nota al grande pubblico grazie alle sue partecipazioni a programmi televisivi comici come Zelig, dove porta in scena personaggi legati alla vita di tutti i giorni, con uno stile energico e surreale. Parallelamente porta avanti una solida carriera teatrale con monologhi e spettacoli che spesso mescolano comicità, satira sociale e racconto autobiografico. Il suo lavoro si caratterizza per una comicità diretta",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/18ª-edizione-donne-in-canto-patrizia-conte-jazz-quintet-il-cuore-batte-pop-ma-l-anima-e-jazz-127883-1-d58655ddc433eb2c10504817df786f91",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/18ª-edizione-donne-in-canto-patrizia-conte-jazz-quintet-il-cuore-batte-pop-ma-l-anima-e-jazz-127883-1-d58655ddc433eb2c10504817df786f91",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 62.0,
+      "recurringSeriesId": null,
+      "id": "b854ce0ef33ec6b5"
+    },
+    {
+      "title": "Jazz Mandolin Trio",
+      "start": "2026-08-04T21:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 57.2,
+      "recurringSeriesId": null,
+      "id": "39b87654ee9b52aa"
+    },
+    {
+      "title": "Rassegna Cinematografica",
+      "start": "2026-09-09T20:30:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "festivals",
+      "categoryLabel": "Festival",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 57.2,
+      "recurringSeriesId": null,
+      "id": "cb722958905a10e5"
+    },
+    {
+      "title": "Rassegna Cinematografica",
+      "start": "2026-09-16T20:30:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "festivals",
+      "categoryLabel": "Festival",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 57.2,
+      "recurringSeriesId": null,
+      "id": "1b028540c1363a6e"
     },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -440,7 +730,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 57.0,
@@ -469,12 +759,389 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 57.0,
       "recurringSeriesId": null,
       "id": "df40bb2d19be2355"
+    },
+    {
+      "title": "Dragon Trainer",
+      "start": "2026-08-09T21:30:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "0b265e0eb2e51dd2"
+    },
+    {
+      "title": "Hotel Transilvania",
+      "start": "2026-08-23T21:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "2cafe63412c89114"
+    },
+    {
+      "title": "Agostoagostoagosto",
+      "start": "2026-08-28T21:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "7445933baae4081a"
+    },
+    {
+      "title": "Sabato 1 - 21:30",
+      "start": "2026-08-30T18:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "bf4f12f565950494"
+    },
+    {
+      "title": "Sabato19 - 10:00",
+      "start": "2026-09-12T18:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "67769cc8872e4b69"
+    },
+    {
+      "title": "Domenica 13 - 7:50",
+      "start": "2026-09-19T18:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "3a7a13d3214953cd"
+    },
+    {
+      "title": "Rock Oltre I Confini",
+      "start": "2026-09-25T18:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "cdd3ddbc2ceb10a8"
+    },
+    {
+      "title": "Gala’ Di Danza Internazionale",
+      "start": "2026-09-26T20:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "6fa7e8995a33a749"
+    },
+    {
+      "title": "Noi Stranieri Compreso Dio",
+      "start": "2026-09-26T21:15:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "bc6153eb1fb7723b"
+    },
+    {
+      "title": "Mercatino Antiquariato",
+      "start": "2026-09-27T18:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "fbeceb36425668b6"
+    },
+    {
+      "title": "Domenica 27",
+      "start": "2026-09-27T18:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "e72bcf96a7c4ea25"
+    },
+    {
+      "title": "Settembre In San Michele",
+      "start": "2026-09-27T18:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "fb8bfae9278987d8"
+    },
+    {
+      "title": "Sabato 26 - 21:15",
+      "start": "2026-09-27T18:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.2,
+      "recurringSeriesId": null,
+      "id": "eb69ac2eca5e3d71"
     },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -498,7 +1165,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 53.0,
@@ -527,7 +1194,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 53.0,
@@ -556,12 +1223,244 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 53.0,
       "recurringSeriesId": null,
       "id": "29d9ec8118ce155a"
+    },
+    {
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "start": "2026-10-09T00:00:00+02:00",
+      "end": null,
+      "venue": "Legnano",
+      "address": "",
+      "city": "Legnano",
+      "latitude": 45.5942,
+      "longitude": 8.9173,
+      "distanceKm": 5.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceName": "VareseNews – JAZZaltro",
+      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceType": "local_media",
+      "confidence": "Probabile",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 53.0,
+      "recurringSeriesId": null,
+      "id": "cdc7a9529d9225de"
+    },
+    {
+      "title": "Melagioco Festa Per Le",
+      "start": "2026-08-05T11:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "food",
+      "categoryLabel": "Food e sagre",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 52.2,
+      "recurringSeriesId": null,
+      "id": "791c801f477be347"
+    },
+    {
+      "title": "Vetrina dello Sport 2026",
+      "start": "2026-09-12T00:00:00+02:00",
+      "end": "2026-09-12T00:00:00+02:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "<div>A breve il programma</div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/vetrina-dello-sport-2026-129121-1-aa8d72ce123288172b5f7a8960641a4a",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/vetrina-dello-sport-2026-129121-1-aa8d72ce123288172b5f7a8960641a4a",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "c2f582c88bfd9056"
+    },
+    {
+      "title": "Sport Per Tutti",
+      "start": "2026-09-12T15:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 48.2,
+      "recurringSeriesId": null,
+      "id": "a122a0a13d635898"
+    },
+    {
+      "title": "Premio Carluccio Villa",
+      "start": "2026-09-26T15:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 48.2,
+      "recurringSeriesId": null,
+      "id": "e6aa99cb9697fd59"
+    },
+    {
+      "title": "Crescere Bene Insieme",
+      "start": "2026-09-26T17:30:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 48.2,
+      "recurringSeriesId": null,
+      "id": "ea2fcdb35ce82bea"
+    },
+    {
+      "title": "Sabato 5 - 11:00",
+      "start": "2026-08-05T18:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 45.2,
+      "recurringSeriesId": null,
+      "id": "05ca898fcac85d35"
+    },
+    {
+      "title": "Cene In Piazza 2026",
+      "start": "2026-08-06T20:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 45.2,
+      "recurringSeriesId": null,
+      "id": "475b8a5150d195c4"
     },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -585,7 +1484,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
@@ -614,7 +1513,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
@@ -643,7 +1542,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
@@ -672,12 +1571,41 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
       "recurringSeriesId": null,
       "id": "9c6f940a1124c476"
+    },
+    {
+      "title": "Collaborare Per Crescere",
+      "start": "2026-09-24T17:00:00+02:00",
+      "end": null,
+      "venue": "Busto Arsizio",
+      "address": "",
+      "city": "Busto Arsizio",
+      "latitude": 45.6101,
+      "longitude": 8.8496,
+      "distanceKm": 9.8,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "Programma ufficiale BA Estate 2026",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceName": "Comune di Busto Arsizio – BA Estate PDF",
+      "sourceUrl": "https://www.comune.bustoarsizio.va.it/index.php/it/news/ba-estate-2026",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 40.2,
+      "recurringSeriesId": null,
+      "id": "e346141a6584a2af"
     },
     {
       "title": "Bollate",
@@ -701,7 +1629,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 33.0,
@@ -730,7 +1658,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:06:25.216483+02:00",
+      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 33.0,
@@ -784,11 +1712,11 @@
       "fetchStatus": "ok",
       "rawRecordsFound": 26,
       "recordsParsed": 26,
-      "recordsRejectedByDate": 25,
+      "recordsRejectedByDate": 21,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
       "recordsRejectedAsDuplicates": 0,
-      "acceptedRecords": 1,
+      "acceptedRecords": 5,
       "failureMessage": null
     },
     {
@@ -823,11 +1751,11 @@
       "fetchStatus": "ok",
       "rawRecordsFound": 25,
       "recordsParsed": 25,
-      "recordsRejectedByDate": 10,
+      "recordsRejectedByDate": 9,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
       "recordsRejectedAsDuplicates": 4,
-      "acceptedRecords": 11,
+      "acceptedRecords": 12,
       "failureMessage": null
     },
     {
@@ -842,12 +1770,1833 @@
       "recordsRejectedAsDuplicates": 0,
       "acceptedRecords": 0,
       "failureMessage": null
+    },
+    {
+      "id": "ba-estate-pdf",
+      "name": "Comune di Busto Arsizio – BA Estate PDF",
+      "fetchStatus": "ok",
+      "rawRecordsFound": 31,
+      "recordsParsed": 31,
+      "recordsRejectedByDate": 4,
+      "recordsRejectedByLocation": 0,
+      "recordsRejectedByRadius": 0,
+      "recordsRejectedAsDuplicates": 0,
+      "acceptedRecords": 27,
+      "failureMessage": null
     }
   ],
   "rejections": {
-    "date": 45,
+    "date": 44,
     "location": 0,
     "radius": 0,
     "duplicate": 4
-  }
+  },
+  "pipelineTrace": [
+    {
+      "source": "Cheventi Milano",
+      "title": "Agosto in piazza a Rho",
+      "parsedDate": "2026-07-31T20:30:00+02:00",
+      "parsedTown": "Rho da",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "LegnanoNews",
+      "title": "Bollate",
+      "parsedDate": "2026-08-03T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "86289c1444b57b8e",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "LegnanoNews",
+      "title": "» Eventi - Cosa fare nel weekend del 31 luglio, 1 e 2 agosto a Legnano e nell’Alto Milanese",
+      "parsedDate": "2026-07-31T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "LegnanoNews",
+      "title": "Bollate Bollate sospende la sosta a pagamento ad agosto: stop ai parcometri dal 3 al 28 agosto",
+      "parsedDate": "2026-08-03T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "d50d254c7b460447",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Cin&città sotto le stelle Django",
+      "parsedDate": "2026-08-02T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Agosto in piazza",
+      "parsedDate": "2026-07-31T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "f52968b995df6733",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Cin&città - Odissea",
+      "parsedDate": "2026-07-30T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "125 anni di musica con il Corpo Musicale Cittadino Parrocchiale di Rho",
+      "parsedDate": "2026-09-05T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fcbfe55681c2f970",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "18ª edizione Donne In·Canto Helena Hellwig e Giovanni Ghioldi Voci di donne: storie, musica e cambiamento...",
+      "parsedDate": "2026-09-06T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "6dc5aa8fd5de3dca",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Vetrina dello Sport 2026",
+      "parsedDate": "2026-09-12T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "c2f582c88bfd9056",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "18ª edizione Donne In·Canto Patrizia Conte Jazz Quintet Il cuore batte pop. ma l'anima è jazz!",
+      "parsedDate": "2026-09-27T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "b854ce0ef33ec6b5",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Stagione di prosa - L'importanza di chiamarsi Ernesto",
+      "parsedDate": "2026-11-26T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Stagione di prosa - Ahi Maria! Un teatro canzone per Rino Gaetano",
+      "parsedDate": "2026-12-01T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva -Stagione Musica - The spirit of gospel christmas",
+      "parsedDate": "2026-12-19T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - fuori abbonamento All That Musical - Veglione di fine anno",
+      "parsedDate": "2026-12-31T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro Roberto de Silva - Stagione musica- The Sadness of the world stage",
+      "parsedDate": "2027-01-16T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro Roberto de Silva - Stagione prosa- Lisistrata",
+      "parsedDate": "2027-01-19T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva -Stagione di prosa - Ilva footbal club",
+      "parsedDate": "2027-01-30T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Stagione di Prosa - Prima del temporale",
+      "parsedDate": "2027-02-12T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro Roberto de Silva- Stagione musica- Orchestra i Pomeriggi Musicali di Milano",
+      "parsedDate": "2027-02-14T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Stagione Prosa- Erano tutti miei figli",
+      "parsedDate": "2027-02-20T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva- Evento speciale - Ale & Franz Capitol'ho",
+      "parsedDate": "2027-02-28T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Stagione Prosa -Belle e la Bestia- Il Musical",
+      "parsedDate": "2027-03-03T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Stagione Musica - Orchestra i Pomeriggi Musicali di Milano",
+      "parsedDate": "2027-03-12T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Evento speciale Danza - Preludes",
+      "parsedDate": "2027-03-13T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Stagione di Prosa -Misurare il salto delle rane",
+      "parsedDate": "2027-03-27T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Stagione Prosa - Re Lear è morto a Mosca",
+      "parsedDate": "2027-04-01T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro Roberto de Silva Stagione prosa- Il berretto a sonagli",
+      "parsedDate": "2027-04-08T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro civico Roberto de Silva - Stagione di prosa - La reginetta di Leenane",
+      "parsedDate": "2027-04-13T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Teatro Roberto de Silva Stagione prosa- Napoleone, la morte di Dio",
+      "parsedDate": "2027-04-29T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 8 agosto",
+      "parsedDate": "2026-08-08T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8022c203806dc92a",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 14 agosto",
+      "parsedDate": "2026-08-14T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fdf412f87e6950f5",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Aperitivo di Ferragosto — Agosto in piazza",
+      "parsedDate": "2026-08-15T19:00:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "ca9579e8ba211c47",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 15 agosto",
+      "parsedDate": "2026-08-15T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "16876ef19747197f",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 16 agosto",
+      "parsedDate": "2026-08-16T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "707814a95e8b329b",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 21 agosto",
+      "parsedDate": "2026-08-21T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fe009a17f841e0e6",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 22 agosto",
+      "parsedDate": "2026-08-22T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fbe56cbdb3245c3f",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 23 agosto",
+      "parsedDate": "2026-08-23T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "02dd5603de0be631",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 28 agosto",
+      "parsedDate": "2026-08-28T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8b0255dd53d0c083",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 29 agosto",
+      "parsedDate": "2026-08-29T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8eef01af9faeda69",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho programma",
+      "title": "Agosto in piazza — 30 agosto",
+      "parsedDate": "2026-08-30T20:30:00+02:00",
+      "parsedTown": "Rho",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "b5e2b3c5ac1590d2",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "LegnanoNews – La Bella Estate",
+      "title": "Eventi",
+      "parsedDate": "2026-06-17T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-07-02T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-06-29T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-10-09T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-19T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-18T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-17T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-17T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-08-17T00:00:00+02:00",
+      "canonicalDuplicateId": "df40bb2d19be2355"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-15T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-15T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-08-15T00:00:00+02:00",
+      "canonicalDuplicateId": "d1e34b7210fa6e66"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-12T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-11T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-09T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-09T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-08-09T00:00:00+02:00",
+      "canonicalDuplicateId": "dfc488d23f57c110"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-08T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-07T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-06T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-06T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-08-06T00:00:00+02:00",
+      "canonicalDuplicateId": "eafe93a2852aa4ac"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-02T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-01T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-07-30T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-01T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-07-30T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-01T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-07-18T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-08-22T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdc7a9529d9225de",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate",
+      "title": "Seguici su",
+      "parsedDate": "2026-05-28T00:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate",
+      "title": "Seguici su",
+      "parsedDate": "2026-07-29T00:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate",
+      "title": "Seguici su",
+      "parsedDate": "2026-07-08T00:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate",
+      "title": "Seguici su",
+      "parsedDate": "2026-07-01T00:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate",
+      "title": "Seguici su",
+      "parsedDate": "2026-06-25T00:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate",
+      "title": "Seguici su",
+      "parsedDate": "2026-06-04T00:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate",
+      "title": "Seguici su",
+      "parsedDate": "2026-07-30T00:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Rassegna Cinematografica",
+      "parsedDate": "2026-08-08T21:30:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8b107df28e44ad27",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Dragon Trainer",
+      "parsedDate": "2026-08-09T21:30:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "0b265e0eb2e51dd2",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Rassegna Cinematografica",
+      "parsedDate": "2026-08-15T21:30:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8b107df28e44ad27",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Rassegna Cinematografica",
+      "parsedDate": "2026-08-22T21:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8b107df28e44ad27",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Hotel Transilvania",
+      "parsedDate": "2026-08-23T21:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "2cafe63412c89114",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Rassegna Cinematografica",
+      "parsedDate": "2026-08-29T21:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8b107df28e44ad27",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Sabato 1 - 21:30",
+      "parsedDate": "2026-08-30T18:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "bf4f12f565950494",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Rassegna Cinematografica",
+      "parsedDate": "2026-08-01T21:30:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Agostoagostoagosto",
+      "parsedDate": "2026-08-28T21:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "7445933baae4081a",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Jazz Mandolin Trio",
+      "parsedDate": "2026-08-04T21:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "39b87654ee9b52aa",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Simposio E Camminata",
+      "parsedDate": "2026-08-05T9:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INVALID_DATE",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json"
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Sabato 5 - 11:00",
+      "parsedDate": "2026-08-05T18:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "05ca898fcac85d35",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Melagioco Festa Per Le",
+      "parsedDate": "2026-08-05T11:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "791c801f477be347",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Cene In Piazza 2026",
+      "parsedDate": "2026-08-06T20:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "475b8a5150d195c4",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Rassegna Cinematografica",
+      "parsedDate": "2026-09-09T20:30:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8b107df28e44ad27",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "In Caso Di Pioggia Domenica 20",
+      "parsedDate": "2026-09-13T9:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INVALID_DATE",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json"
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Rassegna Cinematografica",
+      "parsedDate": "2026-09-16T20:30:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8b107df28e44ad27",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Domenica 13 - 7:50",
+      "parsedDate": "2026-09-19T18:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "3a7a13d3214953cd",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Busto Scopello",
+      "parsedDate": "2026-09-13T7:50:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INVALID_DATE",
+      "finalEventId": null,
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json"
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Sport Per Tutti",
+      "parsedDate": "2026-09-12T15:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "a122a0a13d635898",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Sabato19 - 10:00",
+      "parsedDate": "2026-09-12T18:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "67769cc8872e4b69",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Mercatino Antiquariato",
+      "parsedDate": "2026-09-27T18:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fbeceb36425668b6",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Domenica 27",
+      "parsedDate": "2026-09-27T18:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "e72bcf96a7c4ea25",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Settembre In San Michele",
+      "parsedDate": "2026-09-27T18:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fb8bfae9278987d8",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Sabato 26 - 21:15",
+      "parsedDate": "2026-09-27T18:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "eb69ac2eca5e3d71",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Noi Stranieri Compreso Dio",
+      "parsedDate": "2026-09-26T21:15:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "bc6153eb1fb7723b",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Gala’ Di Danza Internazionale",
+      "parsedDate": "2026-09-26T20:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "6fa7e8995a33a749",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Crescere Bene Insieme",
+      "parsedDate": "2026-09-26T17:30:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "ea2fcdb35ce82bea",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Premio Carluccio Villa",
+      "parsedDate": "2026-09-26T15:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "e6aa99cb9697fd59",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Rock Oltre I Confini",
+      "parsedDate": "2026-09-25T18:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "cdd3ddbc2ceb10a8",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    },
+    {
+      "source": "Comune di Busto Arsizio – BA Estate PDF",
+      "title": "Collaborare Per Crescere",
+      "parsedDate": "2026-09-24T17:00:00+02:00",
+      "parsedTown": "Busto Arsizio",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "e346141a6584a2af",
+      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.6101,
+        8.8496
+      ],
+      "distanceKm": 9.8
+    }
+  ]
 }
