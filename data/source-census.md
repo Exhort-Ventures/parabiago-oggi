@@ -2,7 +2,7 @@
 
 - **parabiago · Cheventi Milano** — cheventi; raw 1; accepted 0; no usable future dated records
 - **parabiago · Cheventi Rho** — cheventi; raw 0; accepted 0; no usable future dated records
-- **parabiago · LegnanoNews** — html_cards; raw 3; accepted 2; active
+- **parabiago · LegnanoNews** — html_cards; raw 4; accepted 3; active
 - **parabiago · Comune di Rho** — jsonld; raw 26; accepted 5; active
 - **parabiago · Comune di Rho programma** — legacy; raw 11; accepted 11; active
 - **parabiago · LegnanoNews – La Bella Estate** — article_dates; raw 1; accepted 0; no usable future dated records
