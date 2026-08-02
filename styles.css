@@ -22,6 +22,13 @@ h1 { margin: 0; font-family: Georgia, serif; font-size: clamp(38px, 5vw, 68px); 
 .header-actions label { display:grid; gap:5px; color:var(--muted); font-size:12px; font-weight:800; }
 .header-actions select { min-height:44px; border:1px solid var(--line); border-radius:999px; padding:0 12px; background:var(--paper); }
 .area-summary { margin:14px 0 0; font-size:13px; font-weight:700; color:var(--accent-dark); }
+.quick-cities { display:flex; gap:7px; flex-wrap:wrap; margin-top:10px; }
+.quick-chip,.city-chip { border:0; background:var(--soft); color:var(--accent-dark); border-radius:999px; padding:4px 8px; font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
+.series-title { margin:2px 0 4px; color:var(--accent-dark); font-size:13px; font-weight:800; }
+.series-toggle { margin-top:9px; border:0; padding:0; background:transparent; color:var(--accent-dark); font-weight:800; cursor:pointer; }
+.series-dates { display:none; margin:8px 0 0; padding-left:18px; color:var(--muted); font-size:13px; }
+.event-card.expanded .series-dates { display:block; }
+.all-dates { align-self:end; min-height:44px; display:flex!important; align-items:center; gap:7px; }
 .button { border: 0; border-radius: 999px; padding: 11px 17px; background: var(--accent); color: white; font-weight: 750; cursor: pointer; }
 .button:hover { background: var(--accent-dark); }
 .button.secondary { background: var(--paper); color: var(--ink); border: 1px solid var(--line); }
