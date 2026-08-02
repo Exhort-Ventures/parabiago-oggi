@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T19:34:12.731083+02:00",
+  "updatedAt": "2026-08-02T19:35:44.527514+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -93,10 +93,23 @@
           "recordsRejectedAsDuplicates": 4,
           "acceptedRecords": 11,
           "failureMessage": null
+        },
+        {
+          "id": "ba-estate",
+          "name": "Comune di Busto Arsizio – BA Estate",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 7,
+          "recordsParsed": 7,
+          "recordsRejectedByDate": 7,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 0,
+          "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 33,
+        "date": 40,
         "location": 0,
         "radius": 0,
         "duplicate": 4
@@ -220,10 +233,23 @@
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 1,
           "failureMessage": null
+        },
+        {
+          "id": "tones-natura",
+          "name": "Distretto Turistico dei Laghi – Tones Teatro Natura",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 7,
+          "recordsParsed": 7,
+          "recordsRejectedByDate": 4,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 3,
+          "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 0,
+        "date": 4,
         "location": 0,
         "radius": 0,
         "duplicate": 0
