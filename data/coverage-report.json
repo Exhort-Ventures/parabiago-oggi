@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:27:38.372846+02:00",
+  "generatedAt": "2026-08-02T21:31:49.809445+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 57,
@@ -32,13 +32,12 @@
         "Comune di Busto Arsizio – BA Estate PDF": 27
       },
       "zeroResultSources": [
+        "Cheventi Milano",
+        "Cheventi Rho",
         "LegnanoNews – La Bella Estate",
         "Comune di Busto Arsizio – BA Estate"
       ],
-      "failedSources": [
-        "Cheventi Milano",
-        "Cheventi Rho"
-      ],
+      "failedSources": [],
       "oldestEventDate": "2026-07-31T00:00:00+02:00",
       "newestEventDate": "2026-10-09T00:00:00+02:00",
       "largestProgrammeShare": 0.193,

@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-02T21:27:38.372846+02:00",
+  "updatedAt": "2026-08-02T21:31:49.809445+02:00",
   "areas": {
     "parabiago": {
       "sources": [
         {
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
-          "fetchStatus": "failed",
-          "rawRecordsFound": 0,
-          "recordsParsed": 0,
-          "recordsRejectedByDate": 0,
+          "fetchStatus": "ok",
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+          "failureMessage": null
         },
         {
           "id": "cheventi-rho",
           "name": "Cheventi Rho",
-          "fetchStatus": "failed",
+          "fetchStatus": "ok",
           "rawRecordsFound": 0,
           "recordsParsed": 0,
           "recordsRejectedByDate": 0,
@@ -27,7 +27,7 @@
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+          "failureMessage": null
         },
         {
           "id": "legnanonews",
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 43,
+        "date": 44,
         "location": 0,
         "radius": 0,
         "duplicate": 4
