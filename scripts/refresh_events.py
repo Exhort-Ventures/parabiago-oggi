@@ -112,6 +112,12 @@ def rank(e,now):
  if iso_dt(e['start'],now).weekday()>=4:score+=8
  if iso_dt(e['start'],now).hour>=18:score+=5
  return score
+def series_id(e):
+ """Return a stable programme id only for genuinely repeated programme sessions."""
+ title=norm(e['title'])
+ if 'agosto in piazza' in title and 'aperitivo' not in title:
+  return f"{e['areaId']}:agosto-in-piazza-2026"
+ return None
 def refresh(area,now):
  raw=[]; health=[]; rejected={'date':0,'location':0,'radius':0,'duplicate':0}
  for source in area['sources']:
@@ -132,7 +138,9 @@ def refresh(area,now):
     continue
    raw.append(e);report['acceptedRecords']+=1
   health.append(report)
- for e in raw:e['rankingScore']=rank(e,now);e['id']=hashlib.sha1(f"{e['areaId']}|{norm(e['title'])}|{e['start']}|{e['city']}".encode()).hexdigest()[:16]
+ for e in raw:
+  e['rankingScore']=rank(e,now); e['recurringSeriesId']=series_id(e)
+  e['id']=hashlib.sha1(f"{e['areaId']}|{norm(e['title'])}|{e['start']}|{e['city']}".encode()).hexdigest()[:16]
  raw.sort(key=lambda x:(-x['rankingScore'],x['start']))
  return {'area':{k:area[k] for k in ('id','displayName','centreName','latitude','longitude','radiusKm','horizonDays','defaultLanguage')},'updatedAt':now.isoformat(),'eventCount':len(raw),'events':raw,'sourceHealth':health,'rejections':rejected}
 def main():

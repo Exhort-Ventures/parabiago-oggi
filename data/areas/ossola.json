@@ -9,7 +9,7 @@
     "horizonDays": 90,
     "defaultLanguage": "it"
   },
-  "updatedAt": "2026-08-02T19:17:27.720247+02:00",
+  "updatedAt": "2026-08-02T19:22:32.208610+02:00",
   "eventCount": 9,
   "events": [
     {
@@ -34,10 +34,11 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T19:17:27.720247+02:00",
+      "lastCheckedAt": "2026-08-02T19:22:32.208610+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 69.2,
+      "recurringSeriesId": null,
       "id": "c0e4017fdb87b82f"
     },
     {
@@ -62,10 +63,11 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T19:17:27.720247+02:00",
+      "lastCheckedAt": "2026-08-02T19:22:32.208610+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 57.2,
+      "recurringSeriesId": null,
       "id": "182497d0426f5bd8"
     },
     {
@@ -90,10 +92,11 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T19:17:27.720247+02:00",
+      "lastCheckedAt": "2026-08-02T19:22:32.208610+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 56.7,
+      "recurringSeriesId": null,
       "id": "8577de85ace9e37b"
     },
     {
@@ -118,10 +121,11 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T19:17:27.720247+02:00",
+      "lastCheckedAt": "2026-08-02T19:22:32.208610+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 55.8,
+      "recurringSeriesId": null,
       "id": "72fa15d12bc78a58"
     },
     {
@@ -146,10 +150,11 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T19:17:27.720247+02:00",
+      "lastCheckedAt": "2026-08-02T19:22:32.208610+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 52.1,
+      "recurringSeriesId": null,
       "id": "3d8367fd65f93197"
     },
     {
@@ -174,10 +179,11 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T19:17:27.720247+02:00",
+      "lastCheckedAt": "2026-08-02T19:22:32.208610+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 45.9,
+      "recurringSeriesId": null,
       "id": "7dcf936b3191a563"
     },
     {
@@ -202,10 +208,11 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T19:17:27.720247+02:00",
+      "lastCheckedAt": "2026-08-02T19:22:32.208610+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 29.9,
+      "recurringSeriesId": null,
       "id": "2a9b5c57763d7036"
     },
     {
@@ -230,10 +237,11 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T19:17:27.720247+02:00",
+      "lastCheckedAt": "2026-08-02T19:22:32.208610+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 29.9,
+      "recurringSeriesId": null,
       "id": "b53084980dbd4c51"
     },
     {
@@ -258,10 +266,11 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T19:17:27.720247+02:00",
+      "lastCheckedAt": "2026-08-02T19:22:32.208610+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 29.9,
+      "recurringSeriesId": null,
       "id": "ef3556446f6cdd2e"
     }
   ],
