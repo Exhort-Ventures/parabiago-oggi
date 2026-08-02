@@ -1,0 +1,35 @@
+{
+  "centre": {"name": "Parabiago", "lat": 45.5540, "lng": 8.9460},
+  "radiusKm": 20,
+  "horizonDays": 30,
+  "sources": [
+    {
+      "name": "Comune di Parabiago",
+      "city": "Parabiago",
+      "url": "https://www.comune.parabiago.mi.it/pagina133703_eventi.html/",
+      "allowedHosts": ["www.comune.parabiago.mi.it", "comune.parabiago.mi.it"],
+      "priority": 100
+    },
+    {
+      "name": "Comune di Nerviano",
+      "city": "Nerviano",
+      "url": "https://www.comune.nerviano.mi.it/pagina133703_eventi.html/",
+      "allowedHosts": ["www.comune.nerviano.mi.it", "comune.nerviano.mi.it"],
+      "priority": 95
+    },
+    {
+      "name": "Città di Legnano",
+      "city": "Legnano",
+      "url": "https://comune.legnano.mi.it/eventi",
+      "allowedHosts": ["comune.legnano.mi.it"],
+      "priority": 95
+    },
+    {
+      "name": "Comune di Rho",
+      "city": "Rho",
+      "url": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/",
+      "allowedHosts": ["www.comune.rho.mi.it", "comune.rho.mi.it"],
+      "priority": 90
+    }
+  ]
+}
