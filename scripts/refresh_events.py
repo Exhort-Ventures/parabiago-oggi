@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]; TZ=ZoneInfo("Europe/Rome")
 CONFIG=ROOT/'config/areas.json'; OUT=ROOT/'data/areas'; HEALTH=ROOT/'data/source-health.json'
+REPORT_JSON=ROOT/'data/coverage-report.json'; REPORT_MD=ROOT/'data/coverage-report.md'
 S=requests.Session(); S.headers.update({'User-Agent':'ParabiagoOggi/3.0 (+https://github.com/Exhort-Ventures/parabiago-oggi)','Accept-Language':'it-IT,it;q=0.9'})
 MONTHS={'gennaio':1,'febbraio':2,'marzo':3,'aprile':4,'maggio':5,'giugno':6,'luglio':7,'agosto':8,'settembre':9,'ottobre':10,'novembre':11,'dicembre':12,'gen':1,'feb':2,'mar':3,'apr':4,'mag':5,'giu':6,'lug':7,'ago':8,'set':9,'ott':10,'nov':11,'dic':12}
 CATS={'nightlife':['dj','discoteca','club','aperitivo','serata','dance'],'music':['concerto','musica','jazz','live','guitar'],'festivals':['festival','rassegna'],'food':['sagra','festa','mercato','degustazione','patata','uva','fungo','food'],'cinema':['cinema','film','proiezione'],'sport':['gara','corsa','trail','bike','cicl','sci','rally','canoa','torneo'],'outdoor':['escursione','camminata','trekking','montagna'],'workshops':['laboratorio','workshop','corso'],'community':['fiera','comunit','patronale'],'culture':['mostra','teatro','libro','museo','visita','cultura']}
@@ -138,9 +139,6 @@ def refresh(area,now):
    if not e:rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
    end=iso_dt(e['end'],now) if e['end'] else iso_dt(e['start'],now)
    if end < now or iso_dt(e['start'],now)>now+timedelta(days=area['horizonDays']):rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
-   # An ongoing multi-day programme belongs at the current point in the agenda,
-   # not beneath a historical start-date heading.
-   if iso_dt(e['start'],now) < now: e['start']=now.isoformat()
    if e['distanceKm']>area['radiusKm']:rejected['radius']+=1;report['recordsRejectedByRadius']+=1;continue
    match=next((x for x in raw if duplicate(e,x)),None)
    if match:
@@ -157,9 +155,10 @@ def refresh(area,now):
  return {'area':{k:area[k] for k in ('id','displayName','centreName','latitude','longitude','radiusKm','horizonDays','defaultLanguage')},'updatedAt':now.isoformat(),'eventCount':len(raw),'events':raw,'sourceHealth':health,'rejections':rejected}
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--area');ap.add_argument('--offline',action='store_true');args=ap.parse_args(); now=datetime.now(TZ)
- areas=json.loads(CONFIG.read_text())['areas'];OUT.mkdir(parents=True,exist_ok=True); index=[];all_health={}
+ areas=json.loads(CONFIG.read_text())['areas'];OUT.mkdir(parents=True,exist_ok=True); index=[];all_health={}; coverage={'generatedAt':now.isoformat(),'areas':{}}
  for area in areas:
   if args.area and area['id']!=args.area:continue
-  data=refresh(area,now); (OUT/f"{area['id']}.json").write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');index.append(data['area']|{'eventCount':data['eventCount'],'updatedAt':data['updatedAt']});all_health[area['id']]={'sources':data['sourceHealth'],'rejections':data['rejections']};print(f"{area['id']}: {data['eventCount']} accepted")
+  data=refresh(area,now); (OUT/f"{area['id']}.json").write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');index.append(data['area']|{'eventCount':data['eventCount'],'updatedAt':data['updatedAt']});all_health[area['id']]={'sources':data['sourceHealth'],'rejections':data['rejections']}; ev=data['events']; series={e.get('recurringSeriesId') or e['id'] for e in ev}; groups={}; [groups.update({e.get('recurringSeriesId') or e['id']:groups.get(e.get('recurringSeriesId') or e['id'],0)+1}) for e in ev]; coverage['areas'][area['id']]={'totalFutureDateRecords':len(ev),'distinctEventSeries':len(series),'representedTowns':sorted({e['city'] for e in ev}),'acceptedRecordsBySource':{s['name']:s['acceptedRecords'] for s in data['sourceHealth']},'zeroResultSources':[s['name'] for s in data['sourceHealth'] if not s['acceptedRecords'] and s['fetchStatus']=='ok'],'failedSources':[s['name'] for s in data['sourceHealth'] if s['fetchStatus']=='failed'],'warnings':['WARNING: zero events'] if not ev else [],'largestProgrammeShare':round(max(groups.values(),default=0)/len(ev),3) if ev else 0};print(f"{area['id']}: {data['eventCount']} accepted")
  (ROOT/'data/areas.json').write_text(json.dumps({'updatedAt':now.isoformat(),'areas':index},ensure_ascii=False,indent=2)+'\n');HEALTH.write_text(json.dumps({'updatedAt':now.isoformat(),'areas':all_health},ensure_ascii=False,indent=2)+'\n')
+ REPORT_JSON.write_text(json.dumps(coverage,ensure_ascii=False,indent=2)+'\n'); REPORT_MD.write_text('# Coverage report\n\n'+''.join(f"## {a}\n- Records: {v['totalFutureDateRecords']}\n- Towns: {', '.join(v['representedTowns'])}\n" for a,v in coverage['areas'].items()))
 if __name__=='__main__':main()

@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-08-02T19:42:38.385566+02:00",
+  "areas": {
+    "parabiago": {
+      "totalFutureDateRecords": 26,
+      "distinctEventSeries": 16,
+      "representedTowns": [
+        "Legnano",
+        "Rho"
+      ],
+      "acceptedRecordsBySource": {
+        "Cheventi Milano": 0,
+        "Cheventi Rho": 0,
+        "LegnanoNews": 3,
+        "Comune di Rho": 1,
+        "Comune di Rho programma": 11,
+        "LegnanoNews – La Bella Estate": 0,
+        "VareseNews – JAZZaltro": 11,
+        "Comune di Busto Arsizio – BA Estate": 0
+      },
+      "zeroResultSources": [
+        "Cheventi Milano",
+        "Cheventi Rho",
+        "LegnanoNews – La Bella Estate",
+        "Comune di Busto Arsizio – BA Estate"
+      ],
+      "failedSources": [],
+      "warnings": [],
+      "largestProgrammeShare": 0.423
+    },
+    "ossola": {
+      "totalFutureDateRecords": 13,
+      "distinctEventSeries": 13,
+      "representedTowns": [
+        "Baceno",
+        "Crevoladossola",
+        "Crodo",
+        "Domodossola",
+        "Formazza",
+        "Masera",
+        "Montecrestese",
+        "Oira"
+      ],
+      "acceptedRecordsBySource": {
+        "VisitOssola": 0,
+        "OssolaNews": 0,
+        "Unione Montana Alta Ossola": 1,
+        "OssolaNews – Cinema sotto le stelle": 3,
+        "OssolaNews – Ossola Guitar Festival": 1,
+        "Formazza Country Festival": 1,
+        "Festorum VCO": 2,
+        "Comune di Crodo": 1,
+        "Festorum VCO – Festa delle Bionde": 1,
+        "Distretto Turistico dei Laghi – Tones Teatro Natura": 3
+      },
+      "zeroResultSources": [
+        "VisitOssola",
+        "OssolaNews"
+      ],
+      "failedSources": [],
+      "warnings": [],
+      "largestProgrammeShare": 0.077
+    }
+  }
+}
