@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 26
-- Series: 16
+- Records: 25
+- Series: 15
 - Towns: Legnano, Rho
 - Warnings: WARNING: one programme exceeds 40% of dates
 

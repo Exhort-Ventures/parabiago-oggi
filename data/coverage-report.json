@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-02T19:44:23.790684+02:00",
+  "generatedAt": "2026-08-02T21:06:25.216483+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 26,
-      "distinctEventSeries": 16,
+      "totalFutureDateRecords": 25,
+      "distinctEventSeries": 15,
       "representedTowns": [
         "Legnano",
         "Rho"
@@ -20,7 +20,7 @@
       "acceptedRecordsBySource": {
         "Cheventi Milano": 0,
         "Cheventi Rho": 0,
-        "LegnanoNews": 3,
+        "LegnanoNews": 2,
         "Comune di Rho": 1,
         "Comune di Rho programma": 11,
         "LegnanoNews – La Bella Estate": 0,
@@ -36,11 +36,11 @@
       "failedSources": [],
       "oldestEventDate": "2026-07-31T00:00:00+02:00",
       "newestEventDate": "2026-08-30T20:30:00+02:00",
-      "largestProgrammeShare": 0.423,
+      "largestProgrammeShare": 0.44,
       "eventsExpiringNext7Days": 1,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 26,
-        "change": 0
+        "change": -1
       },
       "warnings": [
         "WARNING: one programme exceeds 40% of dates"
