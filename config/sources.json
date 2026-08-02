@@ -2,12 +2,14 @@
   "centre": {"name": "Parabiago", "lat": 45.5540, "lng": 8.9460},
   "radiusKm": 20,
   "horizonDays": 30,
+  "minimumExpectedEvents": 1,
   "sources": [
     {
       "name": "Comune di Parabiago",
       "city": "Parabiago",
       "url": "https://www.comune.parabiago.mi.it/pagina133703_eventi.html/",
       "allowedHosts": ["www.comune.parabiago.mi.it", "comune.parabiago.mi.it"],
+      "parser": "municipal_listing",
       "priority": 100
     },
     {
@@ -15,6 +17,7 @@
       "city": "Nerviano",
       "url": "https://www.comune.nerviano.mi.it/pagina133703_eventi.html/",
       "allowedHosts": ["www.comune.nerviano.mi.it", "comune.nerviano.mi.it"],
+      "parser": "municipal_listing",
       "priority": 95
     },
     {
@@ -22,6 +25,7 @@
       "city": "Legnano",
       "url": "https://comune.legnano.mi.it/eventi",
       "allowedHosts": ["comune.legnano.mi.it"],
+      "parser": "municipal_listing",
       "priority": 95
     },
     {
@@ -29,7 +33,44 @@
       "city": "Rho",
       "url": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/",
       "allowedHosts": ["www.comune.rho.mi.it", "comune.rho.mi.it"],
+      "parser": "municipal_listing",
       "priority": 90
+    }
+  ],
+  "verifiedBootstrapEvents": [
+    {
+      "title": "Fiera di San Fermo 2026",
+      "start": "2026-08-09T08:00:00+02:00",
+      "end": "2026-08-09T18:00:00+02:00",
+      "venue": "Centro di Nerviano",
+      "city": "Nerviano",
+      "description": "Fiera cittadina con banchi e iniziative per le vie del centro, dalle 08:00 alle 18:00.",
+      "free": true,
+      "price": "Ingresso libero",
+      "booking": "Non richiesta",
+      "rules": "Verificare eventuali variazioni sulla fonte ufficiale.",
+      "transport": "Centro di Nerviano; verificare modifiche alla viabilità.",
+      "sourceName": "Comune di Nerviano",
+      "sourceUrl": "https://www.comune.nerviano.mi.it/pagina133703_eventi.html/",
+      "category": "community",
+      "categoryLabel": "Comunità"
+    },
+    {
+      "title": "Agosto in piazza",
+      "start": "2026-08-03T20:30:00+02:00",
+      "end": "2026-08-30T23:30:00+02:00",
+      "venue": "Piazza Visconti",
+      "city": "Rho",
+      "description": "Programma estivo serale con serate danzanti e attività in piazza fino al 30 agosto.",
+      "free": true,
+      "price": "Ingresso libero",
+      "booking": "Non indicata",
+      "rules": "Consultare il programma ufficiale per le singole serate e per eventuali variazioni meteo.",
+      "transport": "Piazza Visconti, Rho.",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/",
+      "category": "nightlife",
+      "categoryLabel": "Vita notturna"
     }
   ]
 }
