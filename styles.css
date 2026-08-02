@@ -81,10 +81,20 @@ footer { padding: 24px; text-align: center; color: var(--muted); font-size: 12px
   .tab { border: 0; border-radius: 9px; padding: 10px; background: transparent; font-weight: 800; color: var(--muted); }
   .tab.active { background: var(--paper); color: var(--ink); box-shadow: 0 3px 12px rgba(0,0,0,.06); }
   .dashboard-grid { display: block; }
-  .panel { display: none; min-height: auto; }
-  .panel.active-panel { display: block; }
-  #map { height: 68vh; min-height: 470px; }
-  .event-list { max-height: none; }
+  body { overflow-x: hidden; }
+  .filters { max-height: none; gap: 9px; }
+  .filters label { min-width: 0; }
+  .panel { display: block; min-height: auto; overflow: visible; }
+  .calendar-panel { order: 1; }
+  .map-panel { order: 2; display: none; margin-top: 16px; }
+  .map-panel.mobile-map-open { display: block; }
+  .context-panel { order: 3; margin-top: 16px; }
+  .dashboard-grid { display: flex; flex-direction: column; }
+  #map { height: 52vh; min-height: 320px; }
+  .event-list { max-height: none; overflow: visible; padding: 6px 12px 22px; }
+  .event-card { grid-template-columns: 52px minmax(0,1fr); padding: 12px; overflow-wrap: anywhere; }
+  .event-card h3 { font-size: 15px; }
+  .panel-heading { min-height: 68px; padding: 15px 14px; }
   h1 { font-size: 43px; }
   .subtitle { font-size: 14px; }
 }
