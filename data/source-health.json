@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T19:25:50.805908+02:00",
+  "updatedAt": "2026-08-02T19:32:06.165921+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -172,6 +172,19 @@
         {
           "id": "crodo-sentieri",
           "name": "Comune di Crodo",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 1,
+          "failureMessage": null
+        },
+        {
+          "id": "festa-bionde",
+          "name": "Festorum VCO – Festa delle Bionde",
           "fetchStatus": "ok",
           "rawRecordsFound": 1,
           "recordsParsed": 1,
