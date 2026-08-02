@@ -49,7 +49,12 @@ main { max-width: 1500px; margin: 0 auto; padding: 0 34px 40px; }
 .event-list { padding: 6px 18px 22px; max-height: 660px; overflow-y: auto; }
 .day-group { padding-top: 14px; }
 .day-title { position: sticky; top: 0; z-index: 2; margin: 0 0 8px; padding: 9px 2px 8px; background: rgba(255,254,249,.95); backdrop-filter: blur(8px); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; }
-.event-card { display: grid; grid-template-columns: 62px 1fr; gap: 12px; width: 100%; margin: 0 0 10px; padding: 14px; border: 1px solid var(--line); border-radius: 14px; background: white; text-align: left; cursor: pointer; }
+.event-card { position:relative; display: grid; grid-template-columns: 62px 1fr; gap: 12px; width: 100%; margin: 0 0 10px; padding: 14px; border: 1px solid var(--line); border-radius: 14px; background: white; text-align: left; }
+.event-card.has-link { cursor:pointer; }
+.card-link { position:absolute; inset:0; z-index:1; border-radius:inherit; }
+.event-card > span { position:relative; z-index:2; pointer-events:none; }
+.event-card .city-chip, .event-card .series-toggle { position:relative; z-index:3; }
+.card-link:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
 .event-card:hover, .event-card.selected { border-color: var(--accent); transform: translateY(-1px); }
 .event-time { font-weight: 850; font-size: 15px; }
 .event-card h3 { margin: 0 0 5px; font-size: 16px; overflow-wrap:anywhere; }
