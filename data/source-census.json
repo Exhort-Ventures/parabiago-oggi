@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:31:49.809445+02:00",
+  "generatedAt": "2026-08-02T21:47:26.250202+02:00",
   "sources": [
     {
       "area": "parabiago",
@@ -12,7 +12,7 @@
       "acceptedRecords": 0,
       "duplicatesRemoved": 0,
       "zeroResultReason": "no usable future dated records",
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "parabiago",
@@ -25,7 +25,7 @@
       "acceptedRecords": 0,
       "duplicatesRemoved": 0,
       "zeroResultReason": "no usable future dated records",
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "parabiago",
@@ -33,12 +33,12 @@
       "url": "https://www.legnanonews.com/tag/che-fare-nel-weekend/",
       "extractionMethod": "html_cards",
       "paginationChecked": false,
-      "rawRecordsFound": 3,
-      "futureDatedRecordsFound": 3,
-      "acceptedRecords": 2,
+      "rawRecordsFound": 4,
+      "futureDatedRecordsFound": 4,
+      "acceptedRecords": 3,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "parabiago",
@@ -51,7 +51,7 @@
       "acceptedRecords": 5,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "parabiago",
@@ -64,7 +64,7 @@
       "acceptedRecords": 11,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "parabiago",
@@ -77,7 +77,7 @@
       "acceptedRecords": 0,
       "duplicatesRemoved": 0,
       "zeroResultReason": "no usable future dated records",
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "parabiago",
@@ -90,7 +90,7 @@
       "acceptedRecords": 12,
       "duplicatesRemoved": 4,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "parabiago",
@@ -103,7 +103,7 @@
       "acceptedRecords": 0,
       "duplicatesRemoved": 0,
       "zeroResultReason": "no usable future dated records",
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "parabiago",
@@ -116,7 +116,7 @@
       "acceptedRecords": 27,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -129,7 +129,7 @@
       "acceptedRecords": 0,
       "duplicatesRemoved": 0,
       "zeroResultReason": "no usable future dated records",
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -142,7 +142,7 @@
       "acceptedRecords": 0,
       "duplicatesRemoved": 0,
       "zeroResultReason": "no usable future dated records",
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -155,7 +155,7 @@
       "acceptedRecords": 1,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -168,7 +168,7 @@
       "acceptedRecords": 3,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -181,7 +181,7 @@
       "acceptedRecords": 1,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -194,7 +194,7 @@
       "acceptedRecords": 1,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -207,7 +207,7 @@
       "acceptedRecords": 2,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -220,7 +220,7 @@
       "acceptedRecords": 1,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -233,7 +233,7 @@
       "acceptedRecords": 1,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     },
     {
       "area": "ossola",
@@ -246,7 +246,7 @@
       "acceptedRecords": 3,
       "duplicatesRemoved": 0,
       "zeroResultReason": null,
-      "lastCheckedAt": "2026-08-02T21:31:49.809445+02:00"
+      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00"
     }
   ]
 }
