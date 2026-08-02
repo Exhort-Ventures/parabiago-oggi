@@ -1,0 +1,21 @@
+# Source census
+
+- **parabiago · Cheventi Milano** — cheventi; raw 0; accepted 0; ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+- **parabiago · Cheventi Rho** — cheventi; raw 0; accepted 0; ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+- **parabiago · LegnanoNews** — html_cards; raw 3; accepted 2; active
+- **parabiago · Comune di Rho** — jsonld; raw 26; accepted 5; active
+- **parabiago · Comune di Rho programma** — legacy; raw 11; accepted 11; active
+- **parabiago · LegnanoNews – La Bella Estate** — article_dates; raw 1; accepted 0; no usable future dated records
+- **parabiago · VareseNews – JAZZaltro** — article_dates; raw 25; accepted 12; active
+- **parabiago · Comune di Busto Arsizio – BA Estate** — article_dates; raw 7; accepted 0; no usable future dated records
+- **parabiago · Comune di Busto Arsizio – BA Estate PDF** — ba_estate_pdf; raw 31; accepted 27; active
+- **ossola · VisitOssola** — visitossola; raw 0; accepted 0; no usable future dated records
+- **ossola · OssolaNews** — html_cards; raw 0; accepted 0; no usable future dated records
+- **ossola · Unione Montana Alta Ossola** — curated; raw 1; accepted 1; active
+- **ossola · OssolaNews – Cinema sotto le stelle** — curated; raw 3; accepted 3; active
+- **ossola · OssolaNews – Ossola Guitar Festival** — curated; raw 1; accepted 1; active
+- **ossola · Formazza Country Festival** — curated; raw 1; accepted 1; active
+- **ossola · Festorum VCO** — curated; raw 2; accepted 2; active
+- **ossola · Comune di Crodo** — curated; raw 1; accepted 1; active
+- **ossola · Festorum VCO – Festa delle Bionde** — curated; raw 1; accepted 1; active
+- **ossola · Distretto Turistico dei Laghi – Tones Teatro Natura** — article_dates; raw 7; accepted 3; active

@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-08-02T21:06:25.216483+02:00",
+  "generatedAt": "2026-08-02T21:27:38.372846+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 25,
-      "distinctEventSeries": 15,
+      "totalFutureDateRecords": 57,
+      "distinctEventSeries": 47,
       "representedTowns": [
+        "Busto Arsizio",
         "Legnano",
         "Rho"
       ],
       "representedCategories": [
+        "festivals",
+        "food",
         "music",
         "nightlife",
         "other"
@@ -21,30 +24,30 @@
         "Cheventi Milano": 0,
         "Cheventi Rho": 0,
         "LegnanoNews": 2,
-        "Comune di Rho": 1,
+        "Comune di Rho": 5,
         "Comune di Rho programma": 11,
         "LegnanoNews – La Bella Estate": 0,
-        "VareseNews – JAZZaltro": 11,
-        "Comune di Busto Arsizio – BA Estate": 0
+        "VareseNews – JAZZaltro": 12,
+        "Comune di Busto Arsizio – BA Estate": 0,
+        "Comune di Busto Arsizio – BA Estate PDF": 27
       },
       "zeroResultSources": [
-        "Cheventi Milano",
-        "Cheventi Rho",
         "LegnanoNews – La Bella Estate",
         "Comune di Busto Arsizio – BA Estate"
       ],
-      "failedSources": [],
+      "failedSources": [
+        "Cheventi Milano",
+        "Cheventi Rho"
+      ],
       "oldestEventDate": "2026-07-31T00:00:00+02:00",
-      "newestEventDate": "2026-08-30T20:30:00+02:00",
-      "largestProgrammeShare": 0.44,
+      "newestEventDate": "2026-10-09T00:00:00+02:00",
+      "largestProgrammeShare": 0.193,
       "eventsExpiringNext7Days": 1,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 26,
-        "change": -1
+        "previousCount": 57,
+        "change": 0
       },
-      "warnings": [
-        "WARNING: one programme exceeds 40% of dates"
-      ]
+      "warnings": []
     },
     "ossola": {
       "totalFutureDateRecords": 13,

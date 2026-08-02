@@ -2,10 +2,10 @@
 
 ## parabiago
 
-- Records: 25
-- Series: 15
-- Towns: Legnano, Rho
-- Warnings: WARNING: one programme exceeds 40% of dates
+- Records: 57
+- Series: 47
+- Towns: Busto Arsizio, Legnano, Rho
+- Warnings: none
 
 ## ossola
 
