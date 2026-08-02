@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T19:42:38.385566+02:00",
+  "generatedAt": "2026-08-02T19:39:33.533752+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 26,
@@ -7,6 +7,15 @@
       "representedTowns": [
         "Legnano",
         "Rho"
+      ],
+      "representedCategories": [
+        "music",
+        "nightlife",
+        "other"
+      ],
+      "representedSourceFamilies": [
+        "local_media",
+        "official"
       ],
       "acceptedRecordsBySource": {
         "Cheventi Milano": 0,
@@ -25,8 +34,17 @@
         "Comune di Busto Arsizio – BA Estate"
       ],
       "failedSources": [],
-      "warnings": [],
-      "largestProgrammeShare": 0.423
+      "oldestEventDate": "2026-08-02T19:39:33.533752+02:00",
+      "newestEventDate": "2026-08-30T20:30:00+02:00",
+      "largestProgrammeShare": 0.423,
+      "eventsExpiringNext7Days": 1,
+      "comparisonWithPreviousSuccessfulRefresh": {
+        "previousCount": 26,
+        "change": 0
+      },
+      "warnings": [
+        "WARNING: one programme exceeds 40% of dates"
+      ]
     },
     "ossola": {
       "totalFutureDateRecords": 13,
@@ -40,6 +58,20 @@
         "Masera",
         "Montecrestese",
         "Oira"
+      ],
+      "representedCategories": [
+        "cinema",
+        "culture",
+        "festivals",
+        "food",
+        "music"
+      ],
+      "representedSourceFamilies": [
+        "aggregator",
+        "local_media",
+        "official",
+        "organiser",
+        "tourism"
       ],
       "acceptedRecordsBySource": {
         "VisitOssola": 0,
@@ -58,8 +90,15 @@
         "OssolaNews"
       ],
       "failedSources": [],
-      "warnings": [],
-      "largestProgrammeShare": 0.077
+      "oldestEventDate": "2026-08-02T19:39:33.533752+02:00",
+      "newestEventDate": "2026-09-11T18:00:00+02:00",
+      "largestProgrammeShare": 0.077,
+      "eventsExpiringNext7Days": 2,
+      "comparisonWithPreviousSuccessfulRefresh": {
+        "previousCount": 13,
+        "change": 0
+      },
+      "warnings": []
     }
   }
 }
