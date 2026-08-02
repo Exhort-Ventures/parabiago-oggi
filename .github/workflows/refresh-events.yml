@@ -35,34 +35,32 @@ jobs:
           set -o pipefail
           python scripts/refresh_events.py 2>&1 | tee data/refresh-report.txt
 
+      - name: Run deterministic tests
+        run: pytest -q
+
       - name: Validate output
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
 
-          data = json.loads(Path("data/events.json").read_text())
-          report = Path("data/refresh-report.txt").read_text()
-
-          assert data.get("mode") == "live", "Output is not live"
-          assert isinstance(data.get("events"), list), "Events must be a list"
-
-          if "DEGRADED REFRESH" not in report:
-              assert data.get("radiusKm") == 45, "New output is not using the 45 km radius"
-              assert len(data["events"]) >= 10, "New output contains fewer than 10 events"
-
-          print(report)
-          print(f"Stored dataset: {len(data['events'])} events; radius={data.get('radiusKm')} km")
+          index = json.loads(Path("data/areas.json").read_text())
+          assert {a["id"] for a in index["areas"]} == {"parabiago", "ossola"}
+          for area in index["areas"]:
+              data = json.loads(Path(f"data/areas/{area['id']}.json").read_text())
+              assert data["area"]["radiusKm"] in (45, 30)
+              assert all(e["distanceKm"] <= data["area"]["radiusKm"] for e in data["events"])
+          print(Path("data/refresh-report.txt").read_text())
           PY
 
       - name: Commit refreshed data and diagnostics
         run: |
-          if git diff --quiet -- data/events.json data/geocode-cache.json data/refresh-report.txt; then
+          if git diff --quiet -- data/areas.json data/areas data/source-health.json data/refresh-report.txt; then
             echo "No event-data changes"
             exit 0
           fi
           git config user.name "parabiago-oggi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/events.json data/geocode-cache.json data/refresh-report.txt
+          git add data/areas.json data/areas data/source-health.json data/refresh-report.txt
           git commit -m "Refresh live events"
           git push

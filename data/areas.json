@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-08-02T19:15:37.018630+02:00",
+  "areas": [
+    {
+      "id": "parabiago",
+      "displayName": "Parabiago / Alto Milanese",
+      "centreName": "Parabiago",
+      "latitude": 45.554,
+      "longitude": 8.946,
+      "radiusKm": 45,
+      "horizonDays": 30,
+      "defaultLanguage": "it",
+      "eventCount": 15,
+      "updatedAt": "2026-08-02T19:15:37.018630+02:00"
+    },
+    {
+      "id": "ossola",
+      "displayName": "Cravegna / Valle d’Ossola",
+      "centreName": "Cravegna (Crodo)",
+      "latitude": 46.2296,
+      "longitude": 8.3233,
+      "radiusKm": 30,
+      "horizonDays": 90,
+      "defaultLanguage": "it",
+      "eventCount": 9,
+      "updatedAt": "2026-08-02T19:15:37.018630+02:00"
+    }
+  ]
+}
