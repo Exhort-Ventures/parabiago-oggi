@@ -9,7 +9,7 @@
     "horizonDays": 90,
     "defaultLanguage": "it"
   },
-  "updatedAt": "2026-08-02T21:47:26.250202+02:00",
+  "updatedAt": "2026-08-02T22:42:29.612498+02:00",
   "eventCount": 13,
   "events": [
     {
@@ -34,7 +34,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 69.2,
@@ -63,7 +63,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 57.2,
@@ -92,7 +92,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 56.7,
@@ -121,7 +121,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 55.8,
@@ -150,7 +150,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 52.1,
@@ -179,7 +179,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 51.5,
@@ -208,7 +208,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 49.5,
@@ -237,7 +237,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 49.5,
@@ -266,7 +266,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 49.5,
@@ -295,7 +295,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 45.9,
@@ -324,7 +324,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 29.9,
@@ -353,7 +353,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 29.9,
@@ -382,7 +382,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-02T21:47:26.250202+02:00",
+      "lastCheckedAt": "2026-08-02T22:42:29.612498+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 29.9,
@@ -537,7 +537,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "c0e4017fdb87b82f",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.2227,
         8.3238
@@ -552,7 +552,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "2a9b5c57763d7036",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.114,
         8.293
@@ -567,7 +567,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "b53084980dbd4c51",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.114,
         8.293
@@ -582,7 +582,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "ef3556446f6cdd2e",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.114,
         8.293
@@ -597,7 +597,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "7dcf936b3191a563",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.149,
         8.306
@@ -612,7 +612,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "8577de85ace9e37b",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.376,
         8.432
@@ -627,7 +627,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "72fa15d12bc78a58",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.165,
         8.326
@@ -642,7 +642,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "3d8367fd65f93197",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.132,
         8.328
@@ -657,7 +657,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "182497d0426f5bd8",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.2227,
         8.3238
@@ -672,7 +672,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "f8675b8452bc5e62",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.261,
         8.319
@@ -687,7 +687,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "1ee7532bb119888c",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.155,
         8.302
@@ -702,7 +702,7 @@
       "area": "ossola",
       "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.155,
         8.302
@@ -717,7 +717,7 @@
       "area": "ossola",
       "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.155,
         8.302
@@ -732,7 +732,7 @@
       "area": "ossola",
       "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.155,
         8.302
@@ -747,7 +747,7 @@
       "area": "ossola",
       "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.155,
         8.302
@@ -762,7 +762,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "1ee7532bb119888c",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.155,
         8.302
@@ -777,7 +777,7 @@
       "area": "ossola",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "1ee7532bb119888c",
-      "outputFile": "/Users/fed/Exhort/exhort-os/parabiago-oggi/data/areas/ossola.json",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.155,
         8.302
