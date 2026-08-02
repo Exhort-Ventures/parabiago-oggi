@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-08-02T15:49:02.113461+00:00",
+  "updatedAt": "2026-08-02T16:00:52.129824+00:00",
   "mode": "live",
   "radiusKm": 20,
   "horizonDays": 30,
-  "eventCount": 0,
-  "events": [],
+  "eventCount": 1,
+  "events": [
+    {
+      "title": "Agosto in piazza",
+      "start": "2026-08-03T20:30:00+02:00",
+      "end": "2026-08-30T23:30:00+02:00",
+      "venue": "Piazza Visconti",
+      "city": "Rho",
+      "description": "Programma estivo serale con serate danzanti e attività in piazza fino al 30 agosto.",
+      "free": true,
+      "price": "Ingresso libero",
+      "booking": "Non indicata",
+      "rules": "Consultare il programma ufficiale per le singole serate e per eventuali variazioni meteo.",
+      "transport": "Piazza Visconti, Rho.",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/",
+      "category": "nightlife",
+      "categoryLabel": "Vita notturna",
+      "id": "519febcbac4878",
+      "lat": 45.5285549,
+      "lng": 9.039784,
+      "distanceKm": 7.8,
+      "verifiedAt": "2026-08-02",
+      "verificationStatus": "Fonte ufficiale"
+    }
+  ],
   "sourceHealth": {
+    "sourceCounts": {
+      "Comune di Parabiago": 0,
+      "Comune di Nerviano": 0,
+      "Città di Legnano": 0,
+      "Comune di Rho": 21
+    },
     "failures": []
   }
 }
