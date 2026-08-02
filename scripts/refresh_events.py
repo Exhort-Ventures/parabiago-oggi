@@ -93,6 +93,14 @@ def visitossola(source,now):
  return out
 def curated(source,now):
  return source.get('records',[])
+def article_dates(source,now):
+ """Extract dated programme entries from a public article/PDF landing page."""
+ soup=BeautifulSoup(S.get(source['url'],timeout=30).text,'html.parser'); text=clean(soup.get_text(' ',strip=True)); title=clean((soup.select_one('h1') or soup.title).get_text(' ',strip=True))
+ out=[]
+ for match in re.finditer(r'(?:dal\s+)?\d{1,2}\s*(?:[-–]|al)?\s*\d{0,2}\s*(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+2026',text,re.I):
+  start,end=date_it(match.group(0),now)
+  if start: out.append({'name':title,'start':start.isoformat(),'end':end.isoformat() if end else None,'location':source.get('city',source['name']),'description':text[:850],'url':source['url']})
+ return out
 def legacy(source,now):
  try:
   old=json.loads((ROOT/'data/events.json').read_text()).get('events',[])
@@ -104,6 +112,7 @@ def collect_source(source,now):
  if source['adapter']=='visitossola':return visitossola(source,now)
  if source['adapter']=='curated':return curated(source,now)
  if source['adapter']=='legacy':return legacy(source,now)
+ if source['adapter']=='article_dates':return article_dates(source,now)
  return html_cards(source,now)
 def duplicate(a,b): return abs((iso_dt(a['start'],datetime.now(TZ))-iso_dt(b['start'],datetime.now(TZ))).total_seconds())<4*3600 and SequenceMatcher(None,norm(a['title']),norm(b['title'])).ratio()>.78 and dist(a['latitude'],a['longitude'],b['latitude'],b['longitude'])<2
 def rank(e,now):
@@ -129,6 +138,9 @@ def refresh(area,now):
    if not e:rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
    end=iso_dt(e['end'],now) if e['end'] else iso_dt(e['start'],now)
    if end < now or iso_dt(e['start'],now)>now+timedelta(days=area['horizonDays']):rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
+   # An ongoing multi-day programme belongs at the current point in the agenda,
+   # not beneath a historical start-date heading.
+   if iso_dt(e['start'],now) < now: e['start']=now.isoformat()
    if e['distanceKm']>area['radiusKm']:rejected['radius']+=1;report['recordsRejectedByRadius']+=1;continue
    match=next((x for x in raw if duplicate(e,x)),None)
    if match:
