@@ -38,10 +38,23 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          data = json.loads(Path('data/events.json').read_text())
-          assert data.get('mode') == 'live'
-          assert isinstance(data.get('events'), list)
-          print(f"Validated {len(data['events'])} live events")
+
+          data = json.loads(Path("data/events.json").read_text())
+          assert data.get("mode") == "live", "Output is not in live mode"
+          assert data.get("radiusKm") == 45, "Radius is not set to 45 km"
+
+          events = data.get("events")
+          assert isinstance(events, list), "Events must be a list"
+          assert len(events) >= 10, f"Coverage failure: only {len(events)} events were produced"
+
+          for event in events:
+              assert event.get("title"), "Event missing title"
+              assert event.get("start"), "Event missing start date"
+              assert event.get("sourceUrl"), "Event missing source URL"
+              assert event.get("distanceKm") is not None, "Event missing distance"
+              assert event["distanceKm"] <= 45, f"Event outside radius: {event['title']}"
+
+          print(f"Validated {len(events)} live events within a {data['radiusKm']} km radius")
           PY
 
       - name: Commit refreshed data
