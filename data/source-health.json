@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T19:32:06.165921+02:00",
+  "updatedAt": "2026-08-02T19:34:12.731083+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -67,13 +67,39 @@
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 11,
           "failureMessage": null
+        },
+        {
+          "id": "legnano-bella-estate",
+          "name": "LegnanoNews – La Bella Estate",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
+          "recordsRejectedByDate": 1,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 0,
+          "failureMessage": null
+        },
+        {
+          "id": "jazzaltro",
+          "name": "VareseNews – JAZZaltro",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 20,
+          "recordsParsed": 20,
+          "recordsRejectedByDate": 5,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 4,
+          "acceptedRecords": 11,
+          "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 27,
+        "date": 33,
         "location": 0,
         "radius": 0,
-        "duplicate": 0
+        "duplicate": 4
       }
     },
     "ossola": {
