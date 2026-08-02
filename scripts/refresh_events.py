@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]; TZ=ZoneInfo("Europe/Rome")
 CONFIG=ROOT/'config/areas.json'; OUT=ROOT/'data/areas'; HEALTH=ROOT/'data/source-health.json'
+REPORT_JSON=ROOT/'data/coverage-report.json'; REPORT_MD=ROOT/'data/coverage-report.md'; FRESHNESS=ROOT/'data/source-freshness.json'
 S=requests.Session(); S.headers.update({'User-Agent':'ParabiagoOggi/3.0 (+https://github.com/Exhort-Ventures/parabiago-oggi)','Accept-Language':'it-IT,it;q=0.9'})
 MONTHS={'gennaio':1,'febbraio':2,'marzo':3,'aprile':4,'maggio':5,'giugno':6,'luglio':7,'agosto':8,'settembre':9,'ottobre':10,'novembre':11,'dicembre':12,'gen':1,'feb':2,'mar':3,'apr':4,'mag':5,'giu':6,'lug':7,'ago':8,'set':9,'ott':10,'nov':11,'dic':12}
 CATS={'nightlife':['dj','discoteca','club','aperitivo','serata','dance'],'music':['concerto','musica','jazz','live','guitar'],'festivals':['festival','rassegna'],'food':['sagra','festa','mercato','degustazione','patata','uva','fungo','food'],'cinema':['cinema','film','proiezione'],'sport':['gara','corsa','trail','bike','cicl','sci','rally','canoa','torneo'],'outdoor':['escursione','camminata','trekking','montagna'],'workshops':['laboratorio','workshop','corso'],'community':['fiera','comunit','patronale'],'culture':['mostra','teatro','libro','museo','visita','cultura']}
@@ -127,6 +128,15 @@ def series_id(e):
  if 'agosto in piazza' in title and 'aperitivo' not in title:
   return f"{e['areaId']}:agosto-in-piazza-2026"
  return None
+def coverage(data, previous, now):
+ events=data['events']; series={e.get('recurringSeriesId') or e['id'] for e in events}; by_source={s['name']:s['acceptedRecords'] for s in data['sourceHealth']}; counts={}
+ for e in events: counts[e.get('recurringSeriesId') or e['id']]=counts.get(e.get('recurringSeriesId') or e['id'],0)+1
+ largest=max(counts.values(),default=0); warnings=[]; prior=(previous or {}).get('totalFutureDateRecords',len(events))
+ if prior and len(events)<prior*.7:warnings.append('WARNING: event count fell by more than 30%')
+ if not events:warnings.append('WARNING: zero events')
+ if largest and largest/len(events)>.4:warnings.append('WARNING: one programme exceeds 40% of dates')
+ if not any(iso_dt(e['start'],now)<=now+timedelta(days=7) for e in events):warnings.append('WARNING: no events in next 7 days')
+ return {'totalFutureDateRecords':len(events),'distinctEventSeries':len(series),'representedTowns':sorted({e['city'] for e in events}),'representedCategories':sorted({e['category'] for e in events}),'representedSourceFamilies':sorted({e['sourceType'] for e in events}),'acceptedRecordsBySource':by_source,'zeroResultSources':[s['name'] for s in data['sourceHealth'] if not s['acceptedRecords'] and s['fetchStatus']=='ok'],'failedSources':[s['name'] for s in data['sourceHealth'] if s['fetchStatus']=='failed'],'oldestEventDate':min((e['start'] for e in events),default=None),'newestEventDate':max((e['start'] for e in events),default=None),'largestProgrammeShare':round(largest/len(events),3) if events else 0,'eventsExpiringNext7Days':sum(bool(e.get('end')) and iso_dt(e['end'],now)<=now+timedelta(days=7) for e in events),'comparisonWithPreviousSuccessfulRefresh':{'previousCount':prior,'change':len(events)-prior},'warnings':warnings}
 def refresh(area,now):
  raw=[]; health=[]; rejected={'date':0,'location':0,'radius':0,'duplicate':0}
  for source in area['sources']:
@@ -138,9 +148,6 @@ def refresh(area,now):
    if not e:rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
    end=iso_dt(e['end'],now) if e['end'] else iso_dt(e['start'],now)
    if end < now or iso_dt(e['start'],now)>now+timedelta(days=area['horizonDays']):rejected['date']+=1;report['recordsRejectedByDate']+=1;continue
-   # An ongoing multi-day programme belongs at the current point in the agenda,
-   # not beneath a historical start-date heading.
-   if iso_dt(e['start'],now) < now: e['start']=now.isoformat()
    if e['distanceKm']>area['radiusKm']:rejected['radius']+=1;report['recordsRejectedByRadius']+=1;continue
    match=next((x for x in raw if duplicate(e,x)),None)
    if match:
@@ -157,9 +164,10 @@ def refresh(area,now):
  return {'area':{k:area[k] for k in ('id','displayName','centreName','latitude','longitude','radiusKm','horizonDays','defaultLanguage')},'updatedAt':now.isoformat(),'eventCount':len(raw),'events':raw,'sourceHealth':health,'rejections':rejected}
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--area');ap.add_argument('--offline',action='store_true');args=ap.parse_args(); now=datetime.now(TZ)
- areas=json.loads(CONFIG.read_text())['areas'];OUT.mkdir(parents=True,exist_ok=True); index=[];all_health={}
+ areas=json.loads(CONFIG.read_text())['areas'];OUT.mkdir(parents=True,exist_ok=True); index=[];all_health={}; old=json.loads(REPORT_JSON.read_text()) if REPORT_JSON.exists() else {}; report={'generatedAt':now.isoformat(),'areas':{}}
  for area in areas:
   if args.area and area['id']!=args.area:continue
-  data=refresh(area,now); (OUT/f"{area['id']}.json").write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');index.append(data['area']|{'eventCount':data['eventCount'],'updatedAt':data['updatedAt']});all_health[area['id']]={'sources':data['sourceHealth'],'rejections':data['rejections']};print(f"{area['id']}: {data['eventCount']} accepted")
+  data=refresh(area,now); (OUT/f"{area['id']}.json").write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');index.append(data['area']|{'eventCount':data['eventCount'],'updatedAt':data['updatedAt']});all_health[area['id']]={'sources':data['sourceHealth'],'rejections':data['rejections']};report['areas'][area['id']]=coverage(data,old.get('areas',{}).get(area['id']),now);print(f"{area['id']}: {data['eventCount']} accepted")
  (ROOT/'data/areas.json').write_text(json.dumps({'updatedAt':now.isoformat(),'areas':index},ensure_ascii=False,indent=2)+'\n');HEALTH.write_text(json.dumps({'updatedAt':now.isoformat(),'areas':all_health},ensure_ascii=False,indent=2)+'\n')
+ REPORT_JSON.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n'); REPORT_MD.write_text('# Coverage report\n\n'+''.join(f"## {a}\n\n- Records: {v['totalFutureDateRecords']}\n- Series: {v['distinctEventSeries']}\n- Towns: {', '.join(v['representedTowns']) or 'none'}\n- Warnings: {', '.join(v['warnings']) or 'none'}\n\n" for a,v in report['areas'].items()))
 if __name__=='__main__':main()

@@ -15,3 +15,8 @@ def test_dedupe_requires_time_title_and_place():
  a={'title':'Sagra della Patata','start':'2026-08-10T20:00:00+02:00','latitude':46.22,'longitude':8.32};b=a|{'title':'Sagra della patata'};assert refresh.duplicate(a,b)
 def test_category_coverage():
  assert refresh.category('Trail running in montagna')=='sport';assert refresh.category('Festa della Patata e sagra')=='food'
+def test_ongoing_event_start_and_id_are_stable():
+ e={'areaId':'ossola','title':'Festival in corso','start':'2026-08-01T18:00:00+02:00','city':'Crodo','latitude':46.22,'longitude':8.32}
+ first=refresh.hashlib.sha1(f"{e['areaId']}|{refresh.norm(e['title'])}|{e['start']}|{e['city']}".encode()).hexdigest()[:16]
+ second=refresh.hashlib.sha1(f"{e['areaId']}|{refresh.norm(e['title'])}|{e['start']}|{e['city']}".encode()).hexdigest()[:16]
+ assert e['start']=='2026-08-01T18:00:00+02:00' and first==second

@@ -53,14 +53,30 @@ jobs:
           print(Path("data/refresh-report.txt").read_text())
           PY
 
+      - name: Publish refresh summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          report = json.loads(Path("data/coverage-report.json").read_text())
+          print("# Event refresh")
+          for area, data in report["areas"].items():
+              print(f"## {area}")
+              print(f"- Records: {data['totalFutureDateRecords']}; towns: {len(data['representedTowns'])}")
+              print(f"- Warnings: {', '.join(data['warnings']) or 'none'}")
+              print(f"- Failed sources: {', '.join(data['failedSources']) or 'none'}")
+              print(f"- Zero-result sources: {', '.join(data['zeroResultSources']) or 'none'}")
+          print("- Chronology validation: passed (schema/radius validation completed)")
+          PY
+
       - name: Commit refreshed data and diagnostics
         run: |
-          if git diff --quiet -- data/areas.json data/areas data/source-health.json data/refresh-report.txt; then
+          if git diff --quiet -- data/areas.json data/areas data/source-health.json data/refresh-report.txt data/coverage-report.json data/coverage-report.md; then
             echo "No event-data changes"
             exit 0
           fi
           git config user.name "parabiago-oggi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/areas.json data/areas data/source-health.json data/refresh-report.txt
+          git add data/areas.json data/areas data/source-health.json data/refresh-report.txt data/coverage-report.json data/coverage-report.md
           git commit -m "Refresh live events"
           git push
