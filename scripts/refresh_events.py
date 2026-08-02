@@ -91,10 +91,19 @@ def visitossola(source,now):
   start,end=date_it(clean(item['title']),now)
   if start:out.append({'name':clean(item['title']),'start':start.isoformat(),'end':end.isoformat() if end else None,'location':item.get('geo',[{}])[0].get('title','Domodossola'),'description':item.get('abstract',''),'url':item['link'],'image':item.get('background')})
  return out
+def curated(source,now):
+ return source.get('records',[])
+def legacy(source,now):
+ try:
+  old=json.loads((ROOT/'data/events.json').read_text()).get('events',[])
+  return [{'name':x['title'],'start':x['start'],'end':x.get('end'),'location':x.get('city'),'description':x.get('description',''),'url':x.get('sourceUrl'),'isAccessibleForFree':x.get('free'),'priceText':x.get('price')} for x in old]
+ except FileNotFoundError:return []
 def collect_source(source,now):
  if source['adapter']=='jsonld':return jsonld(source,now)
  if source['adapter']=='cheventi':return cheventi(source,now)
  if source['adapter']=='visitossola':return visitossola(source,now)
+ if source['adapter']=='curated':return curated(source,now)
+ if source['adapter']=='legacy':return legacy(source,now)
  return html_cards(source,now)
 def duplicate(a,b): return abs((iso_dt(a['start'],datetime.now(TZ))-iso_dt(b['start'],datetime.now(TZ))).total_seconds())<4*3600 and SequenceMatcher(None,norm(a['title']),norm(b['title'])).ratio()>.78 and dist(a['latitude'],a['longitude'],b['latitude'],b['longitude'])<2
 def rank(e,now):

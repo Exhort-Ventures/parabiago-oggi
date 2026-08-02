@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T19:08:56.289084+02:00",
+  "updatedAt": "2026-08-02T19:15:37.018630+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -54,6 +54,19 @@
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 1,
           "failureMessage": null
+        },
+        {
+          "id": "rho-programme",
+          "name": "Comune di Rho programma",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 11,
+          "recordsParsed": 11,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 11,
+          "failureMessage": null
         }
       ],
       "rejections": {
@@ -89,6 +102,84 @@
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
+          "failureMessage": null
+        },
+        {
+          "id": "alta-ossola",
+          "name": "Unione Montana Alta Ossola",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 1,
+          "failureMessage": null
+        },
+        {
+          "id": "ossolanews-cinema",
+          "name": "OssolaNews – Cinema sotto le stelle",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 3,
+          "recordsParsed": 3,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 3,
+          "failureMessage": null
+        },
+        {
+          "id": "ossolanews-guitar",
+          "name": "OssolaNews – Ossola Guitar Festival",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 1,
+          "failureMessage": null
+        },
+        {
+          "id": "festival-formazza",
+          "name": "Formazza Country Festival",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 1,
+          "failureMessage": null
+        },
+        {
+          "id": "festorum-ossola",
+          "name": "Festorum VCO",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 2,
+          "recordsParsed": 2,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 2,
+          "failureMessage": null
+        },
+        {
+          "id": "crodo-sentieri",
+          "name": "Comune di Crodo",
+          "fetchStatus": "ok",
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
+          "recordsRejectedByDate": 0,
+          "recordsRejectedByLocation": 0,
+          "recordsRejectedByRadius": 0,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 1,
           "failureMessage": null
         }
       ],
