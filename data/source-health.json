@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T22:42:29.612498+02:00",
+  "updatedAt": "2026-08-03T10:43:03.350179+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 1,
-          "recordsParsed": 1,
-          "recordsRejectedByDate": 1,
+          "rawRecordsFound": 9,
+          "recordsParsed": 9,
+          "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
+          "acceptedRecords": 6,
           "failureMessage": null
         },
         {
@@ -33,22 +33,22 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 3,
-          "recordsParsed": 3,
+          "rawRecordsFound": 4,
+          "recordsParsed": 4,
           "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 2,
+          "acceptedRecords": 3,
           "failureMessage": null
         },
         {
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 26,
-          "recordsParsed": 26,
-          "recordsRejectedByDate": 21,
+          "rawRecordsFound": 24,
+          "recordsParsed": 24,
+          "recordsRejectedByDate": 19,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -85,9 +85,9 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 25,
-          "recordsParsed": 25,
-          "recordsRejectedByDate": 9,
+          "rawRecordsFound": 20,
+          "recordsParsed": 20,
+          "recordsRejectedByDate": 4,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 4,
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 44,
+        "date": 39,
         "location": 0,
         "radius": 0,
         "duplicate": 4
@@ -240,11 +240,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 1,
           "recordsParsed": 1,
-          "recordsRejectedByDate": 0,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 0,
           "failureMessage": null
         },
         {
@@ -253,16 +253,16 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 7,
           "recordsParsed": 7,
-          "recordsRejectedByDate": 4,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 3,
+          "acceptedRecords": 2,
           "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 4,
+        "date": 6,
         "location": 0,
         "radius": 0,
         "duplicate": 0

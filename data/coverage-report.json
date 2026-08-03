@@ -1,12 +1,15 @@
 {
-  "generatedAt": "2026-08-02T22:42:29.612498+02:00",
+  "generatedAt": "2026-08-03T10:43:03.350179+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 57,
-      "distinctEventSeries": 47,
+      "totalFutureDateRecords": 64,
+      "distinctEventSeries": 54,
       "representedTowns": [
+        "Buccinasco",
         "Busto Arsizio",
         "Legnano",
+        "Milano",
+        "Paderno Dugnano",
         "Rho"
       ],
       "representedCategories": [
@@ -17,13 +20,14 @@
         "other"
       ],
       "representedSourceFamilies": [
+        "aggregator",
         "local_media",
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 0,
+        "Cheventi Milano": 6,
         "Cheventi Rho": 0,
-        "LegnanoNews": 2,
+        "LegnanoNews": 3,
         "Comune di Rho": 5,
         "Comune di Rho programma": 11,
         "LegnanoNews – La Bella Estate": 0,
@@ -32,7 +36,6 @@
         "Comune di Busto Arsizio – BA Estate PDF": 27
       },
       "zeroResultSources": [
-        "Cheventi Milano",
         "Cheventi Rho",
         "LegnanoNews – La Bella Estate",
         "Comune di Busto Arsizio – BA Estate"
@@ -40,19 +43,18 @@
       "failedSources": [],
       "oldestEventDate": "2026-07-31T02:00:00+02:00",
       "newestEventDate": "2026-10-09T00:00:00+02:00",
-      "largestProgrammeShare": 0.193,
+      "largestProgrammeShare": 0.172,
       "eventsExpiringNext7Days": 1,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 58,
-        "change": -1
+        "previousCount": 57,
+        "change": 7
       },
       "warnings": []
     },
     "ossola": {
-      "totalFutureDateRecords": 13,
-      "distinctEventSeries": 13,
+      "totalFutureDateRecords": 11,
+      "distinctEventSeries": 11,
       "representedTowns": [
-        "Baceno",
         "Crevoladossola",
         "Crodo",
         "Domodossola",
@@ -84,21 +86,22 @@
         "Formazza Country Festival": 1,
         "Festorum VCO": 2,
         "Comune di Crodo": 1,
-        "Festorum VCO – Festa delle Bionde": 1,
-        "Distretto Turistico dei Laghi – Tones Teatro Natura": 3
+        "Festorum VCO – Festa delle Bionde": 0,
+        "Distretto Turistico dei Laghi – Tones Teatro Natura": 2
       },
       "zeroResultSources": [
         "VisitOssola",
-        "OssolaNews"
+        "OssolaNews",
+        "Festorum VCO – Festa delle Bionde"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-07-30T18:00:00+02:00",
+      "oldestEventDate": "2026-08-02T09:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
-      "largestProgrammeShare": 0.077,
-      "eventsExpiringNext7Days": 2,
+      "largestProgrammeShare": 0.091,
+      "eventsExpiringNext7Days": 0,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 13,
-        "change": 0
+        "change": -2
       },
       "warnings": []
     }
