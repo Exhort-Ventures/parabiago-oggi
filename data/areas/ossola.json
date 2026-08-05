@@ -9,8 +9,8 @@
     "horizonDays": 90,
     "defaultLanguage": "it"
   },
-  "updatedAt": "2026-08-05T09:49:26.442143+02:00",
-  "eventCount": 10,
+  "updatedAt": "2026-08-05T20:52:00.698312+02:00",
+  "eventCount": 8,
   "events": [
     {
       "title": "Sbrinz-Route – Festa dei Someggiatori",
@@ -34,7 +34,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
+      "lastCheckedAt": "2026-08-05T20:52:00.698312+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 69.2,
@@ -63,7 +63,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
+      "lastCheckedAt": "2026-08-05T20:52:00.698312+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 57.2,
@@ -92,7 +92,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
+      "lastCheckedAt": "2026-08-05T20:52:00.698312+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 56.7,
@@ -121,7 +121,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
+      "lastCheckedAt": "2026-08-05T20:52:00.698312+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 55.8,
@@ -150,70 +150,12 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
+      "lastCheckedAt": "2026-08-05T20:52:00.698312+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 52.1,
       "recurringSeriesId": null,
       "id": "3d8367fd65f93197"
-    },
-    {
-      "title": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026",
-      "start": "2026-09-05T00:00:00+02:00",
-      "end": "2026-09-06T23:59:00+02:00",
-      "venue": "Oira",
-      "address": "",
-      "city": "Oira",
-      "latitude": 46.155,
-      "longitude": 8.302,
-      "distanceKm": 8.5,
-      "category": "culture",
-      "categoryLabel": "Cultura",
-      "description": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026 | Distretto dei Laghi Salta al contenuto principale Navigazione principale Esplora la destinazione Esperienze Outdoor & Natura Arte, Cultura & Fede Benessere Enogastronomia Ospitalità Eventi Webcams E-books it en fr de Seguici sui nostri canali social Facebook Instagram Youtube Spreaker Cerca Cerca Cerca Cerca User profile it en fr de Eventi Briciole di pane Home Eventi CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026 Show theater masks Arte, Cultura e Fede 26 Giu - 6 Set CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026 Condividi 0 La nuova Stagione 2026 è in arrivo.... Dal 26 giugno al 6 settembre 2026 il Tones Teatro Natura vi aspetta per festeggiare insieme la ventesima estate di spettacoli, festival e visioni. Vent’anni fa nasceva un progetto capace di trasformare una cava i",
-      "free": null,
-      "priceText": "",
-      "bookingUrl": "https://www.distrettolaghi.it/it/eventi/crevoladossola-fraz-oira-tones-teatro-natura-2026",
-      "sourceName": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "sourceUrl": "https://www.distrettolaghi.it/it/eventi/crevoladossola-fraz-oira-tones-teatro-natura-2026",
-      "sourceType": "tourism",
-      "confidence": "Confermato",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
-      "areaId": "ossola",
-      "locationPrecision": "town",
-      "rankingScore": 49.5,
-      "recurringSeriesId": null,
-      "id": "6cfe0cb2f7d5bdfc"
-    },
-    {
-      "title": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026",
-      "start": "2026-09-06T00:00:00+02:00",
-      "end": null,
-      "venue": "Oira",
-      "address": "",
-      "city": "Oira",
-      "latitude": 46.155,
-      "longitude": 8.302,
-      "distanceKm": 8.5,
-      "category": "culture",
-      "categoryLabel": "Cultura",
-      "description": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026 | Distretto dei Laghi Salta al contenuto principale Navigazione principale Esplora la destinazione Esperienze Outdoor & Natura Arte, Cultura & Fede Benessere Enogastronomia Ospitalità Eventi Webcams E-books it en fr de Seguici sui nostri canali social Facebook Instagram Youtube Spreaker Cerca Cerca Cerca Cerca User profile it en fr de Eventi Briciole di pane Home Eventi CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026 Show theater masks Arte, Cultura e Fede 26 Giu - 6 Set CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026 Condividi 0 La nuova Stagione 2026 è in arrivo.... Dal 26 giugno al 6 settembre 2026 il Tones Teatro Natura vi aspetta per festeggiare insieme la ventesima estate di spettacoli, festival e visioni. Vent’anni fa nasceva un progetto capace di trasformare una cava i",
-      "free": null,
-      "priceText": "",
-      "bookingUrl": "https://www.distrettolaghi.it/it/eventi/crevoladossola-fraz-oira-tones-teatro-natura-2026",
-      "sourceName": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "sourceUrl": "https://www.distrettolaghi.it/it/eventi/crevoladossola-fraz-oira-tones-teatro-natura-2026",
-      "sourceType": "tourism",
-      "confidence": "Confermato",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
-      "areaId": "ossola",
-      "locationPrecision": "town",
-      "rankingScore": 49.5,
-      "recurringSeriesId": null,
-      "id": "1ee7532bb119888c"
     },
     {
       "title": "Cinema sotto le stelle: C’è ancora domani",
@@ -237,7 +179,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
+      "lastCheckedAt": "2026-08-05T20:52:00.698312+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 29.9,
@@ -266,7 +208,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
+      "lastCheckedAt": "2026-08-05T20:52:00.698312+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 29.9,
@@ -295,7 +237,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-08-05T09:49:26.442143+02:00",
+      "lastCheckedAt": "2026-08-05T20:52:00.698312+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 29.9,
@@ -424,19 +366,19 @@
     {
       "id": "tones-natura",
       "name": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "fetchStatus": "ok",
-      "rawRecordsFound": 7,
-      "recordsParsed": 7,
-      "recordsRejectedByDate": 5,
+      "fetchStatus": "failed",
+      "rawRecordsFound": 0,
+      "recordsParsed": 0,
+      "recordsRejectedByDate": 0,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
       "recordsRejectedAsDuplicates": 0,
-      "acceptedRecords": 2,
-      "failureMessage": null
+      "acceptedRecords": 0,
+      "failureMessage": "HTTPSConnectionPool(host='www.distrettolaghi.it', port=443): Max retries exceeded with url: /it/eventi/crevoladossola-fraz-oira-tones-teatro-natura-2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.distretto"
     }
   ],
   "rejections": {
-    "date": 7,
+    "date": 2,
     "location": 0,
     "radius": 0,
     "duplicate": 0
@@ -591,111 +533,6 @@
         8.319
       ],
       "distanceKm": 3.5
-    },
-    {
-      "source": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "title": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026",
-      "parsedDate": "2026-09-06T00:00:00+02:00",
-      "parsedTown": "Oira",
-      "area": "ossola",
-      "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "1ee7532bb119888c",
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
-      "coordinates": [
-        46.155,
-        8.302
-      ],
-      "distanceKm": 8.5
-    },
-    {
-      "source": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "title": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026",
-      "parsedDate": "2026-06-26T00:00:00+02:00",
-      "parsedTown": "Oira",
-      "area": "ossola",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
-      "coordinates": [
-        46.155,
-        8.302
-      ],
-      "distanceKm": 8.5
-    },
-    {
-      "source": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "title": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026",
-      "parsedDate": "2026-07-04T00:00:00+02:00",
-      "parsedTown": "Oira",
-      "area": "ossola",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
-      "coordinates": [
-        46.155,
-        8.302
-      ],
-      "distanceKm": 8.5
-    },
-    {
-      "source": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "title": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026",
-      "parsedDate": "2026-07-16T00:00:00+02:00",
-      "parsedTown": "Oira",
-      "area": "ossola",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
-      "coordinates": [
-        46.155,
-        8.302
-      ],
-      "distanceKm": 8.5
-    },
-    {
-      "source": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "title": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026",
-      "parsedDate": "2026-07-24T00:00:00+02:00",
-      "parsedTown": "Oira",
-      "area": "ossola",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
-      "coordinates": [
-        46.155,
-        8.302
-      ],
-      "distanceKm": 8.5
-    },
-    {
-      "source": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "title": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026",
-      "parsedDate": "2026-08-01T00:00:00+02:00",
-      "parsedTown": "Oira",
-      "area": "ossola",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
-      "coordinates": [
-        46.155,
-        8.302
-      ],
-      "distanceKm": 8.5
-    },
-    {
-      "source": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-      "title": "CREVOLADOSSOLA fraz. Oira - Tones Teatro Natura 2026",
-      "parsedDate": "2026-09-05T00:00:00+02:00",
-      "parsedTown": "Oira",
-      "area": "ossola",
-      "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "1ee7532bb119888c",
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
-      "coordinates": [
-        46.155,
-        8.302
-      ],
-      "distanceKm": 8.5
     }
   ]
 }

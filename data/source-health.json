@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T09:49:26.442143+02:00",
+  "updatedAt": "2026-08-05T20:52:00.698312+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -113,16 +113,16 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 31,
           "recordsParsed": 31,
-          "recordsRejectedByDate": 5,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 26,
+          "acceptedRecords": 24,
           "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 38,
+        "date": 40,
         "location": 0,
         "radius": 0,
         "duplicate": 5
@@ -250,19 +250,19 @@
         {
           "id": "tones-natura",
           "name": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-          "fetchStatus": "ok",
-          "rawRecordsFound": 7,
-          "recordsParsed": 7,
-          "recordsRejectedByDate": 5,
+          "fetchStatus": "failed",
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 2,
-          "failureMessage": null
+          "acceptedRecords": 0,
+          "failureMessage": "HTTPSConnectionPool(host='www.distrettolaghi.it', port=443): Max retries exceeded with url: /it/eventi/crevoladossola-fraz-oira-tones-teatro-natura-2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.distretto"
         }
       ],
       "rejections": {
-        "date": 7,
+        "date": 2,
         "location": 0,
         "radius": 0,
         "duplicate": 0

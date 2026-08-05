@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-05T09:49:26.442143+02:00",
+  "generatedAt": "2026-08-05T20:52:00.698312+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 62,
-      "distinctEventSeries": 52,
+      "totalFutureDateRecords": 60,
+      "distinctEventSeries": 50,
       "representedTowns": [
         "Buccinasco",
         "Busto Arsizio",
@@ -14,7 +14,6 @@
       ],
       "representedCategories": [
         "festivals",
-        "food",
         "music",
         "nightlife",
         "other"
@@ -33,7 +32,7 @@
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 12,
         "Comune di Busto Arsizio – BA Estate": 0,
-        "Comune di Busto Arsizio – BA Estate PDF": 26
+        "Comune di Busto Arsizio – BA Estate PDF": 24
       },
       "zeroResultSources": [
         "Cheventi Rho",
@@ -43,24 +42,23 @@
       "failedSources": [],
       "oldestEventDate": "2026-07-31T02:00:00+02:00",
       "newestEventDate": "2026-10-09T00:00:00+02:00",
-      "largestProgrammeShare": 0.177,
+      "largestProgrammeShare": 0.183,
       "eventsExpiringNext7Days": 1,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 63,
-        "change": -1
+        "previousCount": 62,
+        "change": -2
       },
       "warnings": []
     },
     "ossola": {
-      "totalFutureDateRecords": 10,
-      "distinctEventSeries": 10,
+      "totalFutureDateRecords": 8,
+      "distinctEventSeries": 8,
       "representedTowns": [
         "Crodo",
         "Domodossola",
         "Formazza",
         "Masera",
-        "Montecrestese",
-        "Oira"
+        "Montecrestese"
       ],
       "representedCategories": [
         "cinema",
@@ -72,8 +70,7 @@
         "aggregator",
         "local_media",
         "official",
-        "organiser",
-        "tourism"
+        "organiser"
       ],
       "acceptedRecordsBySource": {
         "VisitOssola": 0,
@@ -85,7 +82,7 @@
         "Festorum VCO": 2,
         "Comune di Crodo": 1,
         "Festorum VCO – Festa delle Bionde": 0,
-        "Distretto Turistico dei Laghi – Tones Teatro Natura": 2
+        "Distretto Turistico dei Laghi – Tones Teatro Natura": 0
       },
       "zeroResultSources": [
         "VisitOssola",
@@ -93,14 +90,16 @@
         "OssolaNews – Ossola Guitar Festival",
         "Festorum VCO – Festa delle Bionde"
       ],
-      "failedSources": [],
+      "failedSources": [
+        "Distretto Turistico dei Laghi – Tones Teatro Natura"
+      ],
       "oldestEventDate": "2026-08-02T09:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
-      "largestProgrammeShare": 0.1,
+      "largestProgrammeShare": 0.125,
       "eventsExpiringNext7Days": 0,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 11,
-        "change": -1
+        "previousCount": 10,
+        "change": -2
       },
       "warnings": []
     }
