@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-04T20:52:17.306661+02:00",
+  "generatedAt": "2026-08-05T09:49:26.442143+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 63,
-      "distinctEventSeries": 53,
+      "totalFutureDateRecords": 62,
+      "distinctEventSeries": 52,
       "representedTowns": [
         "Buccinasco",
         "Busto Arsizio",
@@ -33,7 +33,7 @@
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 12,
         "Comune di Busto Arsizio – BA Estate": 0,
-        "Comune di Busto Arsizio – BA Estate PDF": 27
+        "Comune di Busto Arsizio – BA Estate PDF": 26
       },
       "zeroResultSources": [
         "Cheventi Rho",
@@ -43,19 +43,18 @@
       "failedSources": [],
       "oldestEventDate": "2026-07-31T02:00:00+02:00",
       "newestEventDate": "2026-10-09T00:00:00+02:00",
-      "largestProgrammeShare": 0.175,
+      "largestProgrammeShare": 0.177,
       "eventsExpiringNext7Days": 1,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 63,
-        "change": 0
+        "change": -1
       },
       "warnings": []
     },
     "ossola": {
-      "totalFutureDateRecords": 11,
-      "distinctEventSeries": 11,
+      "totalFutureDateRecords": 10,
+      "distinctEventSeries": 10,
       "representedTowns": [
-        "Crevoladossola",
         "Crodo",
         "Domodossola",
         "Formazza",
@@ -67,8 +66,7 @@
         "cinema",
         "culture",
         "festivals",
-        "food",
-        "music"
+        "food"
       ],
       "representedSourceFamilies": [
         "aggregator",
@@ -82,7 +80,7 @@
         "OssolaNews": 0,
         "Unione Montana Alta Ossola": 1,
         "OssolaNews – Cinema sotto le stelle": 3,
-        "OssolaNews – Ossola Guitar Festival": 1,
+        "OssolaNews – Ossola Guitar Festival": 0,
         "Formazza Country Festival": 1,
         "Festorum VCO": 2,
         "Comune di Crodo": 1,
@@ -92,16 +90,17 @@
       "zeroResultSources": [
         "VisitOssola",
         "OssolaNews",
+        "OssolaNews – Ossola Guitar Festival",
         "Festorum VCO – Festa delle Bionde"
       ],
       "failedSources": [],
       "oldestEventDate": "2026-08-02T09:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
-      "largestProgrammeShare": 0.091,
+      "largestProgrammeShare": 0.1,
       "eventsExpiringNext7Days": 0,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 11,
-        "change": 0
+        "change": -1
       },
       "warnings": []
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T20:52:17.306661+02:00",
+  "updatedAt": "2026-08-05T09:49:26.442143+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -113,16 +113,16 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 31,
           "recordsParsed": 31,
-          "recordsRejectedByDate": 4,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 27,
+          "acceptedRecords": 26,
           "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 37,
+        "date": 38,
         "location": 0,
         "radius": 0,
         "duplicate": 5
@@ -188,11 +188,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 1,
           "recordsParsed": 1,
-          "recordsRejectedByDate": 0,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 0,
           "failureMessage": null
         },
         {
@@ -262,7 +262,7 @@
         }
       ],
       "rejections": {
-        "date": 6,
+        "date": 7,
         "location": 0,
         "radius": 0,
         "duplicate": 0
