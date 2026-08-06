@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-05T20:52:00.698312+02:00",
+  "generatedAt": "2026-08-06T09:49:19.300416+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 60,
-      "distinctEventSeries": 50,
+      "totalFutureDateRecords": 61,
+      "distinctEventSeries": 51,
       "representedTowns": [
         "Buccinasco",
         "Busto Arsizio",
@@ -26,11 +26,11 @@
       "acceptedRecordsBySource": {
         "Cheventi Milano": 6,
         "Cheventi Rho": 0,
-        "LegnanoNews": 2,
+        "LegnanoNews": 4,
         "Comune di Rho": 5,
         "Comune di Rho programma": 11,
         "LegnanoNews – La Bella Estate": 0,
-        "VareseNews – JAZZaltro": 12,
+        "VareseNews – JAZZaltro": 11,
         "Comune di Busto Arsizio – BA Estate": 0,
         "Comune di Busto Arsizio – BA Estate PDF": 24
       },
@@ -42,23 +42,24 @@
       "failedSources": [],
       "oldestEventDate": "2026-07-31T02:00:00+02:00",
       "newestEventDate": "2026-10-09T00:00:00+02:00",
-      "largestProgrammeShare": 0.183,
+      "largestProgrammeShare": 0.18,
       "eventsExpiringNext7Days": 1,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 62,
-        "change": -2
+        "previousCount": 60,
+        "change": 1
       },
       "warnings": []
     },
     "ossola": {
-      "totalFutureDateRecords": 8,
-      "distinctEventSeries": 8,
+      "totalFutureDateRecords": 9,
+      "distinctEventSeries": 9,
       "representedTowns": [
         "Crodo",
         "Domodossola",
         "Formazza",
         "Masera",
-        "Montecrestese"
+        "Montecrestese",
+        "Oira"
       ],
       "representedCategories": [
         "cinema",
@@ -70,19 +71,20 @@
         "aggregator",
         "local_media",
         "official",
-        "organiser"
+        "organiser",
+        "tourism"
       ],
       "acceptedRecordsBySource": {
         "VisitOssola": 0,
         "OssolaNews": 0,
         "Unione Montana Alta Ossola": 1,
-        "OssolaNews – Cinema sotto le stelle": 3,
+        "OssolaNews – Cinema sotto le stelle": 2,
         "OssolaNews – Ossola Guitar Festival": 0,
         "Formazza Country Festival": 1,
         "Festorum VCO": 2,
         "Comune di Crodo": 1,
         "Festorum VCO – Festa delle Bionde": 0,
-        "Distretto Turistico dei Laghi – Tones Teatro Natura": 0
+        "Distretto Turistico dei Laghi – Tones Teatro Natura": 2
       },
       "zeroResultSources": [
         "VisitOssola",
@@ -90,16 +92,14 @@
         "OssolaNews – Ossola Guitar Festival",
         "Festorum VCO – Festa delle Bionde"
       ],
-      "failedSources": [
-        "Distretto Turistico dei Laghi – Tones Teatro Natura"
-      ],
+      "failedSources": [],
       "oldestEventDate": "2026-08-02T09:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
-      "largestProgrammeShare": 0.125,
+      "largestProgrammeShare": 0.111,
       "eventsExpiringNext7Days": 0,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 10,
-        "change": -2
+        "previousCount": 8,
+        "change": 1
       },
       "warnings": []
     }

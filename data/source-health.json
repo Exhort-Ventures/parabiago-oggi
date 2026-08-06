@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T20:52:00.698312+02:00",
+  "updatedAt": "2026-08-06T09:49:19.300416+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 2,
-          "recordsParsed": 2,
+          "rawRecordsFound": 5,
+          "recordsParsed": 5,
           "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 2,
+          "recordsRejectedAsDuplicates": 1,
+          "acceptedRecords": 4,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 20,
           "recordsParsed": 20,
-          "recordsRejectedByDate": 3,
+          "recordsRejectedByDate": 6,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 5,
-          "acceptedRecords": 12,
+          "recordsRejectedAsDuplicates": 3,
+          "acceptedRecords": 11,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 40,
+        "date": 43,
         "location": 0,
         "radius": 0,
-        "duplicate": 5
+        "duplicate": 4
       }
     },
     "ossola": {
@@ -175,11 +175,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 3,
           "recordsParsed": 3,
-          "recordsRejectedByDate": 0,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 3,
+          "acceptedRecords": 2,
           "failureMessage": null
         },
         {
@@ -250,19 +250,19 @@
         {
           "id": "tones-natura",
           "name": "Distretto Turistico dei Laghi – Tones Teatro Natura",
-          "fetchStatus": "failed",
-          "rawRecordsFound": 0,
-          "recordsParsed": 0,
-          "recordsRejectedByDate": 0,
+          "fetchStatus": "ok",
+          "rawRecordsFound": 7,
+          "recordsParsed": 7,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
-          "failureMessage": "HTTPSConnectionPool(host='www.distrettolaghi.it', port=443): Max retries exceeded with url: /it/eventi/crevoladossola-fraz-oira-tones-teatro-natura-2026 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.distretto"
+          "acceptedRecords": 2,
+          "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 2,
+        "date": 8,
         "location": 0,
         "radius": 0,
         "duplicate": 0
