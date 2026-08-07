@@ -1,2 +1,2 @@
-parabiago: 58 accepted
+parabiago: 56 accepted
 ossola: 9 accepted

@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 58
-- Series: 48
+- Records: 56
+- Series: 46
 - Towns: Buccinasco, Busto Arsizio, Legnano, Milano, Paderno Dugnano, Rho
 - Warnings: none
 
