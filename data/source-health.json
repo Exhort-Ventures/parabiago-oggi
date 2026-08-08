@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T20:01:38.281056+02:00",
+  "updatedAt": "2026-08-08T07:56:51.326706+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 21,
           "recordsParsed": 21,
-          "recordsRejectedByDate": 5,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 6,
-          "acceptedRecords": 10,
+          "recordsRejectedAsDuplicates": 5,
+          "acceptedRecords": 9,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 43,
+        "date": 45,
         "location": 0,
         "radius": 0,
-        "duplicate": 6
+        "duplicate": 5
       }
     },
     "ossola": {
