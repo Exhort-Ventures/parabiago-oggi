@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T07:57:40.177048+02:00",
+  "updatedAt": "2026-08-09T19:47:17.305567+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 2,
-          "recordsParsed": 2,
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
           "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 0,
           "failureMessage": null
         },
         {
@@ -33,9 +33,9 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 1,
-          "recordsParsed": 1,
-          "recordsRejectedByDate": 0,
+          "rawRecordsFound": 2,
+          "recordsParsed": 2,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -85,9 +85,9 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 21,
-          "recordsParsed": 21,
-          "recordsRejectedByDate": 11,
+          "rawRecordsFound": 17,
+          "recordsParsed": 17,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 2,
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 49,
+        "date": 46,
         "location": 0,
         "radius": 0,
         "duplicate": 2
