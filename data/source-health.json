@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T19:46:07.810082+02:00",
+  "updatedAt": "2026-08-09T07:57:40.177048+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 7,
-          "recordsParsed": 7,
-          "recordsRejectedByDate": 2,
+          "rawRecordsFound": 2,
+          "recordsParsed": 2,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 5,
+          "acceptedRecords": 1,
           "failureMessage": null
         },
         {
@@ -61,11 +61,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 11,
           "recordsParsed": 11,
-          "recordsRejectedByDate": 0,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 11,
+          "acceptedRecords": 10,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 21,
           "recordsParsed": 21,
-          "recordsRejectedByDate": 7,
+          "recordsRejectedByDate": 11,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 5,
-          "acceptedRecords": 9,
+          "recordsRejectedAsDuplicates": 2,
+          "acceptedRecords": 8,
           "failureMessage": null
         },
         {
@@ -113,19 +113,19 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 31,
           "recordsParsed": 31,
-          "recordsRejectedByDate": 8,
+          "recordsRejectedByDate": 9,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 23,
+          "acceptedRecords": 22,
           "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 44,
+        "date": 49,
         "location": 0,
         "radius": 0,
-        "duplicate": 5
+        "duplicate": 2
       }
     },
     "ossola": {
