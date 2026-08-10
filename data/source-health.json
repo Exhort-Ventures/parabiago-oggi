@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T08:41:42.575250+02:00",
+  "updatedAt": "2026-08-10T20:03:23.674466+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 24,
-          "recordsParsed": 24,
+          "rawRecordsFound": 28,
+          "recordsParsed": 28,
           "recordsRejectedByDate": 19,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 5,
+          "acceptedRecords": 9,
           "failureMessage": null
         },
         {
