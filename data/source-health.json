@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T20:06:50.488288+02:00",
+  "updatedAt": "2026-08-13T08:44:50.430523+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -87,25 +87,25 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 15,
           "recordsParsed": 15,
-          "recordsRejectedByDate": 4,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 2,
-          "acceptedRecords": 9,
+          "acceptedRecords": 8,
           "failureMessage": null
         },
         {
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
-          "fetchStatus": "ok",
-          "rawRecordsFound": 7,
-          "recordsParsed": 7,
-          "recordsRejectedByDate": 7,
+          "fetchStatus": "failed",
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": null
+          "failureMessage": "HTTPSConnectionPool(host='www.comune.bustoarsizio.va.it', port=443): Read timed out. (read timeout=30)"
         },
         {
           "id": "ba-estate-pdf",
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 43,
+        "date": 37,
         "location": 0,
         "radius": 0,
         "duplicate": 3
@@ -175,11 +175,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 3,
           "recordsParsed": 3,
-          "recordsRejectedByDate": 1,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 2,
+          "acceptedRecords": 1,
           "failureMessage": null
         },
         {
@@ -262,7 +262,7 @@
         }
       ],
       "rejections": {
-        "date": 8,
+        "date": 9,
         "location": 0,
         "radius": 0,
         "duplicate": 0
