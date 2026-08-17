@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:49:59.861773+02:00",
+  "updatedAt": "2026-08-17T19:44:36.394507+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,9 +33,9 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 3,
-          "recordsParsed": 3,
-          "recordsRejectedByDate": 3,
+          "rawRecordsFound": 2,
+          "recordsParsed": 2,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 48,
+        "date": 47,
         "location": 0,
         "radius": 0,
         "duplicate": 0
