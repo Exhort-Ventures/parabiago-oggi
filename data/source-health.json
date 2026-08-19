@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T19:42:31.104677+02:00",
+  "updatedAt": "2026-08-19T07:46:21.104194+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 13,
           "recordsParsed": 13,
-          "recordsRejectedByDate": 7,
+          "recordsRejectedByDate": 8,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 6,
+          "acceptedRecords": 5,
           "failureMessage": null
         },
         {
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 48,
+        "date": 49,
         "location": 0,
         "radius": 0,
         "duplicate": 0
