@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T19:40:08.347577+02:00",
+  "generatedAt": "2026-08-20T07:46:35.346038+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 49,
@@ -46,29 +46,26 @@
       "largestProgrammeShare": 0.143,
       "eventsExpiringNext7Days": 3,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 46,
-        "change": 3
+        "previousCount": 49,
+        "change": 0
       },
       "warnings": []
     },
     "ossola": {
-      "totalFutureDateRecords": 7,
-      "distinctEventSeries": 7,
+      "totalFutureDateRecords": 6,
+      "distinctEventSeries": 6,
       "representedTowns": [
         "Crodo",
-        "Domodossola",
         "Masera",
         "Montecrestese",
         "Oira"
       ],
       "representedCategories": [
-        "cinema",
         "culture",
         "food"
       ],
       "representedSourceFamilies": [
         "aggregator",
-        "local_media",
         "official",
         "tourism"
       ],
@@ -76,7 +73,7 @@
         "VisitOssola": 0,
         "OssolaNews": 0,
         "Unione Montana Alta Ossola": 1,
-        "OssolaNews – Cinema sotto le stelle": 1,
+        "OssolaNews – Cinema sotto le stelle": 0,
         "OssolaNews – Ossola Guitar Festival": 0,
         "Formazza Country Festival": 0,
         "Festorum VCO": 2,
@@ -87,6 +84,7 @@
       "zeroResultSources": [
         "VisitOssola",
         "OssolaNews",
+        "OssolaNews – Cinema sotto le stelle",
         "OssolaNews – Ossola Guitar Festival",
         "Formazza Country Festival",
         "Festorum VCO – Festa delle Bionde"
@@ -94,11 +92,11 @@
       "failedSources": [],
       "oldestEventDate": "2026-08-02T09:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
-      "largestProgrammeShare": 0.143,
+      "largestProgrammeShare": 0.167,
       "eventsExpiringNext7Days": 0,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 7,
-        "change": 0
+        "change": -1
       },
       "warnings": []
     }

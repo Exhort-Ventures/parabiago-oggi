@@ -9,8 +9,8 @@
 
 ## ossola
 
-- Records: 7
-- Series: 7
-- Towns: Crodo, Domodossola, Masera, Montecrestese, Oira
+- Records: 6
+- Series: 6
+- Towns: Crodo, Masera, Montecrestese, Oira
 - Warnings: none
 
