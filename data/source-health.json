@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T19:46:27.193381+02:00",
+  "updatedAt": "2026-08-25T07:47:57.305407+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 2,
-          "recordsParsed": 2,
-          "recordsRejectedByDate": 2,
+          "rawRecordsFound": 6,
+          "recordsParsed": 6,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
+          "acceptedRecords": 1,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 15,
-          "recordsParsed": 15,
+          "rawRecordsFound": 13,
+          "recordsParsed": 13,
           "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 3,
-          "acceptedRecords": 7,
+          "recordsRejectedAsDuplicates": 2,
+          "acceptedRecords": 6,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 61,
+        "date": 64,
         "location": 0,
         "radius": 0,
-        "duplicate": 3
+        "duplicate": 2
       }
     },
     "ossola": {
