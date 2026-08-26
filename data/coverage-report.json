@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:45:16.597530+02:00",
+  "generatedAt": "2026-08-26T07:50:29.867904+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 44,
@@ -47,8 +47,8 @@
       "largestProgrammeShare": 0.091,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 40,
-        "change": 4
+        "previousCount": 44,
+        "change": 0
       },
       "warnings": []
     },
