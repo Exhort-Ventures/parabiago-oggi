@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 47
-- Series: 44
-- Towns: Bollate, Busto Arsizio, Legnano, Milano, Rho
+- Records: 48
+- Series: 45
+- Towns: Bollate, Busto Arsizio, Legnano, Rho
 - Warnings: none
 
 ## ossola

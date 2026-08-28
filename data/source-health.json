@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T18:30:35.693568+02:00",
+  "updatedAt": "2026-08-28T03:29:33.666492+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 8,
-          "recordsParsed": 8,
+          "rawRecordsFound": 7,
+          "recordsParsed": 7,
           "recordsRejectedByDate": 6,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 2,
+          "acceptedRecords": 1,
           "failureMessage": null
         },
         {
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 4,
-          "recordsParsed": 4,
-          "recordsRejectedByDate": 1,
+          "rawRecordsFound": 7,
+          "recordsParsed": 7,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 3,
+          "acceptedRecords": 5,
           "failureMessage": null
         },
         {
@@ -48,11 +48,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 31,
           "recordsParsed": 31,
-          "recordsRejectedByDate": 19,
+          "recordsRejectedByDate": 18,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 12,
+          "acceptedRecords": 13,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 18,
           "recordsParsed": 18,
-          "recordsRejectedByDate": 3,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 6,
-          "acceptedRecords": 9,
+          "recordsRejectedAsDuplicates": 5,
+          "acceptedRecords": 8,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 58,
+        "date": 60,
         "location": 0,
         "radius": 0,
-        "duplicate": 6
+        "duplicate": 5
       }
     },
     "ossola": {
