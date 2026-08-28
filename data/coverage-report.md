@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 48
-- Series: 45
+- Records: 43
+- Series: 40
 - Towns: Bollate, Busto Arsizio, Legnano, Rho
 - Warnings: none
 
