@@ -1,11 +1,10 @@
 {
-  "generatedAt": "2026-08-28T19:26:33.298154+02:00",
+  "generatedAt": "2026-08-29T13:39:49.589619+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 43,
-      "distinctEventSeries": 40,
+      "totalFutureDateRecords": 40,
+      "distinctEventSeries": 38,
       "representedTowns": [
-        "Bollate",
         "Busto Arsizio",
         "Legnano",
         "Rho"
@@ -20,22 +19,22 @@
         "workshops"
       ],
       "representedSourceFamilies": [
-        "aggregator",
         "local_media",
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 1,
+        "Cheventi Milano": 0,
         "Cheventi Rho": 0,
         "LegnanoNews": 1,
         "Comune di Rho": 13,
-        "Comune di Rho programma": 3,
+        "Comune di Rho programma": 2,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 7,
         "Comune di Busto Arsizio – BA Estate": 0,
-        "Comune di Busto Arsizio – BA Estate PDF": 18
+        "Comune di Busto Arsizio – BA Estate PDF": 17
       },
       "zeroResultSources": [
+        "Cheventi Milano",
         "Cheventi Rho",
         "LegnanoNews – La Bella Estate",
         "Comune di Busto Arsizio – BA Estate"
@@ -43,17 +42,17 @@
       "failedSources": [],
       "oldestEventDate": "2026-07-31T02:00:00+02:00",
       "newestEventDate": "2026-11-26T01:00:00+01:00",
-      "largestProgrammeShare": 0.093,
+      "largestProgrammeShare": 0.075,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 48,
-        "change": -5
+        "previousCount": 43,
+        "change": -3
       },
       "warnings": []
     },
     "ossola": {
-      "totalFutureDateRecords": 6,
-      "distinctEventSeries": 6,
+      "totalFutureDateRecords": 5,
+      "distinctEventSeries": 5,
       "representedTowns": [
         "Crodo",
         "Masera",
@@ -72,7 +71,7 @@
       "acceptedRecordsBySource": {
         "VisitOssola": 0,
         "OssolaNews": 0,
-        "Unione Montana Alta Ossola": 1,
+        "Unione Montana Alta Ossola": 0,
         "OssolaNews – Cinema sotto le stelle": 0,
         "OssolaNews – Ossola Guitar Festival": 0,
         "Formazza Country Festival": 0,
@@ -84,6 +83,7 @@
       "zeroResultSources": [
         "VisitOssola",
         "OssolaNews",
+        "Unione Montana Alta Ossola",
         "OssolaNews – Cinema sotto le stelle",
         "OssolaNews – Ossola Guitar Festival",
         "Formazza Country Festival",
@@ -92,11 +92,11 @@
       "failedSources": [],
       "oldestEventDate": "2026-08-02T09:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
-      "largestProgrammeShare": 0.167,
+      "largestProgrammeShare": 0.2,
       "eventsExpiringNext7Days": 2,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 6,
-        "change": 0
+        "change": -1
       },
       "warnings": []
     }
