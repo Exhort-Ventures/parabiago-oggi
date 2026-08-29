@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-29T13:39:49.589619+02:00",
+  "generatedAt": "2026-08-29T21:44:23.424607+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 40,
-      "distinctEventSeries": 38,
+      "totalFutureDateRecords": 39,
+      "distinctEventSeries": 37,
       "representedTowns": [
         "Busto Arsizio",
         "Legnano",
@@ -31,7 +31,7 @@
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 7,
         "Comune di Busto Arsizio – BA Estate": 0,
-        "Comune di Busto Arsizio – BA Estate PDF": 17
+        "Comune di Busto Arsizio – BA Estate PDF": 16
       },
       "zeroResultSources": [
         "Cheventi Milano",
@@ -42,11 +42,11 @@
       "failedSources": [],
       "oldestEventDate": "2026-07-31T02:00:00+02:00",
       "newestEventDate": "2026-11-26T01:00:00+01:00",
-      "largestProgrammeShare": 0.075,
+      "largestProgrammeShare": 0.077,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 43,
-        "change": -3
+        "previousCount": 40,
+        "change": -1
       },
       "warnings": []
     },
@@ -95,8 +95,8 @@
       "largestProgrammeShare": 0.2,
       "eventsExpiringNext7Days": 2,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 6,
-        "change": -1
+        "previousCount": 5,
+        "change": 0
       },
       "warnings": []
     }
