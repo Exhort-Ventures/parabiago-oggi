@@ -2,15 +2,15 @@
 
 ## parabiago
 
-- Records: 36
-- Series: 36
+- Records: 34
+- Series: 34
 - Towns: Busto Arsizio, Legnano, Rho
 - Warnings: none
 
 ## ossola
 
-- Records: 5
-- Series: 5
-- Towns: Crodo, Masera, Montecrestese, Oira
+- Records: 4
+- Series: 4
+- Towns: Masera, Montecrestese, Oira
 - Warnings: none
 

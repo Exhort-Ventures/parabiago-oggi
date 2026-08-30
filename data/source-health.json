@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T12:28:34.796986+02:00",
+  "updatedAt": "2026-08-30T21:50:06.276295+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 9,
-          "recordsParsed": 9,
+          "rawRecordsFound": 8,
+          "recordsParsed": 8,
           "recordsRejectedByDate": 8,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 0,
           "failureMessage": null
         },
         {
@@ -113,16 +113,16 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 31,
           "recordsParsed": 31,
-          "recordsRejectedByDate": 15,
+          "recordsRejectedByDate": 16,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 16,
+          "acceptedRecords": 15,
           "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 69,
+        "date": 70,
         "location": 0,
         "radius": 0,
         "duplicate": 2
@@ -227,11 +227,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 1,
           "recordsParsed": 1,
-          "recordsRejectedByDate": 0,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 0,
           "failureMessage": null
         },
         {
@@ -262,7 +262,7 @@
         }
       ],
       "rejections": {
-        "date": 12,
+        "date": 13,
         "location": 0,
         "radius": 0,
         "duplicate": 0

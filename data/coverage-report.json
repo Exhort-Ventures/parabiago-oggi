@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-30T12:28:34.796986+02:00",
+  "generatedAt": "2026-08-30T21:50:06.276295+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 36,
-      "distinctEventSeries": 36,
+      "totalFutureDateRecords": 34,
+      "distinctEventSeries": 34,
       "representedTowns": [
         "Busto Arsizio",
         "Legnano",
@@ -19,12 +19,11 @@
         "workshops"
       ],
       "representedSourceFamilies": [
-        "aggregator",
         "local_media",
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 1,
+        "Cheventi Milano": 0,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
         "Comune di Rho": 12,
@@ -32,30 +31,30 @@
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 6,
         "Comune di Busto Arsizio – BA Estate": 0,
-        "Comune di Busto Arsizio – BA Estate PDF": 16
+        "Comune di Busto Arsizio – BA Estate PDF": 15
       },
       "zeroResultSources": [
+        "Cheventi Milano",
         "Cheventi Rho",
         "LegnanoNews",
         "LegnanoNews – La Bella Estate",
         "Comune di Busto Arsizio – BA Estate"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-08-30T18:00:00+02:00",
+      "oldestEventDate": "2026-08-30T20:30:00+02:00",
       "newestEventDate": "2026-11-26T01:00:00+01:00",
-      "largestProgrammeShare": 0.028,
+      "largestProgrammeShare": 0.029,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 39,
-        "change": -3
+        "previousCount": 36,
+        "change": -2
       },
       "warnings": []
     },
     "ossola": {
-      "totalFutureDateRecords": 5,
-      "distinctEventSeries": 5,
+      "totalFutureDateRecords": 4,
+      "distinctEventSeries": 4,
       "representedTowns": [
-        "Crodo",
         "Masera",
         "Montecrestese",
         "Oira"
@@ -66,7 +65,6 @@
       ],
       "representedSourceFamilies": [
         "aggregator",
-        "official",
         "tourism"
       ],
       "acceptedRecordsBySource": {
@@ -77,7 +75,7 @@
         "OssolaNews – Ossola Guitar Festival": 0,
         "Formazza Country Festival": 0,
         "Festorum VCO": 2,
-        "Comune di Crodo": 1,
+        "Comune di Crodo": 0,
         "Festorum VCO – Festa delle Bionde": 0,
         "Distretto Turistico dei Laghi – Tones Teatro Natura": 2
       },
@@ -88,16 +86,17 @@
         "OssolaNews – Cinema sotto le stelle",
         "OssolaNews – Ossola Guitar Festival",
         "Formazza Country Festival",
+        "Comune di Crodo",
         "Festorum VCO – Festa delle Bionde"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-08-02T09:00:00+02:00",
+      "oldestEventDate": "2026-08-28T18:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
-      "largestProgrammeShare": 0.2,
-      "eventsExpiringNext7Days": 2,
+      "largestProgrammeShare": 0.25,
+      "eventsExpiringNext7Days": 1,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 5,
-        "change": 0
+        "change": -1
       },
       "warnings": []
     }
