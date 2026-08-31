@@ -1,13 +1,16 @@
 {
-  "generatedAt": "2026-08-30T21:50:06.276295+02:00",
+  "generatedAt": "2026-08-31T13:35:52.211951+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 34,
-      "distinctEventSeries": 34,
+      "totalFutureDateRecords": 36,
+      "distinctEventSeries": 36,
       "representedTowns": [
         "Busto Arsizio",
+        "Cusano Milanino",
         "Legnano",
-        "Rho"
+        "Milano",
+        "Rho",
+        "Segrate"
       ],
       "representedCategories": [
         "culture",
@@ -19,35 +22,36 @@
         "workshops"
       ],
       "representedSourceFamilies": [
+        "aggregator",
         "local_media",
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 0,
+        "Cheventi Milano": 3,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
         "Comune di Rho": 12,
-        "Comune di Rho programma": 1,
+        "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 6,
         "Comune di Busto Arsizio – BA Estate": 0,
         "Comune di Busto Arsizio – BA Estate PDF": 15
       },
       "zeroResultSources": [
-        "Cheventi Milano",
         "Cheventi Rho",
         "LegnanoNews",
+        "Comune di Rho programma",
         "LegnanoNews – La Bella Estate",
         "Comune di Busto Arsizio – BA Estate"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-08-30T20:30:00+02:00",
+      "oldestEventDate": "2026-09-04T00:00:00+02:00",
       "newestEventDate": "2026-11-26T01:00:00+01:00",
-      "largestProgrammeShare": 0.029,
+      "largestProgrammeShare": 0.028,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 36,
-        "change": -2
+        "previousCount": 34,
+        "change": 2
       },
       "warnings": []
     },
@@ -93,10 +97,10 @@
       "oldestEventDate": "2026-08-28T18:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
       "largestProgrammeShare": 0.25,
-      "eventsExpiringNext7Days": 1,
+      "eventsExpiringNext7Days": 2,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 5,
-        "change": -1
+        "previousCount": 4,
+        "change": 0
       },
       "warnings": []
     }
