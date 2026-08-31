@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T13:35:52.211951+02:00",
+  "generatedAt": "2026-08-31T23:53:53.998417+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 36,
@@ -50,17 +50,16 @@
       "largestProgrammeShare": 0.028,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 34,
-        "change": 2
+        "previousCount": 36,
+        "change": 0
       },
       "warnings": []
     },
     "ossola": {
-      "totalFutureDateRecords": 4,
-      "distinctEventSeries": 4,
+      "totalFutureDateRecords": 3,
+      "distinctEventSeries": 3,
       "representedTowns": [
         "Masera",
-        "Montecrestese",
         "Oira"
       ],
       "representedCategories": [
@@ -78,7 +77,7 @@
         "OssolaNews – Cinema sotto le stelle": 0,
         "OssolaNews – Ossola Guitar Festival": 0,
         "Formazza Country Festival": 0,
-        "Festorum VCO": 2,
+        "Festorum VCO": 1,
         "Comune di Crodo": 0,
         "Festorum VCO – Festa delle Bionde": 0,
         "Distretto Turistico dei Laghi – Tones Teatro Natura": 2
@@ -94,13 +93,13 @@
         "Festorum VCO – Festa delle Bionde"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-08-28T18:00:00+02:00",
+      "oldestEventDate": "2026-09-05T00:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
-      "largestProgrammeShare": 0.25,
-      "eventsExpiringNext7Days": 2,
+      "largestProgrammeShare": 0.333,
+      "eventsExpiringNext7Days": 1,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 4,
-        "change": 0
+        "change": -1
       },
       "warnings": []
     }

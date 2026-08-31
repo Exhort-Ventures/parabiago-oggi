@@ -9,8 +9,8 @@
 
 ## ossola
 
-- Records: 4
-- Series: 4
-- Towns: Masera, Montecrestese, Oira
+- Records: 3
+- Series: 3
+- Towns: Masera, Oira
 - Warnings: none
 
