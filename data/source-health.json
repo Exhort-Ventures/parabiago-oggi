@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T23:53:53.998417+02:00",
+  "updatedAt": "2026-09-01T12:06:04.416315+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,9 +33,9 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 4,
-          "recordsParsed": 4,
-          "recordsRejectedByDate": 4,
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 13,
-          "recordsParsed": 13,
-          "recordsRejectedByDate": 5,
+          "rawRecordsFound": 14,
+          "recordsParsed": 14,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 2,
-          "acceptedRecords": 6,
+          "recordsRejectedAsDuplicates": 3,
+          "acceptedRecords": 9,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 66,
+        "date": 60,
         "location": 0,
         "radius": 0,
-        "duplicate": 2
+        "duplicate": 3
       }
     },
     "ossola": {
@@ -146,7 +146,7 @@
         {
           "id": "ossolanews",
           "name": "OssolaNews",
-          "fetchStatus": "ok",
+          "fetchStatus": "failed",
           "rawRecordsFound": 0,
           "recordsParsed": 0,
           "recordsRejectedByDate": 0,
@@ -154,7 +154,7 @@
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": null
+          "failureMessage": "HTTPSConnectionPool(host='www.ossolanews.it', port=443): Read timed out. (read timeout=30)"
         },
         {
           "id": "alta-ossola",
