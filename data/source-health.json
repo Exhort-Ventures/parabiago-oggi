@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T12:06:04.416315+02:00",
+  "updatedAt": "2026-09-01T21:56:31.646034+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 30,
-          "recordsParsed": 30,
-          "recordsRejectedByDate": 18,
+          "rawRecordsFound": 45,
+          "recordsParsed": 45,
+          "recordsRejectedByDate": 25,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 12,
+          "acceptedRecords": 20,
           "failureMessage": null
         },
         {
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 60,
+        "date": 67,
         "location": 0,
         "radius": 0,
         "duplicate": 3
@@ -146,7 +146,7 @@
         {
           "id": "ossolanews",
           "name": "OssolaNews",
-          "fetchStatus": "failed",
+          "fetchStatus": "ok",
           "rawRecordsFound": 0,
           "recordsParsed": 0,
           "recordsRejectedByDate": 0,
@@ -154,7 +154,7 @@
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": "HTTPSConnectionPool(host='www.ossolanews.it', port=443): Read timed out. (read timeout=30)"
+          "failureMessage": null
         },
         {
           "id": "alta-ossola",

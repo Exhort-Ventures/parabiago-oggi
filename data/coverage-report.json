@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-01T12:06:04.416315+02:00",
+  "generatedAt": "2026-09-01T21:56:31.646034+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 39,
-      "distinctEventSeries": 39,
+      "totalFutureDateRecords": 47,
+      "distinctEventSeries": 47,
       "representedTowns": [
         "Busto Arsizio",
         "Cusano Milanino",
@@ -30,7 +30,7 @@
         "Cheventi Milano": 3,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
-        "Comune di Rho": 12,
+        "Comune di Rho": 20,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 9,
@@ -47,11 +47,11 @@
       "failedSources": [],
       "oldestEventDate": "2026-09-03T00:00:00+02:00",
       "newestEventDate": "2026-11-26T01:00:00+01:00",
-      "largestProgrammeShare": 0.026,
+      "largestProgrammeShare": 0.021,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 36,
-        "change": 3
+        "previousCount": 39,
+        "change": 8
       },
       "warnings": []
     },
@@ -84,6 +84,7 @@
       },
       "zeroResultSources": [
         "VisitOssola",
+        "OssolaNews",
         "Unione Montana Alta Ossola",
         "OssolaNews – Cinema sotto le stelle",
         "OssolaNews – Ossola Guitar Festival",
@@ -91,9 +92,7 @@
         "Comune di Crodo",
         "Festorum VCO – Festa delle Bionde"
       ],
-      "failedSources": [
-        "OssolaNews"
-      ],
+      "failedSources": [],
       "oldestEventDate": "2026-09-05T00:00:00+02:00",
       "newestEventDate": "2026-09-11T18:00:00+02:00",
       "largestProgrammeShare": 0.333,
