@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-02T11:37:31.842304+02:00",
+  "generatedAt": "2026-09-02T21:47:16.100773+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 48,
-      "distinctEventSeries": 48,
+      "totalFutureDateRecords": 49,
+      "distinctEventSeries": 49,
       "representedTowns": [
         "Busto Arsizio",
         "Cusano Milanino",
@@ -27,7 +27,7 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 3,
+        "Cheventi Milano": 4,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
         "Comune di Rho": 21,
@@ -47,10 +47,10 @@
       "failedSources": [],
       "oldestEventDate": "2026-09-03T00:00:00+02:00",
       "newestEventDate": "2026-12-01T01:00:00+01:00",
-      "largestProgrammeShare": 0.021,
+      "largestProgrammeShare": 0.02,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 47,
+        "previousCount": 48,
         "change": 1
       },
       "warnings": []
