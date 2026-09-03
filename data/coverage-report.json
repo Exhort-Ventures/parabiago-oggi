@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-03T11:50:11.735012+02:00",
+  "generatedAt": "2026-09-03T21:50:18.076833+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 52,
-      "distinctEventSeries": 52,
+      "totalFutureDateRecords": 53,
+      "distinctEventSeries": 53,
       "representedTowns": [
         "Bollate",
         "Busto Arsizio",
@@ -20,6 +20,7 @@
         "music",
         "nightlife",
         "other",
+        "sport",
         "workshops"
       ],
       "representedSourceFamilies": [
@@ -30,8 +31,8 @@
       "acceptedRecordsBySource": {
         "Cheventi Milano": 5,
         "Cheventi Rho": 0,
-        "LegnanoNews": 0,
-        "Comune di Rho": 22,
+        "LegnanoNews": 2,
+        "Comune di Rho": 21,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 10,
@@ -40,7 +41,6 @@
       },
       "zeroResultSources": [
         "Cheventi Rho",
-        "LegnanoNews",
         "Comune di Rho programma",
         "LegnanoNews – La Bella Estate",
         "Comune di Busto Arsizio – BA Estate"
@@ -51,8 +51,8 @@
       "largestProgrammeShare": 0.019,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 49,
-        "change": 3
+        "previousCount": 52,
+        "change": 1
       },
       "warnings": []
     },
