@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 53
-- Series: 53
-- Towns: Bollate, Busto Arsizio, Cusano Milanino, Legnano, Milano, Rho, Segrate
+- Records: 51
+- Series: 51
+- Towns: Busto Arsizio, Cusano Milanino, Legnano, Milano, Rho, Segrate
 - Warnings: none
 
 ## ossola
