@@ -2,15 +2,15 @@
 
 ## parabiago
 
-- Records: 48
-- Series: 48
-- Towns: Busto Arsizio, Cusano Milanino, Legnano, Rho, Segrate
+- Records: 44
+- Series: 44
+- Towns: Busto Arsizio, Legnano, Milano, Rho
 - Warnings: none
 
 ## ossola
 
-- Records: 3
-- Series: 3
+- Records: 2
+- Series: 2
 - Towns: Masera, Oira
-- Warnings: none
+- Warnings: WARNING: event count fell by more than 30%, WARNING: one programme exceeds 40% of dates
 
