@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T21:10:21.804229+02:00",
+  "updatedAt": "2026-09-07T12:18:43.626460+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -9,11 +9,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 8,
           "recordsParsed": 8,
-          "recordsRejectedByDate": 8,
+          "recordsRejectedByDate": 4,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
+          "acceptedRecords": 4,
           "failureMessage": null
         },
         {
@@ -35,24 +35,24 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 3,
           "recordsParsed": 3,
-          "recordsRejectedByDate": 2,
+          "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 0,
           "failureMessage": null
         },
         {
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 45,
-          "recordsParsed": 45,
-          "recordsRejectedByDate": 26,
+          "rawRecordsFound": 43,
+          "recordsParsed": 43,
+          "recordsRejectedByDate": 25,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 19,
+          "acceptedRecords": 18,
           "failureMessage": null
         },
         {
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 80,
+        "date": 76,
         "location": 0,
         "radius": 0,
         "duplicate": 4
@@ -253,16 +253,16 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 7,
           "recordsParsed": 7,
-          "recordsRejectedByDate": 6,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 0,
           "failureMessage": null
         }
       ],
       "rejections": {
-        "date": 15,
+        "date": 16,
         "location": 0,
         "radius": 0,
         "duplicate": 0
