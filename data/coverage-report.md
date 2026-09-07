@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 45
-- Series: 45
+- Records: 48
+- Series: 48
 - Towns: Busto Arsizio, Busto Garolfo, Cassinetta di Lugagnano da, Legnano, Morimondo, Rho, Sesto San Giovanni
 - Warnings: none
 
@@ -12,5 +12,5 @@
 - Records: 1
 - Series: 1
 - Towns: Masera
-- Warnings: WARNING: event count fell by more than 30%, WARNING: one programme exceeds 40% of dates
+- Warnings: WARNING: one programme exceeds 40% of dates
 
