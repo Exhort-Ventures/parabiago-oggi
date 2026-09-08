@@ -9,7 +9,7 @@
     "horizonDays": 90,
     "defaultLanguage": "it"
   },
-  "updatedAt": "2026-09-08T11:40:53.198766+02:00",
+  "updatedAt": "2026-09-08T21:54:31.363912+02:00",
   "eventCount": 1,
   "events": [
     {
@@ -34,7 +34,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-09-08T11:40:53.198766+02:00",
+      "lastCheckedAt": "2026-09-08T21:54:31.363912+02:00",
       "areaId": "ossola",
       "locationPrecision": "town",
       "rankingScore": 52.1,
