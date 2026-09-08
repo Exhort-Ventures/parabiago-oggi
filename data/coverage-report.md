@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 48
-- Series: 48
+- Records: 45
+- Series: 45
 - Towns: Busto Arsizio, Busto Garolfo, Cassinetta di Lugagnano da, Legnano, Morimondo, Rho, Sesto San Giovanni
 - Warnings: none
 
