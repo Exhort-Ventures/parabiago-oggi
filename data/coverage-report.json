@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-08T21:54:31.363912+02:00",
+  "generatedAt": "2026-09-09T11:45:25.541925+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 45,
-      "distinctEventSeries": 45,
+      "totalFutureDateRecords": 49,
+      "distinctEventSeries": 49,
       "representedTowns": [
         "Busto Arsizio",
         "Busto Garolfo",
@@ -20,6 +20,7 @@
         "music",
         "nightlife",
         "other",
+        "sport",
         "workshops"
       ],
       "representedSourceFamilies": [
@@ -31,10 +32,10 @@
         "Cheventi Milano": 4,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
-        "Comune di Rho": 18,
+        "Comune di Rho": 21,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
-        "VareseNews – JAZZaltro": 8,
+        "VareseNews – JAZZaltro": 9,
         "Comune di Busto Arsizio – BA Estate": 0,
         "Comune di Busto Arsizio – BA Estate PDF": 15
       },
@@ -46,13 +47,13 @@
         "Comune di Busto Arsizio – BA Estate"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-09-09T00:00:00+02:00",
+      "oldestEventDate": "2026-09-09T20:30:00+02:00",
       "newestEventDate": "2026-12-01T01:00:00+01:00",
-      "largestProgrammeShare": 0.022,
+      "largestProgrammeShare": 0.02,
       "eventsExpiringNext7Days": 4,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 45,
-        "change": 0
+        "change": 4
       },
       "warnings": []
     },
