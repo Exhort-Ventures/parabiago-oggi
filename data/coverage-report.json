@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-09T21:45:40.559153+02:00",
+  "generatedAt": "2026-09-10T11:43:32.706036+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 48,
-      "distinctEventSeries": 48,
+      "totalFutureDateRecords": 49,
+      "distinctEventSeries": 49,
       "representedTowns": [
         "Busto Arsizio",
         "Busto Garolfo",
@@ -32,7 +32,7 @@
         "Cheventi Milano": 4,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
-        "Comune di Rho": 21,
+        "Comune di Rho": 22,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 9,
@@ -47,13 +47,13 @@
         "Comune di Busto Arsizio – BA Estate"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-09-10T00:00:00+02:00",
+      "oldestEventDate": "2026-09-11T00:00:00+02:00",
       "newestEventDate": "2026-12-01T01:00:00+01:00",
-      "largestProgrammeShare": 0.021,
-      "eventsExpiringNext7Days": 4,
+      "largestProgrammeShare": 0.02,
+      "eventsExpiringNext7Days": 6,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 49,
-        "change": -1
+        "previousCount": 48,
+        "change": 1
       },
       "warnings": []
     },
