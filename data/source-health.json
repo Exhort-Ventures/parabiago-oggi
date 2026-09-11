@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T11:41:16.007210+02:00",
+  "updatedAt": "2026-09-11T21:42:28.632085+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 5,
-          "recordsParsed": 5,
+          "rawRecordsFound": 6,
+          "recordsParsed": 6,
           "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 1,
-          "acceptedRecords": 3,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 5,
           "failureMessage": null
         },
         {
@@ -85,12 +85,12 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 29,
-          "recordsParsed": 29,
-          "recordsRejectedByDate": 5,
+          "rawRecordsFound": 28,
+          "recordsParsed": 28,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 16,
+          "recordsRejectedAsDuplicates": 13,
           "acceptedRecords": 8,
           "failureMessage": null
         },
@@ -98,9 +98,9 @@
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 7,
-          "recordsParsed": 7,
-          "recordsRejectedByDate": 7,
+          "rawRecordsFound": 6,
+          "recordsParsed": 6,
+          "recordsRejectedByDate": 6,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 72,
+        "date": 73,
         "location": 0,
         "radius": 0,
-        "duplicate": 17
+        "duplicate": 13
       }
     },
     "ossola": {
