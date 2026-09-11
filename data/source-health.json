@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T21:41:01.950210+02:00",
+  "updatedAt": "2026-09-11T11:41:16.007210+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,9 +7,9 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 9,
-          "recordsParsed": 9,
-          "recordsRejectedByDate": 3,
+          "rawRecordsFound": 8,
+          "recordsParsed": 8,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 1,
-          "recordsParsed": 1,
+          "rawRecordsFound": 5,
+          "recordsParsed": 5,
           "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
+          "recordsRejectedAsDuplicates": 1,
+          "acceptedRecords": 3,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 28,
-          "recordsParsed": 28,
-          "recordsRejectedByDate": 6,
+          "rawRecordsFound": 29,
+          "recordsParsed": 29,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 13,
-          "acceptedRecords": 9,
+          "recordsRejectedAsDuplicates": 16,
+          "acceptedRecords": 8,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 74,
+        "date": 72,
         "location": 0,
         "radius": 0,
-        "duplicate": 13
+        "duplicate": 17
       }
     },
     "ossola": {
