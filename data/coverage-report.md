@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 49
-- Series: 49
-- Towns: Busto Arsizio, Busto Garolfo, Cusano Milanino, Legnano, Milano, Milano da, Rho, Sesto San Giovanni
+- Records: 44
+- Series: 44
+- Towns: Busto Arsizio, Busto Garolfo, Legnano, Milano da, Rho
 - Warnings: none
 
 ## ossola
