@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-13T12:18:15.544279+02:00",
+  "updatedAt": "2026-09-13T21:27:31.329840+02:00",
   "areas": {
     "parabiago": {
       "sources": [
         {
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
-          "fetchStatus": "failed",
-          "rawRecordsFound": 0,
-          "recordsParsed": 0,
-          "recordsRejectedByDate": 0,
+          "fetchStatus": "ok",
+          "rawRecordsFound": 7,
+          "recordsParsed": 7,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": "HTTPSConnectionPool(host='www.cheventi.it', port=443): Read timed out. (read timeout=30)"
+          "failureMessage": null
         },
         {
           "id": "cheventi-rho",
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 4,
-          "recordsParsed": 4,
+          "rawRecordsFound": 6,
+          "recordsParsed": 6,
           "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 3,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 29,
-          "recordsParsed": 29,
-          "recordsRejectedByDate": 19,
+          "rawRecordsFound": 23,
+          "recordsParsed": 23,
+          "recordsRejectedByDate": 12,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 4,
-          "acceptedRecords": 6,
+          "acceptedRecords": 7,
           "failureMessage": null
         },
         {
