@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-09-12T21:20:21.047581+02:00",
+  "updatedAt": "2026-09-13T12:18:15.544279+02:00",
   "areas": {
     "parabiago": {
       "sources": [
         {
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
-          "fetchStatus": "ok",
-          "rawRecordsFound": 8,
-          "recordsParsed": 8,
-          "recordsRejectedByDate": 6,
+          "fetchStatus": "failed",
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 2,
-          "failureMessage": null
+          "acceptedRecords": 0,
+          "failureMessage": "HTTPSConnectionPool(host='www.cheventi.it', port=443): Read timed out. (read timeout=30)"
         },
         {
           "id": "cheventi-rho",
@@ -35,24 +35,24 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 4,
           "recordsParsed": 4,
-          "recordsRejectedByDate": 2,
+          "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 2,
+          "acceptedRecords": 1,
           "failureMessage": null
         },
         {
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 51,
-          "recordsParsed": 51,
+          "rawRecordsFound": 49,
+          "recordsParsed": 49,
           "recordsRejectedByDate": 30,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 21,
+          "acceptedRecords": 19,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 29,
           "recordsParsed": 29,
-          "recordsRejectedByDate": 12,
+          "recordsRejectedByDate": 19,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 10,
-          "acceptedRecords": 7,
+          "recordsRejectedAsDuplicates": 4,
+          "acceptedRecords": 6,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 87,
+        "date": 89,
         "location": 0,
         "radius": 0,
-        "duplicate": 10
+        "duplicate": 4
       }
     },
     "ossola": {
