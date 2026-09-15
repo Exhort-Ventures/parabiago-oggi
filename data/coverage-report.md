@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 44
-- Series: 44
+- Records: 46
+- Series: 46
 - Towns: Busto Arsizio, Legnano, Milano, Paderno Dugnano, Rho, Segrate da, Sesto San Giovanni
 - Warnings: none
 
@@ -12,5 +12,5 @@
 - Records: 0
 - Series: 0
 - Towns: none
-- Warnings: WARNING: event count fell by more than 30%, WARNING: zero events, WARNING: no events in next 7 days
+- Warnings: WARNING: zero events, WARNING: no events in next 7 days
 

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T12:04:22.011148+02:00",
+  "updatedAt": "2026-09-15T22:14:54.338237+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 47,
-          "recordsParsed": 47,
+          "rawRecordsFound": 49,
+          "recordsParsed": 49,
           "recordsRejectedByDate": 28,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 19,
+          "acceptedRecords": 21,
           "failureMessage": null
         },
         {
@@ -97,15 +97,15 @@
         {
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
-          "fetchStatus": "failed",
-          "rawRecordsFound": 0,
-          "recordsParsed": 0,
-          "recordsRejectedByDate": 0,
+          "fetchStatus": "ok",
+          "rawRecordsFound": 7,
+          "recordsParsed": 7,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": "HTTPSConnectionPool(host='www.comune.bustoarsizio.va.it', port=443): Read timed out. (read timeout=30)"
+          "failureMessage": null
         },
         {
           "id": "ba-estate-pdf",
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 68,
+        "date": 75,
         "location": 0,
         "radius": 0,
         "duplicate": 4
