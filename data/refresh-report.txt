@@ -1,2 +1,2 @@
 parabiago: 44 accepted
-ossola: 1 accepted
+ossola: 0 accepted

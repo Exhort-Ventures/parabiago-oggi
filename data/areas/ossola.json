@@ -9,39 +9,9 @@
     "horizonDays": 90,
     "defaultLanguage": "it"
   },
-  "updatedAt": "2026-09-14T22:56:44.893294+02:00",
-  "eventCount": 1,
-  "events": [
-    {
-      "title": "Festa dell’Uva",
-      "start": "2026-09-11T18:00:00+02:00",
-      "end": "2026-09-14T23:30:00+02:00",
-      "venue": "Masera",
-      "address": "",
-      "city": "Masera",
-      "latitude": 46.132,
-      "longitude": 8.328,
-      "distanceKm": 10.9,
-      "category": "food",
-      "categoryLabel": "Food e sagre",
-      "description": "Festa tradizionale con eventi e degustazioni.",
-      "free": true,
-      "priceText": "",
-      "bookingUrl": null,
-      "sourceName": "Festorum VCO",
-      "sourceUrl": "https://festorum.it/eventi/piemonte/verbano-cusio-ossola",
-      "sourceType": "aggregator",
-      "confidence": "Probabile",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-09-14T22:56:44.893294+02:00",
-      "areaId": "ossola",
-      "locationPrecision": "town",
-      "rankingScore": 52.1,
-      "recurringSeriesId": null,
-      "id": "3d8367fd65f93197"
-    }
-  ],
+  "updatedAt": "2026-09-15T12:04:22.011148+02:00",
+  "eventCount": 0,
+  "events": [],
   "sourceHealth": [
     {
       "id": "visitossola",
@@ -127,11 +97,11 @@
       "fetchStatus": "ok",
       "rawRecordsFound": 2,
       "recordsParsed": 2,
-      "recordsRejectedByDate": 1,
+      "recordsRejectedByDate": 2,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
       "recordsRejectedAsDuplicates": 0,
-      "acceptedRecords": 1,
+      "acceptedRecords": 0,
       "failureMessage": null
     },
     {
@@ -175,7 +145,7 @@
     }
   ],
   "rejections": {
-    "date": 16,
+    "date": 17,
     "location": 0,
     "radius": 0,
     "duplicate": 0
@@ -292,8 +262,8 @@
       "parsedDate": "2026-09-11T18:00:00+02:00",
       "parsedTown": "Masera",
       "area": "ossola",
-      "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "3d8367fd65f93197",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/ossola.json",
       "coordinates": [
         46.132,

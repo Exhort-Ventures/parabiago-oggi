@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T22:56:44.893294+02:00",
+  "generatedAt": "2026-09-15T12:04:22.011148+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 44,
@@ -10,6 +10,7 @@
         "Milano",
         "Paderno Dugnano",
         "Rho",
+        "Segrate da",
         "Sesto San Giovanni"
       ],
       "representedCategories": [
@@ -41,32 +42,27 @@
       "zeroResultSources": [
         "Cheventi Rho",
         "Comune di Rho programma",
-        "LegnanoNews – La Bella Estate",
+        "LegnanoNews – La Bella Estate"
+      ],
+      "failedSources": [
         "Comune di Busto Arsizio – BA Estate"
       ],
-      "failedSources": [],
       "oldestEventDate": "2026-09-16T20:30:00+02:00",
       "newestEventDate": "2026-12-01T01:00:00+01:00",
       "largestProgrammeShare": 0.023,
       "eventsExpiringNext7Days": 5,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 43,
-        "change": 1
+        "previousCount": 44,
+        "change": 0
       },
       "warnings": []
     },
     "ossola": {
-      "totalFutureDateRecords": 1,
-      "distinctEventSeries": 1,
-      "representedTowns": [
-        "Masera"
-      ],
-      "representedCategories": [
-        "food"
-      ],
-      "representedSourceFamilies": [
-        "aggregator"
-      ],
+      "totalFutureDateRecords": 0,
+      "distinctEventSeries": 0,
+      "representedTowns": [],
+      "representedCategories": [],
+      "representedSourceFamilies": [],
       "acceptedRecordsBySource": {
         "VisitOssola": 0,
         "OssolaNews": 0,
@@ -74,7 +70,7 @@
         "OssolaNews – Cinema sotto le stelle": 0,
         "OssolaNews – Ossola Guitar Festival": 0,
         "Formazza Country Festival": 0,
-        "Festorum VCO": 1,
+        "Festorum VCO": 0,
         "Comune di Crodo": 0,
         "Festorum VCO – Festa delle Bionde": 0,
         "Distretto Turistico dei Laghi – Tones Teatro Natura": 0
@@ -86,21 +82,24 @@
         "OssolaNews – Cinema sotto le stelle",
         "OssolaNews – Ossola Guitar Festival",
         "Formazza Country Festival",
+        "Festorum VCO",
         "Comune di Crodo",
         "Festorum VCO – Festa delle Bionde",
         "Distretto Turistico dei Laghi – Tones Teatro Natura"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-09-11T18:00:00+02:00",
-      "newestEventDate": "2026-09-11T18:00:00+02:00",
-      "largestProgrammeShare": 1.0,
-      "eventsExpiringNext7Days": 1,
+      "oldestEventDate": null,
+      "newestEventDate": null,
+      "largestProgrammeShare": 0,
+      "eventsExpiringNext7Days": 0,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 1,
-        "change": 0
+        "change": -1
       },
       "warnings": [
-        "WARNING: one programme exceeds 40% of dates"
+        "WARNING: event count fell by more than 30%",
+        "WARNING: zero events",
+        "WARNING: no events in next 7 days"
       ]
     }
   }
