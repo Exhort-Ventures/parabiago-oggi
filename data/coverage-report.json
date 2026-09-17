@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T11:59:11.018235+02:00",
+  "generatedAt": "2026-09-17T22:20:03.982312+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 44,
@@ -9,8 +9,7 @@
         "Legnano",
         "Milano",
         "Paderno Dugnano",
-        "Rho",
-        "Sesto San Giovanni"
+        "Rho"
       ],
       "representedCategories": [
         "culture",
@@ -50,8 +49,8 @@
       "largestProgrammeShare": 0.023,
       "eventsExpiringNext7Days": 5,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 43,
-        "change": 1
+        "previousCount": 44,
+        "change": 0
       },
       "warnings": []
     },
