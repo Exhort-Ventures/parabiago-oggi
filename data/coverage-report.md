@@ -4,7 +4,7 @@
 
 - Records: 44
 - Series: 44
-- Towns: Busto Arsizio, Legnano, Milano, Paderno Dugnano, Rho
+- Towns: Busto Arsizio, Legnano, Milano, Rho
 - Warnings: none
 
 ## ossola
