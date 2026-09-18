@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 44
-- Series: 44
+- Records: 46
+- Series: 46
 - Towns: Busto Arsizio, Legnano, Milano, Rho
 - Warnings: none
 
