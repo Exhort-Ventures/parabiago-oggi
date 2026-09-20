@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T21:18:59.840202+02:00",
+  "updatedAt": "2026-09-20T11:48:46.038403+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 6,
-          "recordsParsed": 6,
-          "recordsRejectedByDate": 2,
+          "rawRecordsFound": 8,
+          "recordsParsed": 8,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 4,
+          "acceptedRecords": 3,
           "failureMessage": null
         },
         {
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 51,
-          "recordsParsed": 51,
-          "recordsRejectedByDate": 31,
+          "rawRecordsFound": 48,
+          "recordsParsed": 48,
+          "recordsRejectedByDate": 27,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 20,
+          "acceptedRecords": 21,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 18,
           "recordsParsed": 18,
-          "recordsRejectedByDate": 9,
+          "recordsRejectedByDate": 13,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 4,
-          "acceptedRecords": 5,
+          "recordsRejectedAsDuplicates": 1,
+          "acceptedRecords": 4,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 83,
+        "date": 86,
         "location": 0,
         "radius": 0,
-        "duplicate": 4
+        "duplicate": 1
       }
     },
     "ossola": {

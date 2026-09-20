@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 39
-- Series: 39
-- Towns: Buccinasco, Busto Arsizio, Legnano, Milano, Rho
+- Records: 38
+- Series: 38
+- Towns: Busto Arsizio, Legnano, Milano, Rho
 - Warnings: none
 
 ## ossola
