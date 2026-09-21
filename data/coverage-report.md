@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 44
-- Series: 44
+- Records: 45
+- Series: 45
 - Towns: Busto Arsizio, Legnano, Milano, Rho, Segrate da, Sesto San Giovanni
 - Warnings: none
 

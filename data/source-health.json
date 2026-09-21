@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T12:43:44.754948+02:00",
+  "updatedAt": "2026-09-21T23:04:05.578595+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 1,
-          "recordsParsed": 1,
-          "recordsRejectedByDate": 1,
+          "rawRecordsFound": 3,
+          "recordsParsed": 3,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
+          "acceptedRecords": 1,
           "failureMessage": null
         },
         {
@@ -72,9 +72,9 @@
           "id": "legnano-bella-estate",
           "name": "LegnanoNews – La Bella Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 1,
-          "recordsParsed": 1,
-          "recordsRejectedByDate": 1,
+          "rawRecordsFound": 2,
+          "recordsParsed": 2,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -85,12 +85,12 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 18,
-          "recordsParsed": 18,
-          "recordsRejectedByDate": 13,
+          "rawRecordsFound": 8,
+          "recordsParsed": 8,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 1,
+          "recordsRejectedAsDuplicates": 2,
           "acceptedRecords": 4,
           "failureMessage": null
         },
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 82,
+        "date": 73,
         "location": 0,
         "radius": 0,
-        "duplicate": 1
+        "duplicate": 2
       }
     },
     "ossola": {
