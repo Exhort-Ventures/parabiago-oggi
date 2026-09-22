@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T23:04:05.578595+02:00",
+  "updatedAt": "2026-09-22T11:57:43.591752+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,9 +46,9 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 51,
-          "recordsParsed": 51,
-          "recordsRejectedByDate": 27,
+          "rawRecordsFound": 50,
+          "recordsParsed": 50,
+          "recordsRejectedByDate": 26,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -72,9 +72,9 @@
           "id": "legnano-bella-estate",
           "name": "LegnanoNews – La Bella Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 2,
-          "recordsParsed": 2,
-          "recordsRejectedByDate": 2,
+          "rawRecordsFound": 3,
+          "recordsParsed": 3,
+          "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 8,
-          "recordsParsed": 8,
+          "rawRecordsFound": 9,
+          "recordsParsed": 9,
           "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 2,
-          "acceptedRecords": 4,
+          "acceptedRecords": 5,
           "failureMessage": null
         },
         {

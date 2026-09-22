@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-21T23:04:05.578595+02:00",
+  "generatedAt": "2026-09-22T11:57:43.591752+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 45,
-      "distinctEventSeries": 45,
+      "totalFutureDateRecords": 46,
+      "distinctEventSeries": 46,
       "representedTowns": [
         "Busto Arsizio",
         "Legnano",
@@ -34,7 +34,7 @@
         "Comune di Rho": 24,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
-        "VareseNews – JAZZaltro": 4,
+        "VareseNews – JAZZaltro": 5,
         "Comune di Busto Arsizio – BA Estate": 0,
         "Comune di Busto Arsizio – BA Estate PDF": 10
       },
@@ -50,7 +50,7 @@
       "largestProgrammeShare": 0.022,
       "eventsExpiringNext7Days": 6,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 44,
+        "previousCount": 45,
         "change": 1
       },
       "warnings": []
