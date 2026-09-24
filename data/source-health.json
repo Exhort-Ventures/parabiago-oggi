@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T22:21:43.658773+02:00",
+  "updatedAt": "2026-09-24T12:00:42.075771+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 6,
-          "recordsParsed": 6,
+          "rawRecordsFound": 5,
+          "recordsParsed": 5,
           "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 5,
+          "acceptedRecords": 4,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 8,
-          "recordsParsed": 8,
+          "rawRecordsFound": 14,
+          "recordsParsed": 14,
           "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 2,
-          "acceptedRecords": 4,
+          "recordsRejectedAsDuplicates": 5,
+          "acceptedRecords": 7,
           "failureMessage": null
         },
         {
@@ -125,7 +125,7 @@
         "date": 73,
         "location": 0,
         "radius": 0,
-        "duplicate": 2
+        "duplicate": 5
       }
     },
     "ossola": {
