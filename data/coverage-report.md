@@ -4,7 +4,7 @@
 
 - Records: 53
 - Series: 53
-- Towns: Busto Arsizio, Cusano Milanino, Legnano, Milano, Rho, Segrate da
+- Towns: Busto Arsizio, Cusano Milanino, Legnano, Milano, Rho
 - Warnings: none
 
 ## ossola
