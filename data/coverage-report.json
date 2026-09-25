@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T22:30:04.545813+02:00",
+  "generatedAt": "2026-09-25T12:11:51.387973+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 53,
@@ -12,6 +12,7 @@
         "Rho"
       ],
       "representedCategories": [
+        "cinema",
         "community",
         "culture",
         "food",
@@ -29,8 +30,8 @@
       "acceptedRecordsBySource": {
         "Cheventi Milano": 4,
         "Cheventi Rho": 0,
-        "LegnanoNews": 5,
-        "Comune di Rho": 28,
+        "LegnanoNews": 2,
+        "Comune di Rho": 31,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 7,
