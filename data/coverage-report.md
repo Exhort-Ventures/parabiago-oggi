@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 49
-- Series: 49
-- Towns: Busto Arsizio, Cusano Milanino, Legnano, Locate di Triulzi MI, Milano, Rho
+- Records: 43
+- Series: 43
+- Towns: Busto Arsizio, Legnano, Locate di Triulzi MI, Milano, Rho
 - Warnings: none
 
 ## ossola
