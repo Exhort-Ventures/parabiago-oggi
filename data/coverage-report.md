@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 43
-- Series: 43
+- Records: 40
+- Series: 40
 - Towns: Busto Arsizio, Legnano, Locate di Triulzi MI, Milano, Rho
 - Warnings: none
 
