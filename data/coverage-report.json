@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-09-28T13:41:26.373255+02:00",
+  "generatedAt": "2026-09-29T00:32:33.163025+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 40,
-      "distinctEventSeries": 40,
+      "totalFutureDateRecords": 41,
+      "distinctEventSeries": 41,
       "representedTowns": [
         "Cusano Milanino",
+        "Inzago",
         "Legnano",
         "Milano",
         "Rho"
@@ -27,7 +28,7 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 7,
+        "Cheventi Milano": 8,
         "Cheventi Rho": 0,
         "LegnanoNews": 2,
         "Comune di Rho": 25,
@@ -47,11 +48,11 @@
       "failedSources": [],
       "oldestEventDate": "2026-09-20T02:00:00+02:00",
       "newestEventDate": "2026-12-19T01:00:00+01:00",
-      "largestProgrammeShare": 0.025,
+      "largestProgrammeShare": 0.024,
       "eventsExpiringNext7Days": 7,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 34,
-        "change": 6
+        "previousCount": 40,
+        "change": 1
       },
       "warnings": []
     },
