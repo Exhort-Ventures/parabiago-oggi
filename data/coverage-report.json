@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-29T00:32:33.163025+02:00",
+  "generatedAt": "2026-09-29T13:22:05.747272+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 41,
-      "distinctEventSeries": 41,
+      "totalFutureDateRecords": 52,
+      "distinctEventSeries": 52,
       "representedTowns": [
         "Cusano Milanino",
         "Inzago",
@@ -12,7 +12,6 @@
         "Rho"
       ],
       "representedCategories": [
-        "cinema",
         "community",
         "culture",
         "food",
@@ -31,7 +30,7 @@
         "Cheventi Milano": 8,
         "Cheventi Rho": 0,
         "LegnanoNews": 2,
-        "Comune di Rho": 25,
+        "Comune di Rho": 36,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 6,
@@ -48,11 +47,11 @@
       "failedSources": [],
       "oldestEventDate": "2026-09-20T02:00:00+02:00",
       "newestEventDate": "2026-12-19T01:00:00+01:00",
-      "largestProgrammeShare": 0.024,
-      "eventsExpiringNext7Days": 7,
+      "largestProgrammeShare": 0.019,
+      "eventsExpiringNext7Days": 9,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 40,
-        "change": 1
+        "previousCount": 41,
+        "change": 11
       },
       "warnings": []
     },
