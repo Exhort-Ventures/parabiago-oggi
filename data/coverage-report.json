@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-29T13:22:05.747272+02:00",
+  "generatedAt": "2026-09-29T23:24:03.408261+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 52,
-      "distinctEventSeries": 52,
+      "totalFutureDateRecords": 54,
+      "distinctEventSeries": 54,
       "representedTowns": [
         "Cusano Milanino",
         "Inzago",
@@ -30,7 +30,7 @@
         "Cheventi Milano": 8,
         "Cheventi Rho": 0,
         "LegnanoNews": 2,
-        "Comune di Rho": 36,
+        "Comune di Rho": 38,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 6,
@@ -50,8 +50,8 @@
       "largestProgrammeShare": 0.019,
       "eventsExpiringNext7Days": 9,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 41,
-        "change": 11
+        "previousCount": 52,
+        "change": 2
       },
       "warnings": []
     },
