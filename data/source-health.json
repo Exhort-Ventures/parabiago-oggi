@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T13:10:09.223559+02:00",
+  "updatedAt": "2026-09-30T23:25:17.562217+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 8,
-          "recordsParsed": 8,
+          "rawRecordsFound": 9,
+          "recordsParsed": 9,
           "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 8,
+          "acceptedRecords": 9,
           "failureMessage": null
         },
         {
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 66,
-          "recordsParsed": 66,
+          "rawRecordsFound": 67,
+          "recordsParsed": 67,
           "recordsRejectedByDate": 26,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 40,
+          "acceptedRecords": 41,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 11,
-          "recordsParsed": 11,
+          "rawRecordsFound": 18,
+          "recordsParsed": 18,
           "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 3,
-          "acceptedRecords": 6,
+          "recordsRejectedAsDuplicates": 5,
+          "acceptedRecords": 11,
           "failureMessage": null
         },
         {
@@ -125,7 +125,7 @@
         "date": 80,
         "location": 0,
         "radius": 0,
-        "duplicate": 3
+        "duplicate": 5
       }
     },
     "ossola": {
