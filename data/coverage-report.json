@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-30T23:25:17.562217+02:00",
+  "generatedAt": "2026-10-01T13:36:59.752759+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 63,
-      "distinctEventSeries": 63,
+      "totalFutureDateRecords": 62,
+      "distinctEventSeries": 62,
       "representedTowns": [
         "Cusano Milanino",
         "Inzago",
@@ -34,7 +34,7 @@
         "Comune di Rho": 41,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
-        "VareseNews – JAZZaltro": 11,
+        "VareseNews – JAZZaltro": 10,
         "Comune di Busto Arsizio – BA Estate": 0,
         "Comune di Busto Arsizio – BA Estate PDF": 0
       },
@@ -49,10 +49,10 @@
       "oldestEventDate": "2026-09-20T02:00:00+02:00",
       "newestEventDate": "2026-12-19T01:00:00+01:00",
       "largestProgrammeShare": 0.016,
-      "eventsExpiringNext7Days": 9,
+      "eventsExpiringNext7Days": 10,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 56,
-        "change": 7
+        "previousCount": 63,
+        "change": -1
       },
       "warnings": []
     },

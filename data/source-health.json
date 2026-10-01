@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T23:25:17.562217+02:00",
+  "updatedAt": "2026-10-01T13:36:59.752759+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -87,20 +87,20 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 18,
           "recordsParsed": 18,
-          "recordsRejectedByDate": 2,
+          "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 5,
-          "acceptedRecords": 11,
+          "acceptedRecords": 10,
           "failureMessage": null
         },
         {
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 7,
-          "recordsParsed": 7,
-          "recordsRejectedByDate": 7,
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 80,
+        "date": 74,
         "location": 0,
         "radius": 0,
         "duplicate": 5
