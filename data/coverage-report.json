@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T13:36:59.752759+02:00",
+  "generatedAt": "2026-10-01T23:49:36.185591+02:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 62,
@@ -9,10 +9,10 @@
         "Inzago",
         "Legnano",
         "Milano",
+        "Paderno Dugnano",
         "Rho"
       ],
       "representedCategories": [
-        "community",
         "culture",
         "festivals",
         "food",
@@ -51,8 +51,8 @@
       "largestProgrammeShare": 0.016,
       "eventsExpiringNext7Days": 10,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 63,
-        "change": -1
+        "previousCount": 62,
+        "change": 0
       },
       "warnings": []
     },

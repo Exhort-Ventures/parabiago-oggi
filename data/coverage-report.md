@@ -4,7 +4,7 @@
 
 - Records: 62
 - Series: 62
-- Towns: Cusano Milanino, Inzago, Legnano, Milano, Rho
+- Towns: Cusano Milanino, Inzago, Legnano, Milano, Paderno Dugnano, Rho
 - Warnings: none
 
 ## ossola
