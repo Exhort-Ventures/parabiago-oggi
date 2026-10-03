@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T12:24:28.598884+02:00",
+  "updatedAt": "2026-10-03T21:50:12.003824+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -9,11 +9,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 9,
           "recordsParsed": 9,
-          "recordsRejectedByDate": 3,
+          "recordsRejectedByDate": 4,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 6,
+          "acceptedRecords": 5,
           "failureMessage": null
         },
         {
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 78,
-          "recordsParsed": 78,
+          "rawRecordsFound": 79,
+          "recordsParsed": 79,
           "recordsRejectedByDate": 27,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 51,
+          "acceptedRecords": 52,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 21,
-          "recordsParsed": 21,
+          "rawRecordsFound": 20,
+          "recordsParsed": 20,
           "recordsRejectedByDate": 10,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 1,
-          "acceptedRecords": 10,
+          "acceptedRecords": 9,
           "failureMessage": null
         },
         {
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 86,
+        "date": 87,
         "location": 0,
         "radius": 0,
         "duplicate": 1

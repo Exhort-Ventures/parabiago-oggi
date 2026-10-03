@@ -1,14 +1,13 @@
 {
-  "generatedAt": "2026-10-03T12:24:28.598884+02:00",
+  "generatedAt": "2026-10-03T21:50:12.003824+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 68,
-      "distinctEventSeries": 68,
+      "totalFutureDateRecords": 67,
+      "distinctEventSeries": 67,
       "representedTowns": [
         "Inzago",
         "Legnano",
         "Milano",
-        "Paderno Dugnano",
         "Rho"
       ],
       "representedCategories": [
@@ -29,13 +28,13 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 6,
+        "Cheventi Milano": 5,
         "Cheventi Rho": 0,
         "LegnanoNews": 1,
-        "Comune di Rho": 51,
+        "Comune di Rho": 52,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
-        "VareseNews – JAZZaltro": 10,
+        "VareseNews – JAZZaltro": 9,
         "Comune di Busto Arsizio – BA Estate": 0,
         "Comune di Busto Arsizio – BA Estate PDF": 0
       },
@@ -50,10 +49,10 @@
       "oldestEventDate": "2026-09-20T02:00:00+02:00",
       "newestEventDate": "2026-12-31T01:00:00+01:00",
       "largestProgrammeShare": 0.015,
-      "eventsExpiringNext7Days": 14,
+      "eventsExpiringNext7Days": 15,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 72,
-        "change": -4
+        "previousCount": 68,
+        "change": -1
       },
       "warnings": []
     },
