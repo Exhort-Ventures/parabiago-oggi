@@ -1,18 +1,16 @@
 {
-  "generatedAt": "2026-10-03T21:50:12.003824+02:00",
+  "generatedAt": "2026-10-04T13:06:59.972640+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 67,
-      "distinctEventSeries": 67,
+      "totalFutureDateRecords": 58,
+      "distinctEventSeries": 58,
       "representedTowns": [
-        "Inzago",
         "Legnano",
         "Milano",
         "Rho"
       ],
       "representedCategories": [
         "cinema",
-        "community",
         "culture",
         "festivals",
         "food",
@@ -28,10 +26,10 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 5,
+        "Cheventi Milano": 3,
         "Cheventi Rho": 0,
-        "LegnanoNews": 1,
-        "Comune di Rho": 52,
+        "LegnanoNews": 0,
+        "Comune di Rho": 46,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 9,
@@ -40,19 +38,20 @@
       },
       "zeroResultSources": [
         "Cheventi Rho",
+        "LegnanoNews",
         "Comune di Rho programma",
         "LegnanoNews – La Bella Estate",
         "Comune di Busto Arsizio – BA Estate",
         "Comune di Busto Arsizio – BA Estate PDF"
       ],
       "failedSources": [],
-      "oldestEventDate": "2026-09-20T02:00:00+02:00",
+      "oldestEventDate": "2026-09-23T02:00:00+02:00",
       "newestEventDate": "2026-12-31T01:00:00+01:00",
-      "largestProgrammeShare": 0.015,
-      "eventsExpiringNext7Days": 15,
+      "largestProgrammeShare": 0.017,
+      "eventsExpiringNext7Days": 12,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 68,
-        "change": -1
+        "previousCount": 67,
+        "change": -9
       },
       "warnings": []
     },
