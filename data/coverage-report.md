@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 55
-- Series: 55
-- Towns: Legnano, Rho
+- Records: 61
+- Series: 61
+- Towns: Castelletto di Cuggiono da, Legnano, Milano, Rho
 - Warnings: none
 
 ## ossola

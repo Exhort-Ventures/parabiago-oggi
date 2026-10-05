@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T22:10:52.689399+02:00",
+  "updatedAt": "2026-10-05T14:16:33.966700+02:00",
   "areas": [
     {
       "id": "parabiago",
@@ -10,8 +10,8 @@
       "radiusKm": 45,
       "horizonDays": 90,
       "defaultLanguage": "it",
-      "eventCount": 55,
-      "updatedAt": "2026-10-04T22:10:52.689399+02:00"
+      "eventCount": 61,
+      "updatedAt": "2026-10-05T14:16:33.966700+02:00"
     },
     {
       "id": "ossola",
@@ -23,7 +23,7 @@
       "horizonDays": 90,
       "defaultLanguage": "it",
       "eventCount": 0,
-      "updatedAt": "2026-10-04T22:10:52.689399+02:00"
+      "updatedAt": "2026-10-05T14:16:33.966700+02:00"
     }
   ]
 }
