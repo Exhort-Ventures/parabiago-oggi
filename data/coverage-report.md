@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 60
-- Series: 60
+- Records: 63
+- Series: 63
 - Towns: Castelletto di Cuggiono da, Legnano, Milano, Rho
 - Warnings: none
 
