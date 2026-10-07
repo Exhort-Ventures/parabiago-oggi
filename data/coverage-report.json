@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-06T23:37:14.161690+02:00",
+  "generatedAt": "2026-10-07T13:47:11.629002+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 65,
-      "distinctEventSeries": 65,
+      "totalFutureDateRecords": 67,
+      "distinctEventSeries": 67,
       "representedTowns": [
         "Castelletto di Cuggiono da",
         "Legnano",
@@ -27,10 +27,10 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 5,
+        "Cheventi Milano": 6,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
-        "Comune di Rho": 50,
+        "Comune di Rho": 51,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 10,
@@ -51,7 +51,7 @@
       "largestProgrammeShare": 0.015,
       "eventsExpiringNext7Days": 14,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 63,
+        "previousCount": 65,
         "change": 2
       },
       "warnings": []
