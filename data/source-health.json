@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T23:58:27.639117+02:00",
+  "updatedAt": "2026-10-08T14:01:50.261118+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 77,
-          "recordsParsed": 77,
-          "recordsRejectedByDate": 25,
+          "rawRecordsFound": 89,
+          "recordsParsed": 89,
+          "recordsRejectedByDate": 31,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 52,
+          "acceptedRecords": 58,
           "failureMessage": null
         },
         {
@@ -85,12 +85,12 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 19,
-          "recordsParsed": 19,
-          "recordsRejectedByDate": 3,
+          "rawRecordsFound": 22,
+          "recordsParsed": 22,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 6,
+          "recordsRejectedAsDuplicates": 10,
           "acceptedRecords": 10,
           "failureMessage": null
         },
@@ -98,9 +98,9 @@
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 8,
-          "recordsParsed": 8,
-          "recordsRejectedByDate": 8,
+          "rawRecordsFound": 9,
+          "recordsParsed": 9,
+          "recordsRejectedByDate": 9,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 83,
+        "date": 89,
         "location": 0,
         "radius": 0,
-        "duplicate": 6
+        "duplicate": 10
       }
     },
     "ossola": {
