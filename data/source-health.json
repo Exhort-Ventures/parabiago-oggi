@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T14:01:50.261118+02:00",
+  "updatedAt": "2026-10-09T00:04:13.647512+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,9 +33,9 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 1,
-          "recordsParsed": 1,
-          "recordsRejectedByDate": 1,
+          "rawRecordsFound": 2,
+          "recordsParsed": 2,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 89,
-          "recordsParsed": 89,
-          "recordsRejectedByDate": 31,
+          "rawRecordsFound": 88,
+          "recordsParsed": 88,
+          "recordsRejectedByDate": 28,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 58,
+          "acceptedRecords": 60,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 22,
-          "recordsParsed": 22,
-          "recordsRejectedByDate": 2,
+          "rawRecordsFound": 29,
+          "recordsParsed": 29,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 10,
-          "acceptedRecords": 10,
+          "acceptedRecords": 12,
           "failureMessage": null
         },
         {
@@ -110,19 +110,19 @@
         {
           "id": "ba-estate-pdf",
           "name": "Comune di Busto Arsizio – BA Estate PDF",
-          "fetchStatus": "ok",
-          "rawRecordsFound": 31,
-          "recordsParsed": 31,
-          "recordsRejectedByDate": 31,
+          "fetchStatus": "failed",
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": null
+          "failureMessage": "Cannot read an empty file"
         }
       ],
       "rejections": {
-        "date": 89,
+        "date": 61,
         "location": 0,
         "radius": 0,
         "duplicate": 10
