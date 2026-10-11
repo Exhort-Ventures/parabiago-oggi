@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T22:33:32.123841+02:00",
+  "updatedAt": "2026-10-11T13:24:12.369055+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 7,
-          "recordsParsed": 7,
+          "rawRecordsFound": 8,
+          "recordsParsed": 8,
           "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 2,
+          "acceptedRecords": 3,
           "failureMessage": null
         },
         {
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 86,
-          "recordsParsed": 86,
-          "recordsRejectedByDate": 32,
+          "rawRecordsFound": 82,
+          "recordsParsed": 82,
+          "recordsRejectedByDate": 33,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 54,
+          "acceptedRecords": 49,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 24,
           "recordsParsed": 24,
-          "recordsRejectedByDate": 10,
+          "recordsRejectedByDate": 13,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 3,
-          "acceptedRecords": 11,
+          "recordsRejectedAsDuplicates": 1,
+          "acceptedRecords": 10,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 70,
+        "date": 74,
         "location": 0,
         "radius": 0,
-        "duplicate": 3
+        "duplicate": 1
       }
     },
     "ossola": {
