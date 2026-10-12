@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 60
-- Series: 60
-- Towns: Legnano, Rho
+- Records: 64
+- Series: 64
+- Towns: Assago, Legnano, Magenta da, Milano, Rho
 - Warnings: none
 
 ## ossola
