@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 63
-- Series: 63
+- Records: 65
+- Series: 65
 - Towns: Assago, Legnano, Magenta da, Milano, Rho
 - Warnings: none
 
