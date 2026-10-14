@@ -4,7 +4,7 @@
 
 - Records: 69
 - Series: 69
-- Towns: Assago, Legnano, Magenta da, Milano, Rho
+- Towns: Assago, Legnano, Magenta da, Milano, Rho, Rozzano da
 - Warnings: none
 
 ## ossola
