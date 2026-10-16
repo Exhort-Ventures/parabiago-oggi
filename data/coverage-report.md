@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 67
-- Series: 67
-- Towns: Assago, Legnano, Magenta da, Masate, Milano, Rho, Rozzano da
+- Records: 66
+- Series: 66
+- Towns: Assago, Legnano, Magenta da, Masate, Milano, Rho
 - Warnings: none
 
 ## ossola
