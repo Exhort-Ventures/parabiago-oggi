@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-10-18T11:37:27.144697+02:00",
+  "generatedAt": "2026-10-18T21:25:22.562575+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 56,
-      "distinctEventSeries": 56,
+      "totalFutureDateRecords": 57,
+      "distinctEventSeries": 57,
       "representedTowns": [
         "Legnano",
+        "Milano",
         "Rho"
       ],
       "representedCategories": [
@@ -20,11 +21,12 @@
         "workshops"
       ],
       "representedSourceFamilies": [
+        "aggregator",
         "local_media",
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 0,
+        "Cheventi Milano": 1,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
         "Comune di Rho": 44,
@@ -35,7 +37,6 @@
         "Comune di Busto Arsizio – BA Estate PDF": 0
       },
       "zeroResultSources": [
-        "Cheventi Milano",
         "Cheventi Rho",
         "LegnanoNews",
         "Comune di Rho programma",
@@ -50,8 +51,8 @@
       "largestProgrammeShare": 0.018,
       "eventsExpiringNext7Days": 16,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 60,
-        "change": -4
+        "previousCount": 56,
+        "change": 1
       },
       "warnings": []
     },
