@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T12:45:58.488145+02:00",
+  "updatedAt": "2026-10-19T23:31:34.564847+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,26 +33,26 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 0,
-          "recordsParsed": 0,
+          "rawRecordsFound": 1,
+          "recordsParsed": 1,
           "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
+          "acceptedRecords": 1,
           "failureMessage": null
         },
         {
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 80,
-          "recordsParsed": 80,
+          "rawRecordsFound": 86,
+          "recordsParsed": 86,
           "recordsRejectedByDate": 33,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 47,
+          "acceptedRecords": 53,
           "failureMessage": null
         },
         {
