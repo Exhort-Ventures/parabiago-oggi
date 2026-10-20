@@ -9,8 +9,8 @@
     "horizonDays": 90,
     "defaultLanguage": "it"
   },
-  "updatedAt": "2026-10-19T23:31:34.564847+02:00",
-  "eventCount": 69,
+  "updatedAt": "2026-10-20T12:04:07.546627+02:00",
+  "eventCount": 75,
   "events": [
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -34,7 +34,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
@@ -63,12 +63,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
       "recurringSeriesId": null,
       "id": "120426aaecd99fb9"
+    },
+    {
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "start": "2026-11-08T00:00:00+01:00",
+      "end": null,
+      "venue": "Legnano",
+      "address": "",
+      "city": "Legnano",
+      "latitude": 45.5942,
+      "longitude": 8.9173,
+      "distanceKm": 5.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceName": "VareseNews – JAZZaltro",
+      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceType": "local_media",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 65.0,
+      "recurringSeriesId": null,
+      "id": "36b2fe2a24f6ed40"
     },
     {
       "title": "CALL FOR DECKS: al MAST torna l’appuntamento mensile dedicato alla musica elettronica",
@@ -92,7 +121,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -121,7 +150,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -150,7 +179,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -179,7 +208,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -208,7 +237,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -237,7 +266,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -266,7 +295,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -295,7 +324,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -324,7 +353,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -353,7 +382,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -382,7 +411,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -411,12 +440,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
       "recurringSeriesId": null,
       "id": "9cc43741f2e63a8d"
+    },
+    {
+      "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "start": "2026-12-12T01:00:00+01:00",
+      "end": "2026-12-12T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "sport",
+      "categoryLabel": "Sport e gare",
+      "description": "<div><b>Presso il Centro civico, 2° piano dia G. Cesare 36 - Lucernate</b></div><div><b><br></b></div><div><b>Come si può trasformare una semplice lettura in un momento capace di conquistare i bambini?</b><span>&nbsp;</span><br><span>La formazione, rivolta agli adulti e dedicata alla fascia 6-11 anni, propone tecniche e strumenti per imparare a usare la propria voce in modo espressivo: dare vita ai personaggi, trasmettere emozioni, creare attesa e curiosità, aiutando i più piccoli ad avvicinarsi al piacere dell'ascolto e delle storie.</span><br><br></div><div><span>La formazione è a cura del Teatro dell'Armadillo con Sabina Villa.</span><br><ul><li><span>sabato 24 ottobre dalle 9.30 alle 12.30</span></li><li>sabato 7 novembre dalle 9.30 alle 12.30</li><li>sabato 28 novembre dalle 9.30 alle 12.30</li><li>sabato 12 dicembre dalle 9.30 alle 12.30</li></ul></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/formazione-adulti-per-la-lettura-ad-alta-voce-rivolta-alla-fascia-6-11-anni-132339-1-e13e7a9c79006097b09eb4b925dea6a5",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/formazione-adulti-per-la-lettura-ad-alta-voce-rivolta-alla-fascia-6-11-anni-132339-1-e13e7a9c79006097b09eb4b925dea6a5",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 62.0,
+      "recurringSeriesId": null,
+      "id": "4fc5c92f9355fd9b"
     },
     {
       "title": "Mercato Contadino: qualità, stagionalità e km zero in Piazza San Vittore",
@@ -440,7 +498,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -469,7 +527,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -498,7 +556,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -527,7 +585,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -556,7 +614,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -585,7 +643,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 57.0,
@@ -614,7 +672,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -643,7 +701,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -672,7 +730,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -701,7 +759,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -730,7 +788,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -759,41 +817,12 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 53.0,
       "recurringSeriesId": null,
       "id": "6fc6f61076727a2c"
-    },
-    {
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "start": "2026-11-08T00:00:00+01:00",
-      "end": null,
-      "venue": "Legnano",
-      "address": "",
-      "city": "Legnano",
-      "latitude": 45.5942,
-      "longitude": 8.9173,
-      "distanceKm": 5.0,
-      "category": "music",
-      "categoryLabel": "Musica",
-      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
-      "free": null,
-      "priceText": "",
-      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
-      "sourceName": "VareseNews – JAZZaltro",
-      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
-      "sourceType": "local_media",
-      "confidence": "Probabile",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
-      "areaId": "parabiago",
-      "locationPrecision": "town",
-      "rankingScore": 53.0,
-      "recurringSeriesId": null,
-      "id": "36b2fe2a24f6ed40"
     },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -817,7 +846,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 53.0,
@@ -846,7 +875,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 53.0,
@@ -875,7 +904,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 53.0,
@@ -904,7 +933,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 51.0,
@@ -933,7 +962,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -962,12 +991,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
       "recurringSeriesId": null,
       "id": "6f62a4b38158d5ab"
+    },
+    {
+      "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "start": "2026-10-24T02:00:00+02:00",
+      "end": "2026-10-24T02:00:00+02:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "workshops",
+      "categoryLabel": "Workshop",
+      "description": "<div><b>Presso il Centro civico, 2° piano dia G. Cesare 36 - Lucernate</b></div><div><b><br></b></div><div><b></b>Come catturare l’attenzione dei più piccoli con una lettura espressiva ad alta voce? I</div><div><br></div><div>l laboratorio offre ai partecipanti gli strumenti utili per appassionare i bambini all’ascolto. Partiremo dalla corretta respirazione ed emissione, per dedicarci poi principalmente alla comunicazione verbale: uso sapiente di tonalità/intensità della voce e ritmo/velocità del fraseggio ci aiuteranno nell’alternanza narrazione/frasi dirette e nella caratterizzazione vocale dei personaggi. Attraverso esercitazioni su testi di letteratura per l’infanzia, chiuderemo il percorso con una parte dedicata alla gestione della comunicazione non verbale durante la lettura e all’inserimento libero del paraverbale all’interno del materiale verbale scritto. È prevista una restituzi",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/formazione-adulti-per-la-lettura-ad-alta-voce-rivolta-alla-fascia-6-11-anni-132336-1-095b862f4d78894d673063f6d54d7734",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/formazione-adulti-per-la-lettura-ad-alta-voce-rivolta-alla-fascia-6-11-anni-132336-1-095b862f4d78894d673063f6d54d7734",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "fea7bf07b63869c7"
     },
     {
       "title": "Cin&città - L'estranea",
@@ -991,7 +1049,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1020,7 +1078,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1049,7 +1107,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1078,7 +1136,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1107,7 +1165,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1136,7 +1194,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1165,7 +1223,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1194,12 +1252,70 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
       "recurringSeriesId": null,
       "id": "03a724c2fe834b92"
+    },
+    {
+      "title": "“Allenarsi alla vita. quali competenze servono per affrontare il domani che ci aspetta?”",
+      "start": "2026-11-06T01:00:00+01:00",
+      "end": "2026-11-06T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "culture",
+      "categoryLabel": "Cultura",
+      "description": "<div>Teatro Civico de Silva di piazza Jannacci 1, venerdì 6 novembre 2026 alle ore 20.45, <br>lo psicoterapeuta<b> Alberto Pellai</b> terrà una conferenza dal titolo “Allenarsi alla vita. quali competenze servono per affrontare il domani che ci aspetta?”.<br>Occorre iscriversi al seguente link:<a href=\"https://www.teatrocivicorho.com/fuoristagione\" target=\"_self\">https://www.teatrocivicorho.com/fuoristagione</a><br><br>Quali competenze servono per affrontare il domani che ci aspetta?<br>Una conferenza di orientamento rivolta a docenti, genitori e studenti delle scuole secondarie di I e II grado<br><br>Relatore:<b><br>Alberto Pellai</b><br>(Medico, psicoterapeuta dell'età evolutiva, ricercatore e scrittore)<b><br><br>Promotori/Collaborazioni:</b><br>L'Istituto per la Ricerca scientifica e l'Educazione Permanente (dei Comuni di Arese, Lainate, Pogliano Mil.se, Pregnana Mil.se, Rho, Vanzago",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/allenarsi-alla-vita-quali-competenze-servono-per-affrontare-il-domani-che-ci-aspetta-132333-1-de519eaed08f78647638a05830980772",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/allenarsi-alla-vita-quali-competenze-servono-per-affrontare-il-domani-che-ci-aspetta-132333-1-de519eaed08f78647638a05830980772",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "a2ceeedc76597797"
+    },
+    {
+      "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "start": "2026-11-07T01:00:00+01:00",
+      "end": "2026-11-07T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "workshops",
+      "categoryLabel": "Workshop",
+      "description": "<div><b>Presso il Centro civico, 2° piano dia G. Cesare 36 - Lucernate</b></div><div><b></b></div><b><br><br>Come catturare l’attenzione dei più piccoli con una lettura espressiva ad alta voce?</b>&nbsp;<div><br>ll laboratorio offre ai partecipanti gli strumenti utili per appassionare i bambini all’ascolto. Partiremo dalla corretta respirazione ed emissione, per dedicarci poi principalmente alla comunicazione verbale: uso sapiente di tonalità/intensità della voce e ritmo/velocità del fraseggio ci aiuteranno nell’alternanza narrazione/frasi dirette e nella caratterizzazione vocale dei personaggi. Attraverso esercitazioni su testi di letteratura per l’infanzia, chiuderemo il percorso con una parte dedicata alla gestione della comunicazione non verbale durante la lettura e all’inserimento libero del paraverbale all’interno del materiale verbale scritto. È prevista una restituzione finale da",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/formazione-adulti-per-la-lettura-ad-alta-voce-rivolta-alla-fascia-6-11-anni-132337-1-260749fad0b579ddb7cc9d768330766c",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/formazione-adulti-per-la-lettura-ad-alta-voce-rivolta-alla-fascia-6-11-anni-132337-1-260749fad0b579ddb7cc9d768330766c",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "16a785ce6061e123"
     },
     {
       "title": "La Scatola delle storie - Racconti teatrali con laboratorio",
@@ -1223,7 +1339,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1252,12 +1368,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
       "recurringSeriesId": null,
       "id": "d26b826072537d4f"
+    },
+    {
+      "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "start": "2026-11-28T01:00:00+01:00",
+      "end": "2026-11-28T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "workshops",
+      "categoryLabel": "Workshop",
+      "description": "<div><b></b></div><b>Presso il Centro civico, 2° piano dia G. Cesare 36 - Lucernate</b><br><br>Come catturare l’attenzione dei più piccoli con una lettura espressiva ad alta voce? <br><br>ll laboratorio offre ai partecipanti gli strumenti utili per appassionare i bambini all’ascolto. Partiremo dalla corretta respirazione ed emissione, per dedicarci poi principalmente alla comunicazione verbale: uso sapiente di tonalità/intensità della voce e ritmo/velocità del fraseggio ci aiuteranno nell’alternanza narrazione/frasi dirette e nella caratterizzazione vocale dei personaggi. Attraverso esercitazioni su testi di letteratura per l’infanzia, chiuderemo il percorso con una parte dedicata alla gestione della comunicazione non verbale durante la lettura e all’inserimento libero del paraverbale all’interno del materiale verbale scritto. È prevista una restituzione finale davanti al pubblico più es",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/formazione-adulti-per-la-lettura-ad-alta-voce-rivolta-alla-fascia-6-11-anni-132338-1-f5479e208ce662c706fdb9d96ced12ff",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/formazione-adulti-per-la-lettura-ad-alta-voce-rivolta-alla-fascia-6-11-anni-132338-1-f5479e208ce662c706fdb9d96ced12ff",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "4c57f417ae991f0d"
     },
     {
       "title": "La Scatola delle storie - Racconti teatrali con laboratorio",
@@ -1281,7 +1426,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1310,41 +1455,12 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
       "recurringSeriesId": null,
       "id": "6ad46ebbae93841a"
-    },
-    {
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "start": "2026-10-20T00:00:00+02:00",
-      "end": null,
-      "venue": "Legnano",
-      "address": "",
-      "city": "Legnano",
-      "latitude": 45.5942,
-      "longitude": 8.9173,
-      "distanceKm": 5.0,
-      "category": "music",
-      "categoryLabel": "Musica",
-      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
-      "free": null,
-      "priceText": "",
-      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
-      "sourceName": "VareseNews – JAZZaltro",
-      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
-      "sourceType": "local_media",
-      "confidence": "Probabile",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
-      "areaId": "parabiago",
-      "locationPrecision": "town",
-      "rankingScore": 45.0,
-      "recurringSeriesId": null,
-      "id": "892a4190741f3dae"
     },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -1368,7 +1484,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
@@ -1397,12 +1513,41 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
       "recurringSeriesId": null,
       "id": "b7c8a2bd6347358f"
+    },
+    {
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "start": "2026-11-12T00:00:00+01:00",
+      "end": null,
+      "venue": "Legnano",
+      "address": "",
+      "city": "Legnano",
+      "latitude": 45.5942,
+      "longitude": 8.9173,
+      "distanceKm": 5.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceName": "VareseNews – JAZZaltro",
+      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceType": "local_media",
+      "confidence": "Probabile",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 45.0,
+      "recurringSeriesId": null,
+      "id": "0955f293c3b21918"
     },
     {
       "title": "UK Party venerdì 23 ottobre 2026 ore 21:00 alle ore 01:00",
@@ -1426,7 +1571,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 43,
@@ -1455,7 +1600,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 43,
@@ -1484,7 +1629,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1513,7 +1658,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1542,7 +1687,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1571,7 +1716,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1600,7 +1745,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1629,12 +1774,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
       "recurringSeriesId": null,
       "id": "32eb9b53e0e1da9b"
+    },
+    {
+      "title": "L’ora del racconto – Speciale Halloween",
+      "start": "2026-10-28T01:00:00+01:00",
+      "end": "2026-10-28T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "<div>In occasione di Halloween, la Biblioteca Ragazzi dedica L’ora del racconto ai bambini dai 3 anni in su con un appuntamento speciale:<b> Letture da paura e Tombola mostruosa,</b> per vivere insieme un pomeriggio di storie e divertimento.<br></div><div><br></div><div>Bambini accompagnati da un adulto</div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/l-ora-del-racconto-speciale-halloween-132334-1-54537b68ff7ab50ff4af8d6ce2f098c2",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/l-ora-del-racconto-speciale-halloween-132334-1-54537b68ff7ab50ff4af8d6ce2f098c2",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 42.0,
+      "recurringSeriesId": null,
+      "id": "8dc71249d4d0c706"
     },
     {
       "title": "Progetto LucerLAB - promozione attività ottobre 2026",
@@ -1658,7 +1832,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1687,7 +1861,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1716,7 +1890,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1745,7 +1919,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1774,7 +1948,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1803,7 +1977,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1832,7 +2006,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1861,7 +2035,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1890,7 +2064,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1919,7 +2093,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1948,7 +2122,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1977,7 +2151,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 41.0,
@@ -2006,7 +2180,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-10-19T23:31:34.564847+02:00",
+      "lastCheckedAt": "2026-10-20T12:04:07.546627+02:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 31,
@@ -2058,13 +2232,13 @@
       "id": "rho",
       "name": "Comune di Rho",
       "fetchStatus": "ok",
-      "rawRecordsFound": 86,
-      "recordsParsed": 86,
-      "recordsRejectedByDate": 33,
+      "rawRecordsFound": 88,
+      "recordsParsed": 88,
+      "recordsRejectedByDate": 28,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
-      "recordsRejectedAsDuplicates": 0,
-      "acceptedRecords": 53,
+      "recordsRejectedAsDuplicates": 1,
+      "acceptedRecords": 59,
       "failureMessage": null
     },
     {
@@ -2099,25 +2273,25 @@
       "fetchStatus": "ok",
       "rawRecordsFound": 20,
       "recordsParsed": 20,
-      "recordsRejectedByDate": 6,
+      "recordsRejectedByDate": 5,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
-      "recordsRejectedAsDuplicates": 3,
+      "recordsRejectedAsDuplicates": 4,
       "acceptedRecords": 11,
       "failureMessage": null
     },
     {
       "id": "ba-estate",
       "name": "Comune di Busto Arsizio – BA Estate",
-      "fetchStatus": "ok",
-      "rawRecordsFound": 10,
-      "recordsParsed": 10,
-      "recordsRejectedByDate": 10,
+      "fetchStatus": "failed",
+      "rawRecordsFound": 0,
+      "recordsParsed": 0,
+      "recordsRejectedByDate": 0,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
       "recordsRejectedAsDuplicates": 0,
       "acceptedRecords": 0,
-      "failureMessage": null
+      "failureMessage": "HTTPSConnectionPool(host='www.comune.bustoarsizio.va.it', port=443): Read timed out. (read timeout=30)"
     },
     {
       "id": "ba-estate-pdf",
@@ -2134,10 +2308,10 @@
     }
   ],
   "rejections": {
-    "date": 66,
+    "date": 50,
     "location": 0,
     "radius": 0,
-    "duplicate": 3
+    "duplicate": 5
   },
   "pipelineTrace": [
     {
@@ -2388,126 +2562,6 @@
     },
     {
       "source": "Comune di Rho",
-      "title": "Cin&città -The Invite - Il piacere è tutto nostro",
-      "parsedDate": "2026-10-17T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
-      "title": "Cin&città - NAZA",
-      "parsedDate": "2026-10-17T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
-      "title": "Cin&città - Palestine 36 - Quando tutto ebbe inizio",
-      "parsedDate": "2026-10-19T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
-      "title": "Impresa, territorio e istituzioni: insieme per costruire legalità",
-      "parsedDate": "2026-10-19T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
-      "title": "USO, RIUSO E GIOCO: la creatività prende forma in Biblioteca!",
-      "parsedDate": "2026-10-19T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
       "title": "Cin&città - I figli della scimmia",
       "parsedDate": "2026-10-20T00:00:00.0000000",
       "parsedTown": {
@@ -2619,6 +2673,30 @@
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "6f62a4b38158d5ab",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "parsedDate": "2026-10-24T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fea7bf07b63869c7",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -2892,6 +2970,30 @@
     },
     {
       "source": "Comune di Rho",
+      "title": "L’ora del racconto – Speciale Halloween",
+      "parsedDate": "2026-10-28T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "8dc71249d4d0c706",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
       "title": "Progetto LucerLAB - promozione attività ottobre 2026",
       "parsedDate": "2026-10-29T00:00:00.0000000",
       "parsedTown": {
@@ -3060,6 +3162,30 @@
     },
     {
       "source": "Comune di Rho",
+      "title": "“Allenarsi alla vita. quali competenze servono per affrontare il domani che ci aspetta?”",
+      "parsedDate": "2026-11-06T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "a2ceeedc76597797",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
       "title": "Vintage Night: By The Wave e Spazio MAST insieme per la seconda edizione",
       "parsedDate": "2026-11-06T00:00:00.0000000",
       "parsedTown": {
@@ -3075,6 +3201,30 @@
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "b752d0b43580b6fa",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "parsedDate": "2026-11-07T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fea7bf07b63869c7",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -3396,6 +3546,30 @@
     },
     {
       "source": "Comune di Rho",
+      "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "parsedDate": "2026-11-28T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fea7bf07b63869c7",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
       "title": "Cin&città - Minotaur – Nel labirinto del potere",
       "parsedDate": "2026-12-01T00:00:00.0000000",
       "parsedTown": {
@@ -3465,6 +3639,57 @@
         9.0404
       ],
       "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "parsedDate": "2026-12-12T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fea7bf07b63869c7",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "parsedDate": "2026-12-12T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0,
+      "canonicalTitle": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
+      "canonicalStart": "2026-12-12T01:00:00+01:00",
+      "canonicalDuplicateId": "4fc5c92f9355fd9b"
     },
     {
       "source": "Comune di Rho",
@@ -4612,6 +4837,39 @@
     {
       "source": "VareseNews – JAZZaltro",
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-11-12T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "b50363b93e7c2b93",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-11-08T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-11-08T00:00:00+01:00",
+      "canonicalDuplicateId": "36b2fe2a24f6ed40"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
@@ -4774,8 +5032,23 @@
       "parsedDate": "2026-10-20T00:00:00+02:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "b50363b93e7c2b93",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-10-20T00:00:00+02:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
@@ -4797,201 +5070,6 @@
         8.9173
       ],
       "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-10-18T00:00:00+02:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-10-18T00:00:00+02:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-10-18T00:00:00+02:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-05-28T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-10-14T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-10-07T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-09-30T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-09-23T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-09-16T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-09-09T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-09-02T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-07-29T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
-    },
-    {
-      "source": "Comune di Busto Arsizio – BA Estate",
-      "title": "Seguici su",
-      "parsedDate": "2026-10-09T00:00:00+02:00",
-      "parsedTown": "Busto Arsizio",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.6101,
-        8.8496
-      ],
-      "distanceKm": 9.8
     }
   ]
 }

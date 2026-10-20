@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T23:31:34.564847+02:00",
+  "updatedAt": "2026-10-20T12:04:07.546627+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 86,
-          "recordsParsed": 86,
-          "recordsRejectedByDate": 33,
+          "rawRecordsFound": 88,
+          "recordsParsed": 88,
+          "recordsRejectedByDate": 28,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 53,
+          "recordsRejectedAsDuplicates": 1,
+          "acceptedRecords": 59,
           "failureMessage": null
         },
         {
@@ -87,25 +87,25 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 20,
           "recordsParsed": 20,
-          "recordsRejectedByDate": 6,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 3,
+          "recordsRejectedAsDuplicates": 4,
           "acceptedRecords": 11,
           "failureMessage": null
         },
         {
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
-          "fetchStatus": "ok",
-          "rawRecordsFound": 10,
-          "recordsParsed": 10,
-          "recordsRejectedByDate": 10,
+          "fetchStatus": "failed",
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": null
+          "failureMessage": "HTTPSConnectionPool(host='www.comune.bustoarsizio.va.it', port=443): Read timed out. (read timeout=30)"
         },
         {
           "id": "ba-estate-pdf",
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 66,
+        "date": 50,
         "location": 0,
         "radius": 0,
-        "duplicate": 3
+        "duplicate": 5
       }
     },
     "ossola": {
