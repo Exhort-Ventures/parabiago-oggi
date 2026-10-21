@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 78
-- Series: 78
+- Records: 81
+- Series: 81
 - Towns: Cusano Milanino, Legnano, Milano, Milano da, Rho
 - Warnings: none
 
