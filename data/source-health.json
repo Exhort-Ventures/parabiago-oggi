@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T12:03:05.714062+02:00",
+  "updatedAt": "2026-10-23T22:26:28.876012+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -9,11 +9,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 8,
           "recordsParsed": 8,
-          "recordsRejectedByDate": 2,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 6,
+          "acceptedRecords": 3,
           "failureMessage": null
         },
         {
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 1,
-          "recordsParsed": 1,
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
           "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 0,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 29,
-          "recordsParsed": 29,
-          "recordsRejectedByDate": 4,
+          "rawRecordsFound": 32,
+          "recordsParsed": 32,
+          "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 14,
-          "acceptedRecords": 11,
+          "recordsRejectedAsDuplicates": 17,
+          "acceptedRecords": 12,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 58,
+        "date": 60,
         "location": 0,
         "radius": 0,
-        "duplicate": 15
+        "duplicate": 18
       }
     },
     "ossola": {
