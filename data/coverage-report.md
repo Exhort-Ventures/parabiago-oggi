@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 79
-- Series: 79
-- Towns: Cusano Milanino, Legnano, Milano, Milano da, Rho
+- Records: 76
+- Series: 76
+- Towns: Buccinasco, Cusano Milanino, Legnano, Milano, Rho
 - Warnings: none
 
 ## ossola
