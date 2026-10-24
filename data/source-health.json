@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T22:26:28.876012+02:00",
+  "updatedAt": "2026-10-24T11:32:07.032837+02:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -9,11 +9,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 8,
           "recordsParsed": 8,
-          "recordsRejectedByDate": 5,
+          "recordsRejectedByDate": 4,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 3,
+          "acceptedRecords": 4,
           "failureMessage": null
         },
         {
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 89,
-          "recordsParsed": 89,
-          "recordsRejectedByDate": 30,
+          "rawRecordsFound": 87,
+          "recordsParsed": 87,
+          "recordsRejectedByDate": 34,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 1,
-          "acceptedRecords": 58,
+          "acceptedRecords": 52,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 32,
           "recordsParsed": 32,
-          "recordsRejectedByDate": 3,
+          "recordsRejectedByDate": 13,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 17,
-          "acceptedRecords": 12,
+          "recordsRejectedAsDuplicates": 8,
+          "acceptedRecords": 11,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 60,
+        "date": 73,
         "location": 0,
         "radius": 0,
-        "duplicate": 18
+        "duplicate": 9
       }
     },
     "ossola": {
