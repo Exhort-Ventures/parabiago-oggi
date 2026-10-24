@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-24T11:32:07.032837+02:00",
+  "generatedAt": "2026-10-24T21:28:54.518140+02:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 67,
-      "distinctEventSeries": 67,
+      "totalFutureDateRecords": 66,
+      "distinctEventSeries": 66,
       "representedTowns": [
         "Buccinasco",
         "Cusano Milanino",
@@ -28,7 +28,7 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 4,
+        "Cheventi Milano": 3,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
         "Comune di Rho": 52,
@@ -53,8 +53,8 @@
       "largestProgrammeShare": 0.015,
       "eventsExpiringNext7Days": 16,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 73,
-        "change": -6
+        "previousCount": 67,
+        "change": -1
       },
       "warnings": []
     },
