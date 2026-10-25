@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-10-25T10:48:37.485531+01:00",
+  "generatedAt": "2026-10-25T20:36:34.204763+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 58,
-      "distinctEventSeries": 58,
+      "totalFutureDateRecords": 59,
+      "distinctEventSeries": 59,
       "representedTowns": [
         "Legnano",
         "Milano",
-        "Rho"
+        "Rho",
+        "Sesto San Giovanni"
       ],
       "representedCategories": [
         "cinema",
@@ -26,7 +27,7 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 1,
+        "Cheventi Milano": 2,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
         "Comune di Rho": 47,
@@ -51,8 +52,8 @@
       "largestProgrammeShare": 0.017,
       "eventsExpiringNext7Days": 12,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 66,
-        "change": -8
+        "previousCount": 58,
+        "change": 1
       },
       "warnings": []
     },
