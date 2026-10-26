@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T12:06:45.496757+01:00",
+  "updatedAt": "2026-10-26T22:38:16.134764+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -9,11 +9,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 10,
           "recordsParsed": 10,
-          "recordsRejectedByDate": 2,
+          "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 8,
+          "acceptedRecords": 9,
           "failureMessage": null
         },
         {
@@ -84,15 +84,15 @@
         {
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
-          "fetchStatus": "ok",
-          "rawRecordsFound": 19,
-          "recordsParsed": 19,
-          "recordsRejectedByDate": 4,
+          "fetchStatus": "failed",
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 5,
-          "acceptedRecords": 10,
-          "failureMessage": null
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 0,
+          "failureMessage": "HTTPSConnectionPool(host='www.varesenews.it', port=443): Read timed out. (read timeout=30)"
         },
         {
           "id": "ba-estate",
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 59,
+        "date": 54,
         "location": 0,
         "radius": 0,
-        "duplicate": 6
+        "duplicate": 1
       }
     },
     "ossola": {
