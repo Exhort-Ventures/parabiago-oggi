@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T22:38:16.134764+01:00",
+  "updatedAt": "2026-10-27T11:33:25.898362+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,9 +46,9 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 78,
-          "recordsParsed": 78,
-          "recordsRejectedByDate": 29,
+          "rawRecordsFound": 77,
+          "recordsParsed": 77,
+          "recordsRejectedByDate": 28,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 1,
@@ -84,15 +84,15 @@
         {
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
-          "fetchStatus": "failed",
-          "rawRecordsFound": 0,
-          "recordsParsed": 0,
-          "recordsRejectedByDate": 0,
+          "fetchStatus": "ok",
+          "rawRecordsFound": 20,
+          "recordsParsed": 20,
+          "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
-          "failureMessage": "HTTPSConnectionPool(host='www.varesenews.it', port=443): Read timed out. (read timeout=30)"
+          "recordsRejectedAsDuplicates": 6,
+          "acceptedRecords": 11,
+          "failureMessage": null
         },
         {
           "id": "ba-estate",
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 54,
+        "date": 56,
         "location": 0,
         "radius": 0,
-        "duplicate": 1
+        "duplicate": 7
       }
     },
     "ossola": {
