@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T11:33:25.898362+01:00",
+  "updatedAt": "2026-10-27T22:18:51.196716+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 77,
-          "recordsParsed": 77,
+          "rawRecordsFound": 78,
+          "recordsParsed": 78,
           "recordsRejectedByDate": 28,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 1,
-          "acceptedRecords": 48,
+          "acceptedRecords": 49,
           "failureMessage": null
         },
         {
@@ -85,22 +85,22 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 20,
-          "recordsParsed": 20,
+          "rawRecordsFound": 26,
+          "recordsParsed": 26,
           "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 6,
-          "acceptedRecords": 11,
+          "recordsRejectedAsDuplicates": 10,
+          "acceptedRecords": 13,
           "failureMessage": null
         },
         {
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 11,
-          "recordsParsed": 11,
-          "recordsRejectedByDate": 11,
+          "rawRecordsFound": 10,
+          "recordsParsed": 10,
+          "recordsRejectedByDate": 10,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 56,
+        "date": 55,
         "location": 0,
         "radius": 0,
-        "duplicate": 7
+        "duplicate": 11
       }
     },
     "ossola": {
