@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T12:30:37.347147+01:00",
+  "updatedAt": "2026-10-29T22:48:44.063753+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 10,
-          "recordsParsed": 10,
+          "rawRecordsFound": 9,
+          "recordsParsed": 9,
           "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 9,
+          "acceptedRecords": 8,
           "failureMessage": null
         },
         {
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 0,
-          "recordsParsed": 0,
+          "rawRecordsFound": 5,
+          "recordsParsed": 5,
           "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
+          "recordsRejectedAsDuplicates": 2,
+          "acceptedRecords": 3,
           "failureMessage": null
         },
         {
@@ -125,7 +125,7 @@
         "date": 61,
         "location": 0,
         "radius": 0,
-        "duplicate": 11
+        "duplicate": 13
       }
     },
     "ossola": {
