@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 72
-- Series: 72
-- Towns: Cisliano da, Cusano Milanino, Legnano, Milano, Paderno Dugnano, Rho, San Donato Milanese da, Settimo Milanese da
+- Records: 67
+- Series: 67
+- Towns: Cisliano da, Cusano Milanino, Legnano, Mantegazza, Milano, Paderno Dugnano, Rho, San Donato Milanese da, Settimo Milanese da
 - Warnings: none
 
 ## ossola

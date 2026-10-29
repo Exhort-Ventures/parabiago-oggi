@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T22:39:05.202644+01:00",
+  "updatedAt": "2026-10-29T12:30:37.347147+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 82,
-          "recordsParsed": 82,
-          "recordsRejectedByDate": 30,
+          "rawRecordsFound": 80,
+          "recordsParsed": 80,
+          "recordsRejectedByDate": 32,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 1,
-          "acceptedRecords": 51,
+          "acceptedRecords": 47,
           "failureMessage": null
         },
         {
@@ -87,20 +87,20 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 26,
           "recordsParsed": 26,
-          "recordsRejectedByDate": 4,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 10,
-          "acceptedRecords": 12,
+          "acceptedRecords": 11,
           "failureMessage": null
         },
         {
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 10,
-          "recordsParsed": 10,
-          "recordsRejectedByDate": 10,
+          "rawRecordsFound": 11,
+          "recordsParsed": 11,
+          "recordsRejectedByDate": 11,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 57,
+        "date": 61,
         "location": 0,
         "radius": 0,
         "duplicate": 11
