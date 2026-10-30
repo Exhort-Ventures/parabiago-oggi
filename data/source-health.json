@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T12:24:02.241889+01:00",
+  "updatedAt": "2026-10-30T22:29:51.689169+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -9,11 +9,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 9,
           "recordsParsed": 9,
-          "recordsRejectedByDate": 1,
+          "recordsRejectedByDate": 4,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 8,
+          "acceptedRecords": 5,
           "failureMessage": null
         },
         {
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 5,
-          "recordsParsed": 5,
-          "recordsRejectedByDate": 4,
+          "rawRecordsFound": 7,
+          "recordsParsed": 7,
+          "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "recordsRejectedAsDuplicates": 2,
+          "acceptedRecords": 5,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 62,
+        "date": 61,
         "location": 0,
         "radius": 0,
-        "duplicate": 16
+        "duplicate": 18
       }
     },
     "ossola": {

@@ -1,18 +1,16 @@
 {
-  "generatedAt": "2026-10-30T12:24:02.241889+01:00",
+  "generatedAt": "2026-10-30T22:29:51.689169+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 70,
-      "distinctEventSeries": 70,
+      "totalFutureDateRecords": 71,
+      "distinctEventSeries": 71,
       "representedTowns": [
         "Cisliano da",
         "Cusano Milanino",
         "Legnano",
         "Milano",
         "Paderno Dugnano",
-        "Rho",
-        "San Donato Milanese da",
-        "Settimo Milanese da"
+        "Rho"
       ],
       "representedCategories": [
         "cinema",
@@ -31,9 +29,9 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 8,
+        "Cheventi Milano": 5,
         "Cheventi Rho": 0,
-        "LegnanoNews": 1,
+        "LegnanoNews": 5,
         "Comune di Rho": 44,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
@@ -55,7 +53,7 @@
       "largestProgrammeShare": 0.014,
       "eventsExpiringNext7Days": 7,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 69,
+        "previousCount": 70,
         "change": 1
       },
       "warnings": []
