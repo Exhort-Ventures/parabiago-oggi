@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T21:26:52.223387+01:00",
+  "updatedAt": "2026-11-01T12:50:28.067035+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 10,
-          "recordsParsed": 10,
+          "rawRecordsFound": 9,
+          "recordsParsed": 9,
           "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 3,
+          "acceptedRecords": 2,
           "failureMessage": null
         },
         {
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 73,
-          "recordsParsed": 73,
-          "recordsRejectedByDate": 31,
+          "rawRecordsFound": 70,
+          "recordsParsed": 70,
+          "recordsRejectedByDate": 27,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 1,
-          "acceptedRecords": 41,
+          "acceptedRecords": 42,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 38,
-          "recordsParsed": 38,
+          "rawRecordsFound": 36,
+          "recordsParsed": 36,
           "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 14,
-          "acceptedRecords": 17,
+          "recordsRejectedAsDuplicates": 13,
+          "acceptedRecords": 16,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 74,
+        "date": 70,
         "location": 0,
         "radius": 0,
-        "duplicate": 15
+        "duplicate": 14
       }
     },
     "ossola": {
