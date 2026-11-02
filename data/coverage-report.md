@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 68
-- Series: 68
+- Records: 69
+- Series: 69
 - Towns: Legnano, Milano, Rho, Segrate, Trezzo sull'Adda
 - Warnings: none
 
