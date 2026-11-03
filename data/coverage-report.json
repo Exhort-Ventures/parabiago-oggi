@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-03T13:47:25.587381+01:00",
+  "generatedAt": "2026-11-03T23:18:05.830457+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 70,
-      "distinctEventSeries": 70,
+      "totalFutureDateRecords": 72,
+      "distinctEventSeries": 72,
       "representedTowns": [
         "Legnano",
         "Milano",
@@ -30,8 +30,8 @@
       "acceptedRecordsBySource": {
         "Cheventi Milano": 7,
         "Cheventi Rho": 0,
-        "LegnanoNews": 2,
-        "Comune di Rho": 44,
+        "LegnanoNews": 1,
+        "Comune di Rho": 47,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 17,
@@ -52,8 +52,8 @@
       "largestProgrammeShare": 0.014,
       "eventsExpiringNext7Days": 8,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 69,
-        "change": 1
+        "previousCount": 70,
+        "change": 2
       },
       "warnings": []
     },
