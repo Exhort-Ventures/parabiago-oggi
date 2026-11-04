@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 72
-- Series: 72
-- Towns: Legnano, Milano, Rho, Segrate, Trezzo sull'Adda
+- Records: 74
+- Series: 74
+- Towns: Legnano, Milano, Rho, Segrate
 - Warnings: none
 
 ## ossola
