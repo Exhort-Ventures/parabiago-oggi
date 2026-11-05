@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-11-05T14:11:50.304808+01:00",
+  "generatedAt": "2026-11-05T23:40:29.407779+01:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 73,
       "distinctEventSeries": 73,
       "representedTowns": [
+        "Cusano Milanino",
         "Legnano",
         "Milano",
         "Rho",
@@ -51,8 +52,8 @@
       "largestProgrammeShare": 0.014,
       "eventsExpiringNext7Days": 8,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 75,
-        "change": -2
+        "previousCount": 73,
+        "change": 0
       },
       "warnings": []
     },

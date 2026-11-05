@@ -4,7 +4,7 @@
 
 - Records: 73
 - Series: 73
-- Towns: Legnano, Milano, Rho, Segrate
+- Towns: Cusano Milanino, Legnano, Milano, Rho, Segrate
 - Warnings: none
 
 ## ossola
