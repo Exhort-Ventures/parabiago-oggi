@@ -1,11 +1,10 @@
 {
-  "generatedAt": "2026-11-06T13:56:57.081692+01:00",
+  "generatedAt": "2026-11-06T23:06:50.630964+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 69,
-      "distinctEventSeries": 69,
+      "totalFutureDateRecords": 70,
+      "distinctEventSeries": 70,
       "representedTowns": [
-        "Cusano Milanino",
         "Legnano",
         "Milano",
         "Rho",
@@ -28,7 +27,7 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 6,
+        "Cheventi Milano": 7,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
         "Comune di Rho": 47,
@@ -53,8 +52,8 @@
       "largestProgrammeShare": 0.014,
       "eventsExpiringNext7Days": 6,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 73,
-        "change": -4
+        "previousCount": 69,
+        "change": 1
       },
       "warnings": []
     },
@@ -78,7 +77,6 @@
       },
       "zeroResultSources": [
         "VisitOssola",
-        "OssolaNews",
         "Unione Montana Alta Ossola",
         "OssolaNews – Cinema sotto le stelle",
         "OssolaNews – Ossola Guitar Festival",
@@ -88,7 +86,9 @@
         "Festorum VCO – Festa delle Bionde",
         "Distretto Turistico dei Laghi – Tones Teatro Natura"
       ],
-      "failedSources": [],
+      "failedSources": [
+        "OssolaNews"
+      ],
       "oldestEventDate": null,
       "newestEventDate": null,
       "largestProgrammeShare": 0,
