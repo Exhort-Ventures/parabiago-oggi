@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T23:06:50.630964+01:00",
+  "updatedAt": "2026-11-07T12:43:33.322961+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 9,
-          "recordsParsed": 9,
+          "rawRecordsFound": 10,
+          "recordsParsed": 10,
           "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 7,
+          "acceptedRecords": 8,
           "failureMessage": null
         },
         {
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 76,
-          "recordsParsed": 76,
-          "recordsRejectedByDate": 28,
+          "rawRecordsFound": 74,
+          "recordsParsed": 74,
+          "recordsRejectedByDate": 27,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 1,
-          "acceptedRecords": 47,
+          "acceptedRecords": 46,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 57,
-          "recordsParsed": 57,
-          "recordsRejectedByDate": 9,
+          "rawRecordsFound": 53,
+          "recordsParsed": 53,
+          "recordsRejectedByDate": 17,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 32,
-          "acceptedRecords": 16,
+          "recordsRejectedAsDuplicates": 21,
+          "acceptedRecords": 15,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 60,
+        "date": 67,
         "location": 0,
         "radius": 0,
-        "duplicate": 33
+        "duplicate": 22
       }
     },
     "ossola": {
@@ -146,7 +146,7 @@
         {
           "id": "ossolanews",
           "name": "OssolaNews",
-          "fetchStatus": "failed",
+          "fetchStatus": "ok",
           "rawRecordsFound": 0,
           "recordsParsed": 0,
           "recordsRejectedByDate": 0,
@@ -154,7 +154,7 @@
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
           "acceptedRecords": 0,
-          "failureMessage": "HTTPSConnectionPool(host='www.ossolanews.it', port=443): Read timed out. (read timeout=30)"
+          "failureMessage": null
         },
         {
           "id": "alta-ossola",

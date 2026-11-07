@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-11-06T23:06:50.630964+01:00",
+  "generatedAt": "2026-11-07T12:43:33.322961+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 70,
-      "distinctEventSeries": 70,
+      "totalFutureDateRecords": 69,
+      "distinctEventSeries": 69,
       "representedTowns": [
+        "Cusano Milanino",
         "Legnano",
         "Milano",
         "Rho",
@@ -27,13 +28,13 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 7,
+        "Cheventi Milano": 8,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
-        "Comune di Rho": 47,
+        "Comune di Rho": 46,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
-        "VareseNews – JAZZaltro": 16,
+        "VareseNews – JAZZaltro": 15,
         "Comune di Busto Arsizio – BA Estate": 0,
         "Comune di Busto Arsizio – BA Estate PDF": 0
       },
@@ -50,10 +51,10 @@
       "oldestEventDate": "2026-10-11T02:00:00+02:00",
       "newestEventDate": "2027-01-30T01:00:00+01:00",
       "largestProgrammeShare": 0.014,
-      "eventsExpiringNext7Days": 6,
+      "eventsExpiringNext7Days": 8,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 69,
-        "change": 1
+        "previousCount": 70,
+        "change": -1
       },
       "warnings": []
     },
@@ -77,6 +78,7 @@
       },
       "zeroResultSources": [
         "VisitOssola",
+        "OssolaNews",
         "Unione Montana Alta Ossola",
         "OssolaNews – Cinema sotto le stelle",
         "OssolaNews – Ossola Guitar Festival",
@@ -86,9 +88,7 @@
         "Festorum VCO – Festa delle Bionde",
         "Distretto Turistico dei Laghi – Tones Teatro Natura"
       ],
-      "failedSources": [
-        "OssolaNews"
-      ],
+      "failedSources": [],
       "oldestEventDate": null,
       "newestEventDate": null,
       "largestProgrammeShare": 0,
