@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T12:43:33.322961+01:00",
+  "updatedAt": "2026-11-07T21:52:31.683126+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 10,
-          "recordsParsed": 10,
-          "recordsRejectedByDate": 2,
+          "rawRecordsFound": 9,
+          "recordsParsed": 9,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 8,
+          "acceptedRecords": 4,
           "failureMessage": null
         },
         {
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 67,
+        "date": 70,
         "location": 0,
         "radius": 0,
         "duplicate": 22
