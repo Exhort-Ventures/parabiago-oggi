@@ -1,15 +1,12 @@
 {
-  "generatedAt": "2026-11-08T12:55:50.429266+01:00",
+  "generatedAt": "2026-11-08T22:10:51.835931+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 63,
-      "distinctEventSeries": 63,
+      "totalFutureDateRecords": 59,
+      "distinctEventSeries": 59,
       "representedTowns": [
-        "Buccinasco",
         "Legnano",
-        "Milano",
-        "Rho",
-        "Trezzo sull'Adda"
+        "Rho"
       ],
       "representedCategories": [
         "cinema",
@@ -23,12 +20,11 @@
         "workshops"
       ],
       "representedSourceFamilies": [
-        "aggregator",
         "local_media",
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 4,
+        "Cheventi Milano": 0,
         "Cheventi Rho": 0,
         "LegnanoNews": 1,
         "Comune di Rho": 44,
@@ -39,6 +35,7 @@
         "Comune di Busto Arsizio – BA Estate PDF": 0
       },
       "zeroResultSources": [
+        "Cheventi Milano",
         "Cheventi Rho",
         "Comune di Rho programma",
         "LegnanoNews – La Bella Estate",
@@ -49,11 +46,11 @@
       ],
       "oldestEventDate": "2026-11-07T01:00:00+01:00",
       "newestEventDate": "2027-02-06T01:00:00+01:00",
-      "largestProgrammeShare": 0.016,
+      "largestProgrammeShare": 0.017,
       "eventsExpiringNext7Days": 6,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 65,
-        "change": -2
+        "previousCount": 63,
+        "change": -4
       },
       "warnings": []
     },
