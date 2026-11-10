@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T14:27:48.354627+01:00",
+  "updatedAt": "2026-11-10T23:21:47.846752+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -85,22 +85,22 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 40,
-          "recordsParsed": 40,
-          "recordsRejectedByDate": 12,
+          "rawRecordsFound": 43,
+          "recordsParsed": 43,
+          "recordsRejectedByDate": 8,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 15,
-          "acceptedRecords": 13,
+          "recordsRejectedAsDuplicates": 19,
+          "acceptedRecords": 16,
           "failureMessage": null
         },
         {
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 8,
-          "recordsParsed": 8,
-          "recordsRejectedByDate": 8,
+          "rawRecordsFound": 7,
+          "recordsParsed": 7,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 63,
+        "date": 58,
         "location": 0,
         "radius": 0,
-        "duplicate": 16
+        "duplicate": 20
       }
     },
     "ossola": {
