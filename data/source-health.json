@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T14:53:45.599676+01:00",
+  "updatedAt": "2026-11-10T01:41:03.729628+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,13 +33,13 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 2,
-          "recordsParsed": 2,
-          "recordsRejectedByDate": 1,
+          "rawRecordsFound": 3,
+          "recordsParsed": 3,
+          "recordsRejectedByDate": 3,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 1,
+          "acceptedRecords": 0,
           "failureMessage": null
         },
         {
@@ -48,11 +48,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 74,
           "recordsParsed": 74,
-          "recordsRejectedByDate": 25,
+          "recordsRejectedByDate": 26,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 1,
-          "acceptedRecords": 48,
+          "acceptedRecords": 47,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 40,
           "recordsParsed": 40,
-          "recordsRejectedByDate": 9,
+          "recordsRejectedByDate": 12,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 17,
-          "acceptedRecords": 14,
+          "recordsRejectedAsDuplicates": 15,
+          "acceptedRecords": 13,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 58,
+        "date": 64,
         "location": 0,
         "radius": 0,
-        "duplicate": 18
+        "duplicate": 16
       }
     },
     "ossola": {
