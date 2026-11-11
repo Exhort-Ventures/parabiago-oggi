@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T13:42:49.254923+01:00",
+  "generatedAt": "2026-11-12T00:27:36.568745+01:00",
   "areas": {
     "parabiago": {
       "totalFutureDateRecords": 72,
@@ -27,9 +27,9 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 6,
+        "Cheventi Milano": 7,
         "Cheventi Rho": 0,
-        "LegnanoNews": 1,
+        "LegnanoNews": 0,
         "Comune di Rho": 50,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
@@ -39,6 +39,7 @@
       },
       "zeroResultSources": [
         "Cheventi Rho",
+        "LegnanoNews",
         "Comune di Rho programma",
         "LegnanoNews – La Bella Estate",
         "Comune di Busto Arsizio – BA Estate"
