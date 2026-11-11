@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T23:21:47.846752+01:00",
+  "updatedAt": "2026-11-11T13:42:49.254923+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -33,22 +33,22 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 3,
-          "recordsParsed": 3,
-          "recordsRejectedByDate": 3,
+          "rawRecordsFound": 5,
+          "recordsParsed": 5,
+          "recordsRejectedByDate": 4,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 0,
+          "acceptedRecords": 1,
           "failureMessage": null
         },
         {
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 77,
-          "recordsParsed": 77,
-          "recordsRejectedByDate": 26,
+          "rawRecordsFound": 76,
+          "recordsParsed": 76,
+          "recordsRejectedByDate": 25,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 1,
@@ -72,9 +72,9 @@
           "id": "legnano-bella-estate",
           "name": "LegnanoNews – La Bella Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 1,
-          "recordsParsed": 1,
-          "recordsRejectedByDate": 1,
+          "rawRecordsFound": 2,
+          "recordsParsed": 2,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -85,22 +85,22 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 43,
-          "recordsParsed": 43,
-          "recordsRejectedByDate": 8,
+          "rawRecordsFound": 41,
+          "recordsParsed": 41,
+          "recordsRejectedByDate": 10,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 19,
-          "acceptedRecords": 16,
+          "recordsRejectedAsDuplicates": 16,
+          "acceptedRecords": 15,
           "failureMessage": null
         },
         {
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 7,
-          "recordsParsed": 7,
-          "recordsRejectedByDate": 7,
+          "rawRecordsFound": 0,
+          "recordsParsed": 0,
+          "recordsRejectedByDate": 0,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 58,
+        "date": 54,
         "location": 0,
         "radius": 0,
-        "duplicate": 20
+        "duplicate": 17
       }
     },
     "ossola": {
