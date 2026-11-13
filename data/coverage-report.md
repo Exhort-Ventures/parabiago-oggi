@@ -2,8 +2,8 @@
 
 ## parabiago
 
-- Records: 76
-- Series: 76
+- Records: 75
+- Series: 75
 - Towns: Albairate, Legnano, Milano, Paderno Dugnano, Rho
 - Warnings: none
 

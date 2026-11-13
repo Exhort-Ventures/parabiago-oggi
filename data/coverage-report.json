@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-13T14:06:14.583513+01:00",
+  "generatedAt": "2026-11-13T23:37:15.510501+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 76,
-      "distinctEventSeries": 76,
+      "totalFutureDateRecords": 75,
+      "distinctEventSeries": 75,
       "representedTowns": [
         "Albairate",
         "Legnano",
@@ -28,7 +28,7 @@
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 10,
+        "Cheventi Milano": 9,
         "Cheventi Rho": 0,
         "LegnanoNews": 0,
         "Comune di Rho": 52,
@@ -53,8 +53,8 @@
       "largestProgrammeShare": 0.013,
       "eventsExpiringNext7Days": 15,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 75,
-        "change": 1
+        "previousCount": 76,
+        "change": -1
       },
       "warnings": []
     },
