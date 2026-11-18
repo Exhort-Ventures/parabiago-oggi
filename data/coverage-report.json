@@ -1,15 +1,14 @@
 {
-  "generatedAt": "2026-11-18T14:57:37.659293+01:00",
+  "generatedAt": "2026-11-19T00:23:26.457835+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 72,
-      "distinctEventSeries": 72,
+      "totalFutureDateRecords": 71,
+      "distinctEventSeries": 71,
       "representedTowns": [
         "Assago",
         "Legnano",
         "Milano",
         "Milano Mediterranea",
-        "Milano da",
         "Paderno Dugnano",
         "Rho"
       ],
@@ -36,7 +35,7 @@
         "Comune di Rho": 53,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
-        "VareseNews – JAZZaltro": 10,
+        "VareseNews – JAZZaltro": 9,
         "Comune di Busto Arsizio – BA Estate": 0,
         "Comune di Busto Arsizio – BA Estate PDF": 0
       },
@@ -55,7 +54,7 @@
       "eventsExpiringNext7Days": 15,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 72,
-        "change": 0
+        "change": -1
       },
       "warnings": []
     },
