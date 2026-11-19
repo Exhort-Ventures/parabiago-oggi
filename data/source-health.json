@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:23:26.457835+01:00",
+  "updatedAt": "2026-11-19T15:25:22.744728+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 76,
-          "recordsParsed": 76,
-          "recordsRejectedByDate": 22,
+          "rawRecordsFound": 75,
+          "recordsParsed": 75,
+          "recordsRejectedByDate": 24,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 1,
-          "acceptedRecords": 53,
+          "recordsRejectedAsDuplicates": 0,
+          "acceptedRecords": 51,
           "failureMessage": null
         },
         {
@@ -85,22 +85,22 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 28,
-          "recordsParsed": 28,
-          "recordsRejectedByDate": 6,
+          "rawRecordsFound": 34,
+          "recordsParsed": 34,
+          "recordsRejectedByDate": 4,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 13,
-          "acceptedRecords": 9,
+          "recordsRejectedAsDuplicates": 20,
+          "acceptedRecords": 10,
           "failureMessage": null
         },
         {
           "id": "ba-estate",
           "name": "Comune di Busto Arsizio – BA Estate",
           "fetchStatus": "ok",
-          "rawRecordsFound": 7,
-          "recordsParsed": 7,
-          "recordsRejectedByDate": 7,
+          "rawRecordsFound": 5,
+          "recordsParsed": 5,
+          "recordsRejectedByDate": 5,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 51,
+        "date": 49,
         "location": 0,
         "radius": 0,
-        "duplicate": 14
+        "duplicate": 20
       }
     },
     "ossola": {
