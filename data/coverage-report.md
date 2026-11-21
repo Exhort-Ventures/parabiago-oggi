@@ -2,9 +2,9 @@
 
 ## parabiago
 
-- Records: 63
-- Series: 63
-- Towns: Assago, Legnano, Milano, Milano Mediterranea, Paderno Dugnano, Rho
+- Records: 59
+- Series: 59
+- Towns: Legnano, Milano, Milano Mediterranea, Paderno Dugnano, Rho
 - Warnings: none
 
 ## ossola
