@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T00:04:57.895844+01:00",
+  "updatedAt": "2026-11-21T14:27:46.780052+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -48,11 +48,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 73,
           "recordsParsed": 73,
-          "recordsRejectedByDate": 22,
+          "recordsRejectedByDate": 27,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 51,
+          "acceptedRecords": 46,
           "failureMessage": null
         },
         {
@@ -85,12 +85,12 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 39,
-          "recordsParsed": 39,
-          "recordsRejectedByDate": 12,
+          "rawRecordsFound": 38,
+          "recordsParsed": 38,
+          "recordsRejectedByDate": 10,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 19,
+          "recordsRejectedAsDuplicates": 20,
           "acceptedRecords": 8,
           "failureMessage": null
         },
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 54,
+        "date": 57,
         "location": 0,
         "radius": 0,
-        "duplicate": 19
+        "duplicate": 20
       }
     },
     "ossola": {
