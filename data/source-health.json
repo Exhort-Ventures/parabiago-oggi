@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T23:10:38.887463+01:00",
+  "updatedAt": "2026-11-22T14:20:24.726729+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 10,
-          "recordsParsed": 10,
+          "rawRecordsFound": 11,
+          "recordsParsed": 11,
           "recordsRejectedByDate": 6,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 4,
+          "acceptedRecords": 5,
           "failureMessage": null
         },
         {
@@ -46,9 +46,9 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 73,
-          "recordsParsed": 73,
-          "recordsRejectedByDate": 27,
+          "rawRecordsFound": 68,
+          "recordsParsed": 68,
+          "recordsRejectedByDate": 22,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 38,
-          "recordsParsed": 38,
-          "recordsRejectedByDate": 10,
+          "rawRecordsFound": 31,
+          "recordsParsed": 31,
+          "recordsRejectedByDate": 13,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 20,
-          "acceptedRecords": 8,
+          "recordsRejectedAsDuplicates": 11,
+          "acceptedRecords": 7,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 61,
+        "date": 59,
         "location": 0,
         "radius": 0,
-        "duplicate": 20
+        "duplicate": 11
       }
     },
     "ossola": {

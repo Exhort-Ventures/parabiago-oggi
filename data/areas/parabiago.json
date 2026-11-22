@@ -9,38 +9,9 @@
     "horizonDays": 90,
     "defaultLanguage": "it"
   },
-  "updatedAt": "2026-11-21T23:10:38.887463+01:00",
+  "updatedAt": "2026-11-22T14:20:24.726729+01:00",
   "eventCount": 59,
   "events": [
-    {
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "start": "2026-11-22T00:00:00+01:00",
-      "end": null,
-      "venue": "Legnano",
-      "address": "",
-      "city": "Legnano",
-      "latitude": 45.5942,
-      "longitude": 8.9173,
-      "distanceKm": 5.0,
-      "category": "music",
-      "categoryLabel": "Musica",
-      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
-      "free": null,
-      "priceText": "",
-      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
-      "sourceName": "VareseNews – JAZZaltro",
-      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
-      "sourceType": "local_media",
-      "confidence": "Confermato",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
-      "areaId": "parabiago",
-      "locationPrecision": "town",
-      "rankingScore": 65.0,
-      "recurringSeriesId": null,
-      "id": "bf4600718e96aa3e"
-    },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
       "start": "2026-11-28T00:00:00+01:00",
@@ -63,7 +34,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
@@ -92,7 +63,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
@@ -121,7 +92,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
@@ -150,70 +121,12 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 63.0,
       "recurringSeriesId": null,
       "id": "031df116590fd87a"
-    },
-    {
-      "title": "Sù e giò adrée l'Olona",
-      "start": "2026-11-22T01:00:00+01:00",
-      "end": "2026-11-22T01:00:00+01:00",
-      "venue": "Rho",
-      "address": "",
-      "city": "Rho",
-      "latitude": 45.5253,
-      "longitude": 9.0404,
-      "distanceKm": 8.0,
-      "category": "sport",
-      "categoryLabel": "Sport e gare",
-      "description": "Camminare tra le foglie dipinte di giallo e arancione è lasciarsi avvolgere dalla magia dell'autunno, allontanandosi passo dopo passo dalla frenesia quotidiana fatta di macchine e smog. Ti invitiamo a scoprire il nostro territorio nella stagione del foliage: un’occasione unica per camminare nella natura, calmare la mente e ritrovare il tuo naturale respiro.<div><br><span>Accompagnati dalle \"Voci del PLIS\", esploreremo insieme la storia, la geografia, i monumenti naturali e le opere dell’ingegno umano che rendono speciale questa valle, immersi nella quiete e nei colori della stagione più suggestiva dell'anno.</span><b><br></b><ul><li><span><b>Punto di ritrovo:</b> Incrocio tra via Mattei e via Molino Prepositurale.</span></li><li><span><b>Cosa portare</b>: Si consigliano scarpe comode, cappellino, borraccia e un giubbotto rifrangente per camminare in sicurezza.</span></li><li><span><b>Par",
-      "free": null,
-      "priceText": "",
-      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/su-e-gio-adree-l-olona-133301-1-0403d090bb4fa9a7467e14d37e3b9632",
-      "sourceName": "Comune di Rho",
-      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/su-e-gio-adree-l-olona-133301-1-0403d090bb4fa9a7467e14d37e3b9632",
-      "sourceType": "official",
-      "confidence": "Confermato",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
-      "areaId": "parabiago",
-      "locationPrecision": "town",
-      "rankingScore": 62.0,
-      "recurringSeriesId": null,
-      "id": "e1c5bc68a1d21a16"
-    },
-    {
-      "title": "Mercatino Vintage",
-      "start": "2026-11-22T01:00:00+01:00",
-      "end": "2026-11-22T01:00:00+01:00",
-      "venue": "Rho",
-      "address": "",
-      "city": "Rho",
-      "latitude": 45.5253,
-      "longitude": 9.0404,
-      "distanceKm": 8.0,
-      "category": "sport",
-      "categoryLabel": "Sport e gare",
-      "description": "<div>Second Hand, Artigianato e molto altro…<br><br>Sabato 22 novembre lo Spazio MAST ospita un mercatino dedicato al vintage, all’artigianato e al riuso creativo. Tra abiti e accessori second hand, oggetti unici fatti a mano e tante curiosità, sarà possibile scoprire proposte originali e sostenibili in un ambiente giovane e dinamico. Ad accompagnare la giornata sarà attivo anche il servizio bar, per concedersi una pausa e vivere al meglio l’atmosfera dell’evento. Un appuntamento aperto a tutti per incontrarsi, fare acquisti consapevoli e lasciarsi ispirare dalla creatività.<br></div>",
-      "free": null,
-      "priceText": "",
-      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/mercatino-vintage-131804-1-e7d722212e552bcf9cbdd4c280e41d91",
-      "sourceName": "Comune di Rho",
-      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/mercatino-vintage-131804-1-e7d722212e552bcf9cbdd4c280e41d91",
-      "sourceType": "official",
-      "confidence": "Confermato",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
-      "areaId": "parabiago",
-      "locationPrecision": "town",
-      "rankingScore": 62.0,
-      "recurringSeriesId": null,
-      "id": "9cc43741f2e63a8d"
     },
     {
       "title": "Mai dire '90 - X Gen Night",
@@ -237,7 +150,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -266,7 +179,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -295,7 +208,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -324,7 +237,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -353,7 +266,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -382,7 +295,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -411,7 +324,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -440,7 +353,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -469,7 +382,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -498,7 +411,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -527,7 +440,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -556,7 +469,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -585,7 +498,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -614,7 +527,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -643,7 +556,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -672,7 +585,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -701,7 +614,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -730,7 +643,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -759,7 +672,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -788,12 +701,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
       "recurringSeriesId": null,
       "id": "91178728a990e323"
+    },
+    {
+      "title": "Teatro civico Roberto de Silva - Stagione Prosa- Erano tutti miei figli",
+      "start": "2027-02-20T01:00:00+01:00",
+      "end": "2027-02-20T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "sport",
+      "categoryLabel": "Sport e gare",
+      "description": "<div>Teatro civico Roberto de Silva - piazza Jannacci 1&nbsp;</div><div>20 FEB 2027 | Stagione Prosa<br><br>ORIZZONTI&#8203;<br>Elio De Capitani<b><br>Erano tutti miei figli</b><br>di Atthur Miller, regia di E. De Capitani<br>&#8203;&#8203;&#8203;<br>Un’opera popolare che mette al centro della scena il rapporto tra genitori e figli e la responsabilità sociale e morale dell’individuo di fronte alla storia. Miller non fa sconti a nessuno: mette nero su bianco un attacco al sistema socioeconomico capitalistico, già allora riconosciuto come capace di alimentare disuguaglianze, cinismo e solitudine.<br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/teatro-civico-roberto-de-silva-stagione-prosa-erano-tutti-miei-figli-128867-1-3823288ab330b4543474bc75a52fd4ec",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/teatro-civico-roberto-de-silva-stagione-prosa-erano-tutti-miei-figli-128867-1-3823288ab330b4543474bc75a52fd4ec",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 62.0,
+      "recurringSeriesId": null,
+      "id": "5559331b1655a69b"
     },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -817,7 +759,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 57.0,
@@ -846,7 +788,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -875,7 +817,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -904,7 +846,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -933,7 +875,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -962,7 +904,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -991,7 +933,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -1020,7 +962,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -1049,7 +991,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 53.0,
@@ -1078,7 +1020,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1107,7 +1049,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1136,7 +1078,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1165,7 +1107,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1194,7 +1136,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1223,7 +1165,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1252,7 +1194,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1281,7 +1223,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1310,7 +1252,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1339,12 +1281,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
       "recurringSeriesId": null,
       "id": "b9c3b77614dcc133"
+    },
+    {
+      "title": "La Scatola delle storie - Racconti teatrali con laboratorio",
+      "start": "2027-02-20T01:00:00+01:00",
+      "end": "2027-02-20T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "workshops",
+      "categoryLabel": "Workshop",
+      "description": "Teatro di Lucernate, Via Giulio Cesare 36, Rho (MI)<br><br>Un progetto espressivo-teatrale, dedicato ai più piccoli e ai loro genitori, che vuole essere un modo per avvicinare i bambini alla recitazione introducendo alcuni elementi basilari del \"fare teatro\".<br><br>Ogni incontro prevede un racconto animato in cui i bambini e i loro accompagnatori saranno spettatori.<br><br>Al termine della narrazione verrà proposto un breve laboratorio teatrale partendo dalla storia appena ascoltata. Ogni incontro svilupperà un tema legato al teatro: lo spazio, la trasformazione degli oggetti, la creazione di personaggi fantastici, l'espressione dei sentimenti.<br><br>Il laboratorio prevede la partecipazione dei bambini con un accompagnatore che parteciperà insieme alle attività.<b><br><br></b><b>6 incontri, uno al mese come da calendario il sabato dalle ore 9.30</b><br><ul style=\"\"><li style=\"\">Sabato ",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/la-scatola-delle-storie-racconti-teatrali-con-laboratorio-131843-1-905c81051af5fe875a070dcd3ac8a57b",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/la-scatola-delle-storie-racconti-teatrali-con-laboratorio-131843-1-905c81051af5fe875a070dcd3ac8a57b",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "098525b89a03f07a"
     },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -1368,7 +1339,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
@@ -1397,7 +1368,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
@@ -1426,7 +1397,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
@@ -1455,7 +1426,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 43,
@@ -1484,7 +1455,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1513,7 +1484,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1542,7 +1513,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1571,7 +1542,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1600,7 +1571,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1629,7 +1600,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1658,7 +1629,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1687,7 +1658,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 31,
@@ -1716,12 +1687,41 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-21T23:10:38.887463+01:00",
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 26,
       "recurringSeriesId": null,
       "id": "c799f5e24f37ff78"
+    },
+    {
+      "title": "Visita Esclusiva Alla Fonderia Napoleonica Eugenia, Luogo Segreto Di Milano",
+      "start": "2026-11-22T15:00:00+01:00",
+      "end": null,
+      "venue": "Milano",
+      "address": "",
+      "city": "Milano",
+      "latitude": 45.4642,
+      "longitude": 9.19,
+      "distanceKm": 21.5,
+      "category": "culture",
+      "categoryLabel": "Cultura",
+      "description": "Visita Esclusiva Alla Fonderia Napoleonica Eugenia, Luogo Segreto Di Milano domenica 22 novembre 2026 ore 15:00 alle ore 17:00",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.cheventi.it/eventi/2026-visita-esclusiva-alla-fonderia-napoleonica-eugenia-luogo-segreto-di-milano-mi-4/",
+      "sourceName": "Cheventi Milano",
+      "sourceUrl": "https://www.cheventi.it/eventi/2026-visita-esclusiva-alla-fonderia-napoleonica-eugenia-luogo-segreto-di-milano-mi-4/",
+      "sourceType": "aggregator",
+      "confidence": "Probabile",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-22T14:20:24.726729+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 26,
+      "recurringSeriesId": null,
+      "id": "209eb01851f844da"
     }
   ],
   "sourceHealth": [
@@ -1729,13 +1729,13 @@
       "id": "cheventi-milano",
       "name": "Cheventi Milano",
       "fetchStatus": "ok",
-      "rawRecordsFound": 10,
-      "recordsParsed": 10,
+      "rawRecordsFound": 11,
+      "recordsParsed": 11,
       "recordsRejectedByDate": 6,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
       "recordsRejectedAsDuplicates": 0,
-      "acceptedRecords": 4,
+      "acceptedRecords": 5,
       "failureMessage": null
     },
     {
@@ -1768,9 +1768,9 @@
       "id": "rho",
       "name": "Comune di Rho",
       "fetchStatus": "ok",
-      "rawRecordsFound": 73,
-      "recordsParsed": 73,
-      "recordsRejectedByDate": 27,
+      "rawRecordsFound": 68,
+      "recordsParsed": 68,
+      "recordsRejectedByDate": 22,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
       "recordsRejectedAsDuplicates": 0,
@@ -1807,13 +1807,13 @@
       "id": "jazzaltro",
       "name": "VareseNews – JAZZaltro",
       "fetchStatus": "ok",
-      "rawRecordsFound": 38,
-      "recordsParsed": 38,
-      "recordsRejectedByDate": 10,
+      "rawRecordsFound": 31,
+      "recordsParsed": 31,
+      "recordsRejectedByDate": 13,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
-      "recordsRejectedAsDuplicates": 20,
-      "acceptedRecords": 8,
+      "recordsRejectedAsDuplicates": 11,
+      "acceptedRecords": 7,
       "failureMessage": null
     },
     {
@@ -1844,27 +1844,12 @@
     }
   ],
   "rejections": {
-    "date": 61,
+    "date": 59,
     "location": 0,
     "radius": 0,
-    "duplicate": 20
+    "duplicate": 11
   },
   "pipelineTrace": [
-    {
-      "source": "Cheventi Milano",
-      "title": "Milano a Assago",
-      "parsedDate": "2026-11-21T21:00:00+01:00",
-      "parsedTown": "Assago",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.554,
-        8.946
-      ],
-      "distanceKm": 0.0
-    },
     {
       "source": "Cheventi Milano",
       "title": "Widowspeak Milano, Arci Bellezza",
@@ -1894,21 +1879,6 @@
         8.946
       ],
       "distanceKm": 0.0
-    },
-    {
-      "source": "Cheventi Milano",
-      "title": "Rock’n’Roll Club, RHO!",
-      "parsedDate": "2026-11-21T21:30:00+01:00",
-      "parsedTown": "Milano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.4642,
-        9.19
-      ],
-      "distanceKm": 21.5
     },
     {
       "source": "Cheventi Milano",
@@ -1957,8 +1927,8 @@
     },
     {
       "source": "Cheventi Milano",
-      "title": "Mr Fantasy Buccinasco (Mi)",
-      "parsedDate": "2026-11-21T21:00:00+01:00",
+      "title": "Sagra dei Pizzoccheri e Sciatt Legnano",
+      "parsedDate": "2026-11-20T19:00:00+01:00",
       "parsedTown": "Milano",
       "area": "parabiago",
       "terminalState": "OUTSIDE_DATE_WINDOW",
@@ -1972,24 +1942,69 @@
     },
     {
       "source": "Cheventi Milano",
-      "title": "Slaughter Club – Unica Data Italiana a Paderno Dugnano",
-      "parsedDate": "2026-11-21T18:30:00+01:00",
-      "parsedTown": "Paderno Dugnano",
+      "title": "Raphael Gualazzi Quintet a Milano",
+      "parsedDate": "2026-11-20T20:30:00+01:00",
+      "parsedTown": "Milano da",
       "area": "parabiago",
       "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
-        45.554,
-        8.946
+        45.4642,
+        9.19
       ],
-      "distanceKm": 0.0
+      "distanceKm": 21.5
     },
     {
       "source": "Cheventi Milano",
-      "title": "Milord Milano",
-      "parsedDate": "2026-11-21T21:30:00+01:00",
+      "title": "Market Del Baratto a Milano",
+      "parsedDate": "2026-10-11T11:00:00+02:00",
+      "parsedTown": "Milano da",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.4642,
+        9.19
+      ],
+      "distanceKm": 21.5
+    },
+    {
+      "source": "Cheventi Milano",
+      "title": "Visita Esclusiva Alla Fonderia Napoleonica Eugenia, Luogo Segreto Di Milano",
+      "parsedDate": "2026-11-22T15:00:00+01:00",
       "parsedTown": "Milano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "209eb01851f844da",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.4642,
+        9.19
+      ],
+      "distanceKm": 21.5
+    },
+    {
+      "source": "Cheventi Milano",
+      "title": "Domenica 14 Giugno Pomeridiana Tango Ore 16.00/ 20.00 Il Fontanile Cologno Monzese 333.6865894º",
+      "parsedDate": "2027-06-14T16:00:00+02:00",
+      "parsedTown": "Milano",
+      "area": "parabiago",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.4642,
+        9.19
+      ],
+      "distanceKm": 21.5
+    },
+    {
+      "source": "Cheventi Milano",
+      "title": "Mercatino delle Pulci a Milano",
+      "parsedDate": "2026-09-27T08:00:00+02:00",
+      "parsedTown": "Milano da",
       "area": "parabiago",
       "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
@@ -2080,126 +2095,6 @@
     },
     {
       "source": "Comune di Rho",
-      "title": "Burba Game Nights",
-      "parsedDate": "2026-11-21T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
-      "title": "Festa Finale del Concorso di Lettura Superelle 2026.",
-      "parsedDate": "2026-11-21T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
-      "title": "T_Family 2026/27 la rassegna per ragazzi e famiglie - Il bosco delle storie di Natale",
-      "parsedDate": "2026-11-21T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
-      "title": "La Scatola delle storie - Racconti teatrali con laboratorio",
-      "parsedDate": "2026-11-21T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
-      "title": "Classici a colazione - Gruppo di lettura Classici",
-      "parsedDate": "2026-11-21T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
       "title": "Sù e giò adrée l'Olona",
       "parsedDate": "2026-11-22T00:00:00.0000000",
       "parsedTown": {
@@ -2213,8 +2108,8 @@
         "@type": "Place"
       },
       "area": "parabiago",
-      "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "e1c5bc68a1d21a16",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -2237,8 +2132,8 @@
         "@type": "Place"
       },
       "area": "parabiago",
-      "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "9cc43741f2e63a8d",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -3293,8 +3188,8 @@
         "@type": "Place"
       },
       "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "2ede2ea8724df9a1",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -3317,8 +3212,8 @@
         "@type": "Place"
       },
       "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "5559331b1655a69b",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -4271,8 +4166,8 @@
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "df81411c4a87b9bf",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
@@ -4286,17 +4181,14 @@
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "DUPLICATE_OF_EXISTING",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
-      "distanceKm": 5.0,
-      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "canonicalStart": "2026-11-22T00:00:00+01:00",
-      "canonicalDuplicateId": "bf4600718e96aa3e"
+      "distanceKm": 5.0
     },
     {
       "source": "VareseNews – JAZZaltro",
@@ -4304,17 +4196,14 @@
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "DUPLICATE_OF_EXISTING",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
-      "distanceKm": 5.0,
-      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "canonicalStart": "2026-11-22T00:00:00+01:00",
-      "canonicalDuplicateId": "bf4600718e96aa3e"
+      "distanceKm": 5.0
     },
     {
       "source": "VareseNews – JAZZaltro",
@@ -4322,17 +4211,14 @@
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "DUPLICATE_OF_EXISTING",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
-      "distanceKm": 5.0,
-      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "canonicalStart": "2026-11-22T00:00:00+01:00",
-      "canonicalDuplicateId": "bf4600718e96aa3e"
+      "distanceKm": 5.0
     },
     {
       "source": "VareseNews – JAZZaltro",
@@ -4355,17 +4241,14 @@
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "DUPLICATE_OF_EXISTING",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
-      "distanceKm": 5.0,
-      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "canonicalStart": "2026-11-22T00:00:00+01:00",
-      "canonicalDuplicateId": "bf4600718e96aa3e"
+      "distanceKm": 5.0
     },
     {
       "source": "VareseNews – JAZZaltro",
@@ -4373,17 +4256,14 @@
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "DUPLICATE_OF_EXISTING",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
-      "distanceKm": 5.0,
-      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "canonicalStart": "2026-11-22T00:00:00+01:00",
-      "canonicalDuplicateId": "bf4600718e96aa3e"
+      "distanceKm": 5.0
     },
     {
       "source": "VareseNews – JAZZaltro",
@@ -4391,17 +4271,14 @@
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "DUPLICATE_OF_EXISTING",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
-      "distanceKm": 5.0,
-      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "canonicalStart": "2026-11-22T00:00:00+01:00",
-      "canonicalDuplicateId": "bf4600718e96aa3e"
+      "distanceKm": 5.0
     },
     {
       "source": "VareseNews – JAZZaltro",
@@ -4424,17 +4301,14 @@
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "DUPLICATE_OF_EXISTING",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
-      "distanceKm": 5.0,
-      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "canonicalStart": "2026-11-22T00:00:00+01:00",
-      "canonicalDuplicateId": "bf4600718e96aa3e"
+      "distanceKm": 5.0
     },
     {
       "source": "VareseNews – JAZZaltro",
@@ -4442,130 +4316,19 @@
       "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "DUPLICATE_OF_EXISTING",
+      "terminalState": "OUTSIDE_DATE_WINDOW",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
-      "distanceKm": 5.0,
-      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "canonicalStart": "2026-11-22T00:00:00+01:00",
-      "canonicalDuplicateId": "bf4600718e96aa3e"
+      "distanceKm": 5.0
     },
     {
       "source": "VareseNews – JAZZaltro",
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
       "parsedDate": "2026-11-22T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "DUPLICATE_OF_EXISTING",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0,
-      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "canonicalStart": "2026-11-22T00:00:00+01:00",
-      "canonicalDuplicateId": "bf4600718e96aa3e"
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-21T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-21T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-21T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-21T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-21T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-21T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-21T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
       "terminalState": "OUTSIDE_DATE_WINDOW",
