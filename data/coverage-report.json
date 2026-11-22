@@ -1,14 +1,11 @@
 {
-  "generatedAt": "2026-11-22T14:20:24.726729+01:00",
+  "generatedAt": "2026-11-22T23:28:10.671157+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 59,
-      "distinctEventSeries": 59,
+      "totalFutureDateRecords": 54,
+      "distinctEventSeries": 54,
       "representedTowns": [
         "Legnano",
-        "Milano",
-        "Milano Mediterranea",
-        "Paderno Dugnano",
         "Rho"
       ],
       "representedCategories": [
@@ -23,12 +20,11 @@
         "workshops"
       ],
       "representedSourceFamilies": [
-        "aggregator",
         "local_media",
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 5,
+        "Cheventi Milano": 0,
         "Cheventi Rho": 0,
         "LegnanoNews": 1,
         "Comune di Rho": 46,
@@ -39,6 +35,7 @@
         "Comune di Busto Arsizio – BA Estate PDF": 0
       },
       "zeroResultSources": [
+        "Cheventi Milano",
         "Cheventi Rho",
         "Comune di Rho programma",
         "LegnanoNews – La Bella Estate",
@@ -49,11 +46,11 @@
       ],
       "oldestEventDate": "2026-11-14T01:00:00+01:00",
       "newestEventDate": "2027-02-20T01:00:00+01:00",
-      "largestProgrammeShare": 0.017,
+      "largestProgrammeShare": 0.019,
       "eventsExpiringNext7Days": 19,
       "comparisonWithPreviousSuccessfulRefresh": {
         "previousCount": 59,
-        "change": 0
+        "change": -5
       },
       "warnings": []
     },
