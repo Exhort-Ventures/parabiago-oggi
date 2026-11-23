@@ -1,15 +1,18 @@
 {
-  "generatedAt": "2026-11-22T23:28:10.671157+01:00",
+  "generatedAt": "2026-11-23T16:58:08.005729+01:00",
   "areas": {
     "parabiago": {
-      "totalFutureDateRecords": 54,
-      "distinctEventSeries": 54,
+      "totalFutureDateRecords": 60,
+      "distinctEventSeries": 60,
       "representedTowns": [
         "Legnano",
+        "Milano",
+        "Paderno Dugnano",
         "Rho"
       ],
       "representedCategories": [
         "cinema",
+        "community",
         "culture",
         "festivals",
         "food",
@@ -20,14 +23,15 @@
         "workshops"
       ],
       "representedSourceFamilies": [
+        "aggregator",
         "local_media",
         "official"
       ],
       "acceptedRecordsBySource": {
-        "Cheventi Milano": 0,
+        "Cheventi Milano": 5,
         "Cheventi Rho": 0,
         "LegnanoNews": 1,
-        "Comune di Rho": 46,
+        "Comune di Rho": 47,
         "Comune di Rho programma": 0,
         "LegnanoNews – La Bella Estate": 0,
         "VareseNews – JAZZaltro": 7,
@@ -35,7 +39,6 @@
         "Comune di Busto Arsizio – BA Estate PDF": 0
       },
       "zeroResultSources": [
-        "Cheventi Milano",
         "Cheventi Rho",
         "Comune di Rho programma",
         "LegnanoNews – La Bella Estate",
@@ -46,11 +49,11 @@
       ],
       "oldestEventDate": "2026-11-14T01:00:00+01:00",
       "newestEventDate": "2027-02-20T01:00:00+01:00",
-      "largestProgrammeShare": 0.019,
-      "eventsExpiringNext7Days": 19,
+      "largestProgrammeShare": 0.017,
+      "eventsExpiringNext7Days": 18,
       "comparisonWithPreviousSuccessfulRefresh": {
-        "previousCount": 59,
-        "change": -5
+        "previousCount": 54,
+        "change": 6
       },
       "warnings": []
     },
