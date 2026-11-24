@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T04:19:27.434973+01:00",
+  "updatedAt": "2026-11-24T16:52:45.582457+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 7,
-          "recordsParsed": 7,
+          "rawRecordsFound": 8,
+          "recordsParsed": 8,
           "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 5,
+          "acceptedRecords": 6,
           "failureMessage": null
         },
         {
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 66,
-          "recordsParsed": 66,
+          "rawRecordsFound": 68,
+          "recordsParsed": 68,
           "recordsRejectedByDate": 20,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 46,
+          "acceptedRecords": 48,
           "failureMessage": null
         },
         {
