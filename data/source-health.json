@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T02:25:03.430243+01:00",
+  "updatedAt": "2026-11-25T16:35:34.648388+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 67,
-          "recordsParsed": 67,
+          "rawRecordsFound": 79,
+          "recordsParsed": 79,
           "recordsRejectedByDate": 20,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 47,
+          "acceptedRecords": 59,
           "failureMessage": null
         },
         {
@@ -85,13 +85,13 @@
           "id": "jazzaltro",
           "name": "VareseNews – JAZZaltro",
           "fetchStatus": "ok",
-          "rawRecordsFound": 31,
-          "recordsParsed": 31,
-          "recordsRejectedByDate": 15,
+          "rawRecordsFound": 32,
+          "recordsParsed": 32,
+          "recordsRejectedByDate": 7,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 10,
-          "acceptedRecords": 6,
+          "recordsRejectedAsDuplicates": 17,
+          "acceptedRecords": 8,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 56,
+        "date": 48,
         "location": 0,
         "radius": 0,
-        "duplicate": 10
+        "duplicate": 17
       }
     },
     "ossola": {

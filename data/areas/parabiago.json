@@ -9,9 +9,38 @@
     "horizonDays": 90,
     "defaultLanguage": "it"
   },
-  "updatedAt": "2026-11-25T02:25:03.430243+01:00",
-  "eventCount": 59,
+  "updatedAt": "2026-11-25T16:35:34.648388+01:00",
+  "eventCount": 73,
   "events": [
+    {
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "start": "2026-11-27T00:00:00+01:00",
+      "end": null,
+      "venue": "Legnano",
+      "address": "",
+      "city": "Legnano",
+      "latitude": 45.5942,
+      "longitude": 8.9173,
+      "distanceKm": 5.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceName": "VareseNews – JAZZaltro",
+      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceType": "local_media",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 65.0,
+      "recurringSeriesId": null,
+      "id": "2eb5d05fa99802cc"
+    },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
       "start": "2026-11-28T00:00:00+01:00",
@@ -34,7 +63,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
@@ -63,7 +92,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
@@ -92,12 +121,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 65.0,
       "recurringSeriesId": null,
       "id": "df81411c4a87b9bf"
+    },
+    {
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "start": "2026-12-13T00:00:00+01:00",
+      "end": null,
+      "venue": "Legnano",
+      "address": "",
+      "city": "Legnano",
+      "latitude": 45.5942,
+      "longitude": 8.9173,
+      "distanceKm": 5.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceName": "VareseNews – JAZZaltro",
+      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceType": "local_media",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 65.0,
+      "recurringSeriesId": null,
+      "id": "fbf4bf3794daf24c"
     },
     {
       "title": "Mai dire '90 - X Gen Night",
@@ -121,12 +179,70 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
       "recurringSeriesId": null,
       "id": "818ca0804892074b"
+    },
+    {
+      "title": "Natale 2026 con il presepe di statuine del '700",
+      "start": "2026-11-28T01:00:00+01:00",
+      "end": "2027-01-06T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "<div>Da sabato 28 novembre 2026 a mercoledì 6 gennaio 2027<br>Presepe storico con statuine napoletane del ‘700<br></div><div><br></div><div>Sarà inaugurato il presepe con statuine del Settecento di <b>Angelo Fino,</b> allestito nell’ex negozio vicino alla libreria. In piazza, dove il Corpo Musicale Cittadino Parrocchiale suonerà brani natalizi, verranno offerti dolci tipici grazie ad ArtePanettone.<br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-con-il-presepe-di-statuine-del-700-133688-1-3b3c848302b8959f06200638e7591ce6",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-con-il-presepe-di-statuine-del-700-133688-1-3b3c848302b8959f06200638e7591ce6",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 62.0,
+      "recurringSeriesId": null,
+      "id": "c53a52130e71f5b8"
+    },
+    {
+      "title": "Natale 2026. Accendiamo l'Albero di Natale",
+      "start": "2026-11-28T01:00:00+01:00",
+      "end": "2026-11-28T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "<div><b>Sabato 28 novembre dalle ore 17:30</b><br>Si accendono le luci dell’Albero di Natale con le musiche del Corpo Musicale Cittadino Parrocchiale di Rho e i pasticceri di ArtePanettone<br><br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-accendiamo-l-albero-di-natale-133684-1-22460ca8816537ba8678a6186b0cd4f7",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-accendiamo-l-albero-di-natale-133684-1-22460ca8816537ba8678a6186b0cd4f7",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 62.0,
+      "recurringSeriesId": null,
+      "id": "d61450501c625b61"
     },
     {
       "title": "Un Natale da vetrina. Accendiamo insieme la magia delle feste!",
@@ -150,7 +266,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -179,7 +295,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -208,7 +324,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -237,7 +353,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -266,7 +382,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -295,7 +411,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -324,7 +440,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -353,7 +469,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -382,7 +498,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -411,7 +527,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -440,41 +556,12 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
       "recurringSeriesId": null,
       "id": "8bc0a8c9fb276f7f"
-    },
-    {
-      "title": "Babbo Running a Rho",
-      "start": "2026-12-13T01:00:00+01:00",
-      "end": "2026-12-13T01:00:00+01:00",
-      "venue": "Rho",
-      "address": "",
-      "city": "Rho",
-      "latitude": 45.5253,
-      "longitude": 9.0404,
-      "distanceKm": 8.0,
-      "category": "food",
-      "categoryLabel": "Food e sagre",
-      "description": "<div><br><br>Domenica 13 dicembre preparati a vivere una giornata speciale tra sorrisi, divertimento e spirito natalizio.<br>5 o 10 km da percorrere insieme a migliaia di Babbo Natale per trasformare la città in una straordinaria festa a cielo aperto. <b><br><br>Ritrovo alle 9.00 presso il parcheggio di Corso Europa - via Cornaggia<br>Partenza della corsa alle 10.00</b><br><br>Per tutte le informazioni sull'iscrizione e sui costi, visita il sito <a href=\"https://www.babborunning.it/\" target=\"_self\">www.babborunning.it</a><br><br></div>",
-      "free": null,
-      "priceText": "",
-      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/babbo-running-a-rho-133516-1-918465281e6ebf822bef0e5f5e33f24e",
-      "sourceName": "Comune di Rho",
-      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/babbo-running-a-rho-133516-1-918465281e6ebf822bef0e5f5e33f24e",
-      "sourceType": "official",
-      "confidence": "Confermato",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
-      "areaId": "parabiago",
-      "locationPrecision": "town",
-      "rankingScore": 62.0,
-      "recurringSeriesId": null,
-      "id": "1035cf40f3ee332d"
     },
     {
       "title": "Fera del disco e Dj set al Mast",
@@ -498,7 +585,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -527,7 +614,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -556,7 +643,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -585,7 +672,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -614,7 +701,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -643,7 +730,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -672,7 +759,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -701,7 +788,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -730,7 +817,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -759,7 +846,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -788,7 +875,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -817,7 +904,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 62.0,
@@ -846,7 +933,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
@@ -875,12 +962,128 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
       "recurringSeriesId": null,
       "id": "697bf2a821e31460"
+    },
+    {
+      "title": "Natale 2026 Accensione degli alberi in frazione",
+      "start": "2026-11-30T01:00:00+01:00",
+      "end": "2026-12-03T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "<div> Alberi delle frazioni. <b><br>Lunedì 30 novembre alle ore 17.30</b> inizierà<b> Terrazzano</b> all’ingresso della nuova scuola Sante Zennaro in via Don Bianchi. <b><br>Martedì 1 dicembre alle 17.30 </b>sarà la volta di <b>Passirana</b> nel parco di via Cottolengo.<b><br>Mercoledì 2 accensione alle 17.15 </b>al parco ritrovato di<b> Lucernate </b>(dalle 16.30 laboratorio per creare le palline). <b><br>Giovedì 3 dicembre alle 17.30 </b>appuntamento all’ingresso della scuola Rodari di via Sartirana a <b>Mazzo.<br></b>Saranno coinvolte, come sempre, le scuole delle frazioni e gruppi musicali pronti ad animare queste occasioni di festa, con la collaborazione delle Associazioni Anziani.<br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-accensione-degli-alberi-in-frazione-133690-1-e8f830dacbe3c127d3d3315dd534540d",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-accensione-degli-alberi-in-frazione-133690-1-e8f830dacbe3c127d3d3315dd534540d",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 54.0,
+      "recurringSeriesId": null,
+      "id": "116889ae2809bfbe"
+    },
+    {
+      "title": "Natale 2026 - Parco e alla Biblioteca di Lucernate",
+      "start": "2026-12-02T01:00:00+01:00",
+      "end": "2026-12-02T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "<div>Mercoledì 2 dicembre <br>Parco e alla Biblioteca di Lucernate<b><br><br>Programma </b><br><br>Un pomeriggio di festa, creatività e musica per aspettare insieme il Natale! <br>Vi aspettiamo al parco e in Biblioteca a Lucernate con tante attività pensate per i bambini, le famiglie e tutta la cittadinanza.<b><br><br>ore 16:30</b><br>Laboratori creativi nel parco a cura del Consorzio Cooperho, la Scuola dell'Infanzia Maria Immacolata di Lucernate, Cooperativa Comin e progetto Lucerlab.<br><br>Realizziamo insieme palline di Natale e piccoli porta lucine in pasta di sale per decorare il nostro albero nel parco e illuminare questo momento di festa. <br>Decoriamo l'albero appendendo tutti insieme le palline create durante il laboratorio e quelle realizzate dai bambini della scuola dell'infanzia con sottofondo di musiche natalizie.<b><br><br>ore 17:00</b><br>Intermezzo musicale natalizio a c",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-parco-e-alla-biblioteca-di-lucernate-133716-1-0a3918d285d632831e9fce2ccfeff08d",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-parco-e-alla-biblioteca-di-lucernate-133716-1-0a3918d285d632831e9fce2ccfeff08d",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 54.0,
+      "recurringSeriesId": null,
+      "id": "ab2a39f22ea863b1"
+    },
+    {
+      "title": "Natale 2026 al Santuario",
+      "start": "2026-12-08T01:00:00+01:00",
+      "end": "2026-12-08T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "<div><b>Martedì 8 dicembre ore 18:00</b><br>Santa Messa Solenne dell’ Immacolata<b><br>Ore 18:45</b><br>Benedizione del presepe artistico del “Carsana G.”<b><br>Ore 19:00</b><br>Concerto di Natale – Coro Gospel “Rejoice Gospel Choir”<b><br>Ore 22:00</b><br>Accensione dell’Albero di Natale sul sagrato della Basilica<br><br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-al-santuario-133693-1-0d9508384fd7c7948e351a4847b90e72",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-al-santuario-133693-1-0d9508384fd7c7948e351a4847b90e72",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 54.0,
+      "recurringSeriesId": null,
+      "id": "93d2176a5443a64f"
+    },
+    {
+      "title": "Natale 2026. Pive Natalizie",
+      "start": "2026-12-24T01:00:00+01:00",
+      "end": "2026-12-24T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "<div>Giovedì 24 dicembre dalle <b>ore 19:30 all' 1:00</b> circa, <b>Pive Natalizie:</b> partenza da Passirana verso Biringhello, San Giovanni, via Matteotti, Piazza San Vittore, Terrazzano e ritorno a Passirana.<br>Spettacolo itinerante del Corpo Musicale Santa Cecilia di Passirana<br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-pive-natalizie-133703-1-8682339a7e53a5bfe07497a58b55df69",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-pive-natalizie-133703-1-8682339a7e53a5bfe07497a58b55df69",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 54.0,
+      "recurringSeriesId": null,
+      "id": "e9be8a8dfe8661c9"
     },
     {
       "title": "Teatro civico Roberto de Silva - fuori abbonamento All That Musical - Veglione di fine anno",
@@ -904,12 +1107,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
       "recurringSeriesId": null,
       "id": "9e4bfe908ed2c1eb"
+    },
+    {
+      "title": "Natale 2026. La Befana del Vigile e Concerto dell'Epifania",
+      "start": "2027-01-06T01:00:00+01:00",
+      "end": "2027-01-06T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "<div>Martedì 6 gennaio dalle ore 10.00 alle 12.30, la tradizionale<b> Befana del Vigile in&nbsp; piazza San Vittore </b>e, alle ore 17.00, il <b>Concerto dell’Epifania del Corpo Musicale Santa Cecilia </b>che chiuderà le iniziative al Teatro Civico.<br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-la-befana-del-vigile-e-concerto-dell-epifania-133705-1-2c3caecfc6c58ecd6c8cbf236f45dba6",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-la-befana-del-vigile-e-concerto-dell-epifania-133705-1-2c3caecfc6c58ecd6c8cbf236f45dba6",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 54.0,
+      "recurringSeriesId": null,
+      "id": "4d8afcd38b5df4d1"
     },
     {
       "title": "Teatro Roberto de Silva - Stagione prosa- Lisistrata",
@@ -933,41 +1165,12 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 54.0,
       "recurringSeriesId": null,
       "id": "088c8e3c67d461e3"
-    },
-    {
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "start": "2026-12-13T00:00:00+01:00",
-      "end": null,
-      "venue": "Legnano",
-      "address": "",
-      "city": "Legnano",
-      "latitude": 45.5942,
-      "longitude": 8.9173,
-      "distanceKm": 5.0,
-      "category": "music",
-      "categoryLabel": "Musica",
-      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
-      "free": null,
-      "priceText": "",
-      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
-      "sourceName": "VareseNews – JAZZaltro",
-      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
-      "sourceType": "local_media",
-      "confidence": "Probabile",
-      "organiser": "",
-      "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
-      "areaId": "parabiago",
-      "locationPrecision": "town",
-      "rankingScore": 53.0,
-      "recurringSeriesId": null,
-      "id": "fbf4bf3794daf24c"
     },
     {
       "title": "STATION a Paderno Dugnano",
@@ -991,7 +1194,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 51.0,
@@ -1020,12 +1223,70 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
       "recurringSeriesId": null,
       "id": "7652ee25366b9159"
+    },
+    {
+      "title": "Natale 2026 con ArtePanettone",
+      "start": "2026-11-28T01:00:00+01:00",
+      "end": "2026-11-29T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "workshops",
+      "categoryLabel": "Workshop",
+      "description": "<div><br>Il 28 e 29 novembre, la&nbsp; Sala Colonne e Sala del Filatoio di Villa Burba, in corso Europa 293, accoglieranno la tradizionale mostra vendita ArtePanettone con protagonisti i mastri pasticceri del territorio: ingresso libero e degustazioni gratuite dalle ore 10.00 alle 19.00 per le due giornate.<br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-con-artepanettone-133689-1-561a71334d618148275b6b2daf573e44",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-con-artepanettone-133689-1-561a71334d618148275b6b2daf573e44",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "9f43b665f6bb3f02"
+    },
+    {
+      "title": "Natale 2026 - Mercatino di Natale presso l’Official Point",
+      "start": "2026-11-28T01:00:00+01:00",
+      "end": "2026-12-14T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "<div>Da sabato 28 novembre a lunedì 14 dicembre<b><br>Lunedì dalle ore 9:00 alle 13:00, da martedì a venerdì dalle ore 10:00 alle ore 18:00, sabato, domenica e festivi dalle ore 9:00 alle ore 19:00</b><br>Mercatino di Natale presso l’Official Point<br>Associazione Porta Aperta e Associazione Missione Belem<br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-mercatino-di-natale-presso-l-official-point-133686-1-5c7996cc1f37836acf635012525df6b4",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-mercatino-di-natale-presso-l-official-point-133686-1-5c7996cc1f37836acf635012525df6b4",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "3f6333bb5d8db2f2"
     },
     {
       "title": "Essere volontari: il dono del tempo",
@@ -1049,7 +1310,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1078,7 +1339,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1107,7 +1368,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1136,7 +1397,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1165,7 +1426,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1194,12 +1455,99 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
       "recurringSeriesId": null,
       "id": "4c57f417ae991f0d"
+    },
+    {
+      "title": "Natale 2026 Si inaugura la pista di pattinaggio",
+      "start": "2026-11-29T01:00:00+01:00",
+      "end": "2026-11-29T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "<div>Da sabato 28 novembre 2026 a domenica 10 gennaio 2027<b><br>Villaggio di Natale: pista di pattinaggio e giostre per bambini</b><br><br>Domenica 29 novembre dalle ore 10:30<b><br>Momento inaugurale della pista di pattinaggio</b><br><br>Dalle ore 11:00<b><br>Esibizione atlete Icelab Assago</b><br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-si-inaugura-la-pista-di-pattinaggio-133682-1-42660906fb9d3036a641f17f437daf49",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-si-inaugura-la-pista-di-pattinaggio-133682-1-42660906fb9d3036a641f17f437daf49",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "7b4433243fb80bee"
+    },
+    {
+      "title": "Natale 2026. La Magia della carta: presepi in mostra",
+      "start": "2026-12-12T01:00:00+01:00",
+      "end": "2027-01-10T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "culture",
+      "categoryLabel": "Cultura",
+      "description": "<div>Associazione Culturale San Marco - Via Lainate 24<br>Da sabato 12 dicembre 2026 a domenica 10 gennaio 2027, tutti i giorni dalle ore 15:30 alle ore 17:30 (esclusi Natale e Capodanno)<b><br>Inaugurazione sabato 12 dicembre alle ore 17:00</b><br>La Magia della carta: presepi in mostra<br>Associazione Culturale San Marco via Lainate 24<br><br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-la-magia-della-carta-presepi-in-mostra-133698-1-bf7eba49d751e611c9da37b62f16ec70",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-la-magia-della-carta-presepi-in-mostra-133698-1-bf7eba49d751e611c9da37b62f16ec70",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "368944c7ccf69794"
+    },
+    {
+      "title": "Natale 2026. Spettacolo itinerante Cenerentola in Christmas,",
+      "start": "2026-12-12T01:00:00+01:00",
+      "end": "2026-12-12T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "<div>Sabato 12 dicembre, dalle ore 16.30 alle ore 18.30, spettacolo itinerante Cenerentola in Christmas<br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-spettacolo-itinerante-cenerentola-in-christmas-133694-1-a36dac45a27b0625c936a876ab2667e5",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-spettacolo-itinerante-cenerentola-in-christmas-133694-1-a36dac45a27b0625c936a876ab2667e5",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "49ff255b19077565"
     },
     {
       "title": "Formazione adulti per la lettura ad alta voce rivolta alla fascia 6-11 anni",
@@ -1223,12 +1571,41 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
       "recurringSeriesId": null,
       "id": "4fc5c92f9355fd9b"
+    },
+    {
+      "title": "Natale 2026. La slitta di Natale del Grinch",
+      "start": "2026-12-19T01:00:00+01:00",
+      "end": "2026-12-19T01:00:00+01:00",
+      "venue": "Rho",
+      "address": "",
+      "city": "Rho",
+      "latitude": 45.5253,
+      "longitude": 9.0404,
+      "distanceKm": 8.0,
+      "category": "other",
+      "categoryLabel": "Altro",
+      "description": "<div>Sabato 19 dalle ore 15.30 alle ore 18.30 <br>La slitta di Natale del Grinch, altro spettacolo itinerante per le vie del centro.<br><br></div>",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-la-slitta-di-natale-del-grinch-133701-1-f8a0890b79fca849d28a2c781422cfd9",
+      "sourceName": "Comune di Rho",
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/vivere-il-comune/eventi/natale-2026-la-slitta-di-natale-del-grinch-133701-1-f8a0890b79fca849d28a2c781422cfd9",
+      "sourceType": "official",
+      "confidence": "Confermato",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 50.0,
+      "recurringSeriesId": null,
+      "id": "96e8cf747584a7e1"
     },
     {
       "title": "La Scatola delle storie - Racconti teatrali con laboratorio",
@@ -1252,7 +1629,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1281,7 +1658,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1310,7 +1687,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1339,7 +1716,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 50.0,
@@ -1368,12 +1745,41 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
       "recurringSeriesId": null,
       "id": "7ba4a4e92c80b88a"
+    },
+    {
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "start": "2026-12-02T00:00:00+01:00",
+      "end": null,
+      "venue": "Legnano",
+      "address": "",
+      "city": "Legnano",
+      "latitude": 45.5942,
+      "longitude": 8.9173,
+      "distanceKm": 5.0,
+      "category": "music",
+      "categoryLabel": "Musica",
+      "description": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz Menù Home Territori Canali Tempo Libero Necrologie News24 Cerca Meteo Materia Accedi Abbonati Territori Prima Pagina Varese Laghi Gallarate/Malpensa Busto Arsizio/Altomilanese Saronno/Tradate Lombardia Canton Ticino Italia/Mondo Tutti i comuni +VareseNews Canali Bambini Cinema Cultura Sport Econews Economia Lavoro Life Musica Politica Salute Scienza e Tecnologia Scuola Università Turismo Articoli Necrologie Tempo Libero Home Eventi di Oggi Eventi di Domani Eventi del Weekend Bambini Incontri Materia Mostre Natale Negozi, Locali e Ristoranti Sagre, Fiere e Feste Spettacoli Sport Turismo, Gite ed Escursioni Organizzatori Location Segnala Evento Multimedia Gallerie Fotografiche WebTV Live Foto del giorno Podcast Comunità Home Eventi Lettere",
+      "free": null,
+      "priceText": "",
+      "bookingUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceName": "VareseNews – JAZZaltro",
+      "sourceUrl": "https://www.varesenews.it/2026/06/doppia-serata-con-jazzaltro-a-busto-arsizio-e-san-giorgio-su-legnano-arrivano-i-grandi-nomi-del-jazz/2620408/",
+      "sourceType": "local_media",
+      "confidence": "Probabile",
+      "organiser": "",
+      "imageUrl": null,
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
+      "areaId": "parabiago",
+      "locationPrecision": "town",
+      "rankingScore": 45.0,
+      "recurringSeriesId": null,
+      "id": "a3d2b3b39bf4d623"
     },
     {
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
@@ -1397,7 +1803,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 45.0,
@@ -1426,7 +1832,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 43,
@@ -1455,7 +1861,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 43,
@@ -1484,7 +1890,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1513,7 +1919,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1542,7 +1948,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1571,7 +1977,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1600,7 +2006,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1629,7 +2035,7 @@
       "confidence": "Confermato",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 42.0,
@@ -1658,7 +2064,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 38,
@@ -1687,7 +2093,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 31,
@@ -1716,7 +2122,7 @@
       "confidence": "Probabile",
       "organiser": "",
       "imageUrl": null,
-      "lastCheckedAt": "2026-11-25T02:25:03.430243+01:00",
+      "lastCheckedAt": "2026-11-25T16:35:34.648388+01:00",
       "areaId": "parabiago",
       "locationPrecision": "town",
       "rankingScore": 26,
@@ -1768,13 +2174,13 @@
       "id": "rho",
       "name": "Comune di Rho",
       "fetchStatus": "ok",
-      "rawRecordsFound": 67,
-      "recordsParsed": 67,
+      "rawRecordsFound": 79,
+      "recordsParsed": 79,
       "recordsRejectedByDate": 20,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
       "recordsRejectedAsDuplicates": 0,
-      "acceptedRecords": 47,
+      "acceptedRecords": 59,
       "failureMessage": null
     },
     {
@@ -1807,13 +2213,13 @@
       "id": "jazzaltro",
       "name": "VareseNews – JAZZaltro",
       "fetchStatus": "ok",
-      "rawRecordsFound": 31,
-      "recordsParsed": 31,
-      "recordsRejectedByDate": 15,
+      "rawRecordsFound": 32,
+      "recordsParsed": 32,
+      "recordsRejectedByDate": 7,
       "recordsRejectedByLocation": 0,
       "recordsRejectedByRadius": 0,
-      "recordsRejectedAsDuplicates": 10,
-      "acceptedRecords": 6,
+      "recordsRejectedAsDuplicates": 17,
+      "acceptedRecords": 8,
       "failureMessage": null
     },
     {
@@ -1844,10 +2250,10 @@
     }
   ],
   "rejections": {
-    "date": 56,
+    "date": 48,
     "location": 0,
     "radius": 0,
-    "duplicate": 10
+    "duplicate": 17
   },
   "pipelineTrace": [
     {
@@ -2155,6 +2561,102 @@
     },
     {
       "source": "Comune di Rho",
+      "title": "Natale 2026 con ArtePanettone",
+      "parsedDate": "2026-11-28T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "9f43b665f6bb3f02",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Natale 2026 con il presepe di statuine del '700",
+      "parsedDate": "2026-11-28T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "c53a52130e71f5b8",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Natale 2026 - Mercatino di Natale presso l’Official Point",
+      "parsedDate": "2026-11-28T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "3f6333bb5d8db2f2",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Natale 2026. Accendiamo l'Albero di Natale",
+      "parsedDate": "2026-11-28T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "d61450501c625b61",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
       "title": "Un Natale da vetrina. Accendiamo insieme la magia delle feste!",
       "parsedDate": "2026-11-28T00:00:00.0000000",
       "parsedTown": {
@@ -2443,6 +2945,54 @@
     },
     {
       "source": "Comune di Rho",
+      "title": "Natale 2026 Si inaugura la pista di pattinaggio",
+      "parsedDate": "2026-11-29T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "7b4433243fb80bee",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Natale 2026 Accensione degli alberi in frazione",
+      "parsedDate": "2026-11-30T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "116889ae2809bfbe",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
       "title": "Cin&città - Minotaur – Nel labirinto del potere",
       "parsedDate": "2026-12-01T00:00:00.0000000",
       "parsedTown": {
@@ -2482,6 +3032,30 @@
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "58bbdcaefa46296c",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Natale 2026 - Parco e alla Biblioteca di Lucernate",
+      "parsedDate": "2026-12-02T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "ab2a39f22ea863b1",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -2539,6 +3113,30 @@
     },
     {
       "source": "Comune di Rho",
+      "title": "Natale 2026 al Santuario",
+      "parsedDate": "2026-12-08T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "93d2176a5443a64f",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
       "title": "Cin&città - Wild Horse Nine",
       "parsedDate": "2026-12-08T00:00:00.0000000",
       "parsedTown": {
@@ -2578,6 +3176,54 @@
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "46d658cf1bd732cf",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Natale 2026. La Magia della carta: presepi in mostra",
+      "parsedDate": "2026-12-12T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "368944c7ccf69794",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Natale 2026. Spettacolo itinerante Cenerentola in Christmas,",
+      "parsedDate": "2026-12-12T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "49ff255b19077565",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -2659,30 +3305,6 @@
     },
     {
       "source": "Comune di Rho",
-      "title": "Babbo Running a Rho",
-      "parsedDate": "2026-12-13T00:00:00.0000000",
-      "parsedTown": {
-        "address": [
-          {
-            "@context": "http://schema.org",
-            "@type": "PostalAddress"
-          }
-        ],
-        "@context": "http://schema.org",
-        "@type": "Place"
-      },
-      "area": "parabiago",
-      "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "1035cf40f3ee332d",
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5253,
-        9.0404
-      ],
-      "distanceKm": 8.0
-    },
-    {
-      "source": "Comune di Rho",
       "title": "Fera del disco e Dj set al Mast",
       "parsedDate": "2026-12-13T00:00:00.0000000",
       "parsedTown": {
@@ -2698,6 +3320,30 @@
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "14d917276df0f94f",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Natale 2026. La slitta di Natale del Grinch",
+      "parsedDate": "2026-12-19T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "96e8cf747584a7e1",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -2803,6 +3449,30 @@
     },
     {
       "source": "Comune di Rho",
+      "title": "Natale 2026. Pive Natalizie",
+      "parsedDate": "2026-12-24T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "e9be8a8dfe8661c9",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
       "title": "Teatro civico Roberto de Silva - fuori abbonamento All That Musical - Veglione di fine anno",
       "parsedDate": "2026-12-31T00:00:00.0000000",
       "parsedTown": {
@@ -2818,6 +3488,30 @@
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
       "finalEventId": "9e4bfe908ed2c1eb",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5253,
+        9.0404
+      ],
+      "distanceKm": 8.0
+    },
+    {
+      "source": "Comune di Rho",
+      "title": "Natale 2026. La Befana del Vigile e Concerto dell'Epifania",
+      "parsedDate": "2027-01-06T00:00:00.0000000",
+      "parsedTown": {
+        "address": [
+          {
+            "@context": "http://schema.org",
+            "@type": "PostalAddress"
+          }
+        ],
+        "@context": "http://schema.org",
+        "@type": "Place"
+      },
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "4d8afcd38b5df4d1",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5253,
@@ -3806,11 +4500,26 @@
     {
       "source": "VareseNews – JAZZaltro",
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-12-13T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fbf4bf3794daf24c",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
       "parsedDate": "2026-12-11T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "df81411c4a87b9bf",
+      "finalEventId": "fbf4bf3794daf24c",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
@@ -3839,11 +4548,26 @@
     {
       "source": "VareseNews – JAZZaltro",
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-12-02T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fbf4bf3794daf24c",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
       "parsedDate": "2026-12-01T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "df81411c4a87b9bf",
+      "finalEventId": "fbf4bf3794daf24c",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
@@ -3858,13 +4582,31 @@
       "parsedTown": "Legnano",
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "df81411c4a87b9bf",
+      "finalEventId": "fbf4bf3794daf24c",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
       "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-11-29T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-11-29T00:00:00+01:00",
+      "canonicalDuplicateId": "b2058fefdbc73794"
     },
     {
       "source": "VareseNews – JAZZaltro",
@@ -3927,7 +4669,7 @@
       "parsedTown": "Legnano",
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "df81411c4a87b9bf",
+      "finalEventId": "fbf4bf3794daf24c",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
@@ -4024,6 +4766,111 @@
       "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
       "canonicalStart": "2026-11-28T00:00:00+01:00",
       "canonicalDuplicateId": "b50363b93e7c2b93"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-11-28T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-11-28T00:00:00+01:00",
+      "canonicalDuplicateId": "b50363b93e7c2b93"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-11-28T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-11-28T00:00:00+01:00",
+      "canonicalDuplicateId": "b50363b93e7c2b93"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-11-28T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-11-28T00:00:00+01:00",
+      "canonicalDuplicateId": "b50363b93e7c2b93"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-11-28T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-11-28T00:00:00+01:00",
+      "canonicalDuplicateId": "b50363b93e7c2b93"
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-11-27T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "INCLUDED_IN_FINAL_DATASET",
+      "finalEventId": "fbf4bf3794daf24c",
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0
+    },
+    {
+      "source": "VareseNews – JAZZaltro",
+      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "parsedDate": "2026-11-27T00:00:00+01:00",
+      "parsedTown": "Legnano",
+      "area": "parabiago",
+      "terminalState": "DUPLICATE_OF_EXISTING",
+      "finalEventId": null,
+      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
+      "coordinates": [
+        45.5942,
+        8.9173
+      ],
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-11-27T00:00:00+01:00",
+      "canonicalDuplicateId": "2eb5d05fa99802cc"
     },
     {
       "source": "VareseNews – JAZZaltro",
@@ -4062,51 +4909,6 @@
       "source": "VareseNews – JAZZaltro",
       "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
       "parsedDate": "2026-11-25T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-22T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-22T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-22T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
       "terminalState": "OUTSIDE_DATE_WINDOW",
@@ -4140,37 +4942,7 @@
       "parsedTown": "Legnano",
       "area": "parabiago",
       "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "df81411c4a87b9bf",
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-22T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-22T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
+      "finalEventId": "fbf4bf3794daf24c",
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
@@ -4199,59 +4971,17 @@
       "parsedDate": "2026-12-13T00:00:00+01:00",
       "parsedTown": "Legnano",
       "area": "parabiago",
-      "terminalState": "INCLUDED_IN_FINAL_DATASET",
-      "finalEventId": "df81411c4a87b9bf",
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-22T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
+      "terminalState": "DUPLICATE_OF_EXISTING",
       "finalEventId": null,
       "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
       "coordinates": [
         45.5942,
         8.9173
       ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-22T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
-    },
-    {
-      "source": "VareseNews – JAZZaltro",
-      "title": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
-      "parsedDate": "2026-11-22T00:00:00+01:00",
-      "parsedTown": "Legnano",
-      "area": "parabiago",
-      "terminalState": "OUTSIDE_DATE_WINDOW",
-      "finalEventId": null,
-      "outputFile": "/home/runner/work/parabiago-oggi/parabiago-oggi/data/areas/parabiago.json",
-      "coordinates": [
-        45.5942,
-        8.9173
-      ],
-      "distanceKm": 5.0
+      "distanceKm": 5.0,
+      "canonicalTitle": "Doppia serata con JAZZaltro: a Busto Arsizio e San Giorgio su Legnano arrivano i grandi nomi del jazz",
+      "canonicalStart": "2026-12-13T00:00:00+01:00",
+      "canonicalDuplicateId": "fbf4bf3794daf24c"
     },
     {
       "source": "VareseNews – JAZZaltro",
