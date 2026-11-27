@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T16:15:06.224315+01:00",
+  "updatedAt": "2026-11-27T02:00:07.810406+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 78,
-          "recordsParsed": 78,
-          "recordsRejectedByDate": 24,
+          "rawRecordsFound": 73,
+          "recordsParsed": 73,
+          "recordsRejectedByDate": 20,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 54,
+          "acceptedRecords": 53,
           "failureMessage": null
         },
         {
@@ -87,11 +87,11 @@
           "fetchStatus": "ok",
           "rawRecordsFound": 32,
           "recordsParsed": 32,
-          "recordsRejectedByDate": 7,
+          "recordsRejectedByDate": 9,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
-          "recordsRejectedAsDuplicates": 17,
-          "acceptedRecords": 8,
+          "recordsRejectedAsDuplicates": 16,
+          "acceptedRecords": 7,
           "failureMessage": null
         },
         {
@@ -122,10 +122,10 @@
         }
       ],
       "rejections": {
-        "date": 50,
+        "date": 48,
         "location": 0,
         "radius": 0,
-        "duplicate": 17
+        "duplicate": 16
       }
     },
     "ossola": {
