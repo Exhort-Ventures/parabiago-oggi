@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T02:00:07.810406+01:00",
+  "updatedAt": "2026-11-27T16:04:35.978999+01:00",
   "areas": {
     "parabiago": {
       "sources": [
@@ -7,13 +7,13 @@
           "id": "cheventi-milano",
           "name": "Cheventi Milano",
           "fetchStatus": "ok",
-          "rawRecordsFound": 8,
-          "recordsParsed": 8,
+          "rawRecordsFound": 9,
+          "recordsParsed": 9,
           "recordsRejectedByDate": 1,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 7,
+          "acceptedRecords": 8,
           "failureMessage": null
         },
         {
@@ -33,9 +33,9 @@
           "id": "legnanonews",
           "name": "LegnanoNews",
           "fetchStatus": "ok",
-          "rawRecordsFound": 1,
-          "recordsParsed": 1,
-          "recordsRejectedByDate": 1,
+          "rawRecordsFound": 2,
+          "recordsParsed": 2,
+          "recordsRejectedByDate": 2,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
@@ -46,13 +46,13 @@
           "id": "rho",
           "name": "Comune di Rho",
           "fetchStatus": "ok",
-          "rawRecordsFound": 73,
-          "recordsParsed": 73,
+          "rawRecordsFound": 78,
+          "recordsParsed": 78,
           "recordsRejectedByDate": 20,
           "recordsRejectedByLocation": 0,
           "recordsRejectedByRadius": 0,
           "recordsRejectedAsDuplicates": 0,
-          "acceptedRecords": 53,
+          "acceptedRecords": 58,
           "failureMessage": null
         },
         {
@@ -122,7 +122,7 @@
         }
       ],
       "rejections": {
-        "date": 48,
+        "date": 49,
         "location": 0,
         "radius": 0,
         "duplicate": 16
